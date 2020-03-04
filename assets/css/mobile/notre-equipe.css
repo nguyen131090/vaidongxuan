@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 10:45:49 AM
+    Author     : dtnguyen
+*/
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 92%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+
+.container-3 .rows p{
+    text-align: left !important;
+}
+.tt-custom-h2{
+    padding-bottom: 0.5rem;
+}
+.contain-background-ededed{
+    background: #ededed;
+}
+
+.container-4 td img{
+    margin: 2rem auto;
+    display: inherit;
+    max-width: 100%;
+}
+.container-4 .col tr td > span{
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.92rem; 
+}
+.container-4 .row-2 .tt-custom-h2{
+    padding-top: 3rem; 
+}
+.container-5 table.col{
+    position: relative;
+}
+.container-5 .row-1 .tt-custom-h3{
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-5 .row-2 .col td img{
+    border-radius: 100%;
+    width: 50%;
+    max-width: 12rem;
+}
+.container-5 .row-3 .col td img{
+    border-radius: 100%;
+    width: 50%;
+     max-width: 12rem;
+}
+.container-5 .row-2 .col tr:last-child td p:first-child{
+    margin: 0;
+}
+.container-5 .row-3 .col tr:last-child td p:first-child{
+    margin: 0;
+}
+.container-5 .row-3 table:nth-of-type(2) td{
+    padding: 0.5rem;
+}
+.container-5 .row-2 table:nth-of-type(2) td{
+    padding: 0.5rem;
+}
+.container-5 .row-2 .col tr:nth-of-type(2) td p:nth-of-type(2){
+/*    position: absolute;
+    left: 14rem;
+    top: 4rem;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;*/
+    margin-top: 0;
+}
+.container-5 .row-3 .col tr:nth-of-type(2) td p:nth-of-type(2){
+    position: absolute;
+    left: 14rem;
+    top: 4rem;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.container-6 .tt-custom{
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 8.59375vmin;
+    line-height: 9.59375vmin;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.container-6 .btn-link{
+    border-radius: 3rem;
+    border: 0.1rem #e65925 solid;
+    margin: 0;
+    width: 100%;
+    clear: left;
+    height: 4.7rem;
+    display: table;
+}
+.container-6 .btn-link span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 4rem;
+}

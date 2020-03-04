@@ -1,0 +1,85 @@
+.content-thank p{
+    margin: 0;
+    line-height: 1.5;
+}
+.countrie-items   .image .effect {
+    background-color: rgba(230,168,94,0.5);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: opacity ease-out 500ms;
+    text-indent: -9999px;
+}
+.countries-slider .item .tt{
+	position: absolute;
+	color: #fff;
+	left: 0;
+	right: 0;
+	bottom: 2rem;
+	font: 2rem LatoLatin-Regular,sans-serif;
+	text-align: center;
+}
+.countrie-items   .image{
+	position: relative;
+}
+.portrait .img{
+	position: relative;
+}
+.portrait .img .caption{
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+}
+.portrait .img .caption img{
+	margin-right: 0.5rem;
+}
+.item-custom  img{
+	width: 100%;
+}
+.item-custom {
+	position: relative;
+}
+.item-custom .caption{
+	position: absolute;
+	color: #fff;
+	bottom: 1rem;
+	right: 1rem;
+	margin-bottom: 0;
+	max-width: 15rem;
+}
+.journey{
+	padding: 0;
+}
+/*.journey p{
+	text-align: left !important;
+}*/
+/*.journey .content div p:first-of-type, .journey .content div p:nth-of-type(2){
+	display: inline-block; 
+}*/
+/*.journey .content div{
+	display: flex;
+	align-items: center;
+}*/
+.journey .content div img{
+	margin-right: 0.5rem;
+}
+.countries-slider .swiper-slide{
+	padding-bottom: 0;
+}
+.journey p:not(.tt), .journey strong{
+	font-family: LatoLatin-Regular,sans-serif;
+}
+.content-journey .row{
+    display: block;
+}
+.content-journey .row .col{
+    width: 100%;
+}
+.content-journey p {
+    text-align: left !important;
+}

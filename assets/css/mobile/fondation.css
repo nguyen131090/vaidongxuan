@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 4:02:55 PM
+    Author     : dtnguyen
+*/
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 92%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+/*.container-6{
+    background: url(/assets/img/page2016/bg_slider.jpg) center center no-repeat;
+    background-size: cover;
+}*/
+.contain-background-ededed{
+    background: #ededed;
+}
+.container-6 .link-btn-chez{
+    border-radius: 2.5rem;
+    background: #e65925;
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.content h2{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    color: #000000;
+    margin: 0 0 1.8rem 0;
+    padding: 0;
+}
+.content ul{
+    padding: 0;
+    margin: 1rem 0;
+}
+.content ul li{
+    list-style: none;
+    padding: 0.3rem 0;
+}
+.content ul li::before {
+    content: "• ";
+    color: #e65925;
+    display: inline-block;
+    padding: 0rem;
+    margin-right: 1rem;
+}
+table, td{
+    border: none;
+    position: relative;
+}
+
+.container-3 .row-1{
+    margin: 0 0 3.5rem 0;
+}
+
+.container-4 .content h3{
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: uppercase;
+    color: #e65925;
+    margin: 0 0 1.8rem 0;
+    padding: 0;
+}
+
+/* Slide tour exclusive */
+.exclusive-slider .secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .exclusive-slider .secrets-slider .item-slide{
+     position: relative;
+ }
+ .exclusive-slider .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .exclusive-slider .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.exclusive-slider .swiper-slide img{
+    width: 100%;
+}
+
+.exclusive-slider.module .swiper-slide img{
+    min-height: auto;
+    border-radius: 100%;
+}
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+.button-devis {
+    display: block;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    color: #e65925;
+    font-family: LatoLatin-Bold,sans-serif;
+}
+.exclusive-slider .swiper-slide .title{
+    margin: 1.5rem 0 0;
+}
+/* End css slide tour exclusive */
+.host .swiper-slide img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+@media only screen and (orientation:landscape){
+    .exclusive-slider .swiper-slide{
+        width: 40%;
+    }
+    .exclusive-slider.module .swiper-slide{
+        width: 18%;
+    }
+}

@@ -1,0 +1,415 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 3:52:20 PM
+    Author     : dtnguyen
+
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.container-1 .amc-column .title{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'LatoLatin-Bold',sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.container-1 .amc-column .sub-title{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    text-align: center;
+    margin: 10px 0 43px 0;
+    text-shadow: 2px 2px 2px #000;
+}
+.container-1 .amc-column .title span{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-2.loaded{
+    background: url(/assets/img/page2016/bg_special_2.png) 25px center no-repeat transparent;
+}
+.container-2 .amc-column{
+    text-align: center;
+    //padding: 0 100px;
+}
+.container-2 .rows{
+    padding: 0px 100px;
+    float: left;
+    clear: both;
+    margin: 55px 0 0;
+}
+
+.container-2 .row-2{
+    margin-top: 25px; 
+        text-align: left;
+}
+.container-2 .row-2 ul li{
+   /* background: transparent url("/assets/img//page2016/bg-list.png") no-repeat scroll left 40% ;
+    padding-left: 18px;
+    list-style: none;
+    display: inline-block;
+   */
+   list-style-image: url("/assets/img//page2016/bg-list.png");
+}
+.container-2 .title,
+.container-2 h2{
+    
+    text-transform: inherit;
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0px 0 35px;
+    color: #000000;
+    text-align: center;
+}
+.container-2 .row-2 .link-btn{
+    font-size: 14.5px;
+    font-family: 'LatoLatin-Medium', sans-serif;
+    color: #e75925;
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding: 15px 0 10px 40px;
+    background: url(/assets/img/page2016/icon-pdf.png) left top no-repeat transparent;
+}
+.container-2 .row-2 .charte-btn{
+    font-size: 14.5px;
+    font-family: 'LatoLatin-Medium', sans-serif;
+    color: #e75925;
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 10px;
+    padding: 15px 0 0px 40px;
+    background: url(/assets/img/page2016/icon-pdf.png) left top no-repeat transparent;
+}
+.container-3{
+    margin: 60px 0 0 0;
+}
+.container-3.loaded{
+        background-image: url(/assets/img/illus/lotus.png),url(/assets/img/page2016/bg_footer_new.jpg);
+    background-repeat: no-repeat,repeat;
+    background-position: left -43px,left top;
+    background-color: transparent;
+
+}
+.container-3 .amc-col{
+    float: left;
+}
+.container-3 .amc-column .amc-col-1 {
+    width: 250px;
+    
+    padding: 105px 20px 0 0;
+}
+.container-3 .amc-column .amc-col-2 {
+    width: 690px;
+    padding: 40px 0 40px;
+}
+.container-3 .amc-column .amc-col .title,
+.container-3 .amc-column .amc-col h3,
+.container-3 .amc-column .amc-col h2{
+    
+}
+.container-3 .amc-column .amc-col-1 .title, .container-3 .amc-column .amc-col-1 h3, .container-3 .amc-column .amc-col-1 h2{
+     font-size: 18px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    margin: 0 0px 16px;
+    color: #000000;
+    text-transform: inherit;
+    text-align: left;
+}
+.container-3 .amc-column .amc-col-2 .title{
+     font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    padding-left: 30px;
+    color: #000000;
+    margin: 0 0 35px;
+    text-transform: inherit;
+}
+.container-3 .amc-column .amc-col-2 .info{
+    position: relative;
+    width: 690px;
+    height: 413px;
+    overflow: hidden;
+}
+.container-3 .amc-column .amc-col-2 .info img{
+    //display: none;
+    opacity: 0;
+    transition: opacity 500ms linear 0s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container-3 .amc-column .amc-col-2 .info img.active{
+    opacity: 1;
+    transition: opacity 500ms linear 0s;
+    
+}
+.container-3 .amc-column .amc-col-2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container-3 .amc-column .amc-col-2 ul li{
+   // width: 130px;
+    border-bottom: 1px solid #cbc0a2;
+    color: #cbc0a2;
+    
+}
+.container-3 .amc-column .amc-col-2 ul li a:hover{
+    color: white;
+}
+.container-3 .amc-column .amc-col-2 ul li:last-child{
+    border: none;
+}
+/*.container-3 .amc-column .amc-col-2 ul li:first-child a{
+    color: white;
+}*/
+.container-3 .amc-column .amc-col-2 ul li a{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    display: block;
+    padding: 20px 0 10px;
+    height: 67px;
+    text-shadow: 1px 1px 1px #000;
+}
+.container-3 .amc-column .amc-col-2 ul li.last a{
+    text-indent: -9999px;
+    background: url(/assets/img/page2016/icon-dropdown.png) 30px center no-repeat;
+}
+.container-4 {
+    padding: 60px 0;
+}
+.container-4 .amc-column{
+    padding: 0;
+}
+.container-4 .row-1{
+    display: flex;
+    justify-content: space-around;
+}
+.container-4 .amc-col{
+    float: left;
+    width: 400px;
+    border: 1px solid #c2c2c2;
+    margin: 0 35px;
+    
+}
+.container-4 .amc-col .title{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: inherit;
+    padding-left: 30px;
+    margin: 25px 0 28px;
+}
+.container-4 .amc-col ul{
+   
+    padding-left: 15px;
+    margin: 15px 0 20px;
+}
+.container-4 .amc-col ul li{
+    list-style: none;
+    background: transparent url("/assets/img//page2016/bg-list.png") no-repeat scroll left 40% ;
+    font-size: 15.5px;
+    
+    padding: 3px 0 3px 18px;
+}
+.container-4 .amc-col ul li a:hover{
+    color: #e75925;
+}
+
+.container-5{
+    min-height: 466px;
+    font-family: 'LatoLatin-Medium', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.container-5.loaded{
+    background: url(/assets/img/page2016/bg_slider.jpg) center center no-repeat;
+    background-size: cover;
+}
+.container-5 .rows .tt{
+    font-size: 24px;
+    
+    text-align: center;
+     margin: 0 0 35px;
+     line-height: 1.2;
+}
+.container-5 .slide{
+    text-align: center;
+}
+.container-5 .slide img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.container-5 .slide a .title{
+    font-size: 18px;
+    text-transform: inherit;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.container-5 .slide a .title:hover{
+    color: #e65925;
+    opacity: 0.8;
+}
+.container-5 .slide a .destination{
+    font-size: 15.5px;
+    margin: 0;
+    color: #d6d6d6;
+}
+.container-5 .slide a {
+    display: inline-block;
+}
+.container-5 .slide a:hover {
+   
+    color: unset;
+}
+.container-5 .rows .link-btn{
+    font-size: 18px;
+    padding: 11px 20px 9px;
+    border: 1px solid white;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.container-5 .rows .link-btn:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+.container-5 .bx-wrapper{
+    margin-bottom: 35px;
+}
+.container-5 .bx-wrapper .bx-controls-direction a.disabled{
+    display: block !important;
+}
+.container-5 .bx-wrapper .bx-controls-direction a{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    margin: 0;
+}
+.container-5 .bx-wrapper .bx-prev{
+    background: url(/assets/img/page2016/btn-next.png) center center no-repeat transparent;
+     left: -66px;
+    top: -145px;
+}
+.container-5 .bx-wrapper .bx-next{
+    background: url(/assets/img/page2016/btn-prev.png) center center no-repeat transparent;
+   
+    right: -66px;
+    top: -145px;
+}
+.container-5 .bx-wrapper .bx-pager{
+    display: none;
+}
+.bx-has-controls-direction {
+    bottom: 0;
+   
+    left: 0;
+    position: absolute;
+    right: 0;
+   
+    width: 100%;
+}
+
+.bx-loading{
+    display: none;
+}
+.area-swiper{
+    position: relative;
+}
+.swiper-button-next, .swiper-button-prev{
+    margin-top:0; 
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: -50px;
+    background: transparent url("/assets/img//page2016/btn-next.png") no-repeat scroll center center;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    right: -50px;
+    background: transparent url("/assets/img//page2016/btn-prev.png") no-repeat scroll center center;
+}
+@media (max-width: 960px){
+    .container-3 .amc-column .amc-col-1{
+        width: 100%;
+        padding: 55px 30px 0;
+        text-align: left;
+    }
+    .container-3 .amc-column .amc-col-2{
+        padding-top: 22px;
+    }
+    .container-4 .amc-col{
+        width: 330px;
+       margin: 0;
+    }
+    .container-4 .amc-col-1{
+        margin-right: 40px;
+    }
+    .container-5 .slide img{
+        height: auto !important;
+        width: auto;
+        max-width: 100%;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+}

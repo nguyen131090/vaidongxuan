@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 4:02:55 PM
+    Author     : dtnguyen
+*/
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 92%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+.contain-background-ededed{
+    background: #ededed;
+}
+.content h2{
+    font-size: 2rem;
+    
+    font-family: 'LatoLatin-Bold', sans-serif;
+   
+    color: #000000;
+    margin: 0 0 1.8rem 0;
+    padding: 0;
+}
+
+table, td{
+    border: none;
+    position: relative;
+}
+.container-4 .row-1 table:nth-of-type(1) .tt-18,
+.container-4 .row-1 table:nth-of-type(2) .tt-18,
+.container-4 .row-1 table:nth-of-type(3) .tt-18{
+    padding-left: 3.5rem;
+}
+.container-4 .row-1 .tt-18{
+/*    padding-left: 3.5rem;*/
+    margin-top: -0.5rem;
+}
+.container-4 .row-1 .tt-18 p{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 1.5rem 0;
+}
+.container-4 .row-1 table .fix{
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    border: 0.2rem solid #e65925;
+    height: 2.8rem;
+    width: 2.8rem;
+    text-align: center;
+    border-radius: 100%;
+    top: 0.5rem;
+    line-height: 2.58rem;
+    font-size: 1.6rem;
+}
+iframe{
+    margin: 1rem 0 1rem 0;
+}
+.container-4 .row-1 h4, .container-4 .row-1 .text-video p{
+    margin: 0;
+    font-size: inherit;
+    background: transparent url(/assets/img/page2016/icon-video.png) no-repeat scroll left top;
+    padding: 0rem 2.5rem 0.5rem;
+    display: inline-block;
+    background-size: 2rem;
+    min-height: 2rem;
+}
+.container-4 .row-2 img{
+    margin: 1.5rem 0 0;
+}
+.container-4 .row-2 .tt-18 p{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 1rem 0 -0.5rem;
+}
+.container-5 table td .img-lazy img{
+    width: 4rem;
+    height: auto;
+}
+.container-5 table.col-1 td .img-lazy img{
+    margin: 0.1rem 0 0.5rem;
+}
+.container-5 table.col-2 td .img-lazy img{
+    margin: 1rem 0 0.5rem;
+}
+.container-5 table td .tt-18 p{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 1rem 0 1.8rem;
+}
+.container-6 .tt-custom{
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 2.75rem;
+    line-height: 3rem;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.container-6 .btn-link{
+    border-radius: 3rem;
+    border: 0.1rem #e65925 solid;
+    margin: 0;
+    width: 100%;
+    clear: left;
+    height: 4.7rem;
+    display: table;
+}
+.container-6 .btn-link span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 2rem;
+}

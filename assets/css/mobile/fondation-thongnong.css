@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 15, 2017, 2:16:44 PM
+    Author     : dtnguyen
+*/
+
+.info-content{
+    list-style: none;
+    margin: 0;
+    padding: 2.5rem 2rem;
+    float: left;
+    width: 100%;
+    background: #ededed;
+}
+.info-content li{
+    color: #6b6b6b;
+    line-height: 1.3;
+    font-size: 1.6rem;
+}
+.info-content li.location{
+       background: url(../../img/mobile/icon_3_fonda_sg_new_64_64.png) 0 0.4rem no-repeat;
+    padding: 0 0 0 4rem;
+    background-size: 3.2rem;
+    margin-bottom: 2.5rem;
+}
+.info-content li.year{
+     background: url(../../img/mobile/icon_2_fonda_sg_new_64_64.png) 0rem 0.4rem no-repeat;
+    padding: 0 0 0 4rem;
+    background-size: 3.2rem;
+}
+.info-content li .fix{
+    display: block;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    color: #000;
+}
+.info-content li > span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content ul{
+    padding: 0;
+    margin: 1rem 0;
+}
+.content ul li{
+    list-style: none;
+    padding: 0.3rem 0;
+}
+.content ul li::before {
+    content: "• ";
+    color: #e65925;
+    display: inline-block;
+    padding: 0rem;
+    margin-right: 1rem;
+}
+.content img{
+    max-width: 100%;
+    margin: 0.5rem 0 0.75rem;
+    height: auto !important;
+    width: 100% !important;
+}
+.content h2{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.content h3{
+    font-size: 1.6rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+
+/* Css Tour Voyage */
+.secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .secrets-slider .item-slide{
+     position: relative;
+ }
+ .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+     padding: 0 1rem;
+ }
+.swiper-slide img{
+    width: 100%;
+}
+.item-tour-voyage {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.item-tour-voyage .swiper-button-prev {
+    background: url(/assets/img/mobile/arrow-white-back-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    left: -4vw;
+}
+.item-tour-voyage .swiper-button-next {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    right: -4vw;
+}
+/* End Css Tour Voyage */
+
+hr{
+    display: none;
+}
+.container-1 .row-content .tt-custom img{
+    margin: 0 0 1rem 0;
+}

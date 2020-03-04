@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2016, 8:43:14 AM
+    Author     : dtnguyen
+*/
+
+.fix-banner-top{
+    min-height: 22.1rem !important;
+    overflow: hidden;
+/*    background: #ccc;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/assets/img/page2016/spin.gif);*/
+}
+.fix-banner-top > img.image-banner{
+/*    opacity: 0;
+    visibility: hidden;*/
+    width: 100%;
+}
+img.image-banner{
+    width: 100%;
+}
+.banner-img{
+    width: 100%;
+}
+@media only screen and (orientation:landscape){
+    .fix-banner-top{
+       min-height: 19.2rem !important;
+    }
+}
+   

@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteRule ^thumb/(\d+)/(\d+)/(\d+)/(\d+)/(.*) timthumb.php?src=/$5&w=$1&h=$2&zc=$3&q=$4
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+# otherwise forward it to index.php
+RewriteRule . index.php

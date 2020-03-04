@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/11/2018, 10:29:54 AM
+    Author     : tuanna
+*/
+
+.contain .amc-column.row-content-1 {
+    margin-top: -167px !important;
+    background: #fff;
+    z-index: 99;
+}
+.container-2{
+    z-index: 2;
+}
+.top-thank img{
+    top: 22px;
+    right: 32px;
+}
+.mw-720{
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-2 .item:nth-of-type(4){
+    margin-right: 20px;
+}
+.container-2 .item:last-of-type{
+    margin-right: 0;
+}
+.container-2 .item .tt{
+    text-transform: none;
+    font-size: 18px;
+    font-family: LatoLatin-Regular,sans-serif;
+}
+.excl-container {
+    background: url(/assets/img/tour/bg-portrait.jpg) center center no-repeat #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 492px;
+}
+.excl-container .block-excl{
+    width: 340px;
+    pading: 25px;
+    background: #fff;
+    border-radius: 5px;
+}
+.excl-container .block-excl .tt{
+    font: 24px LatoLatin-Bold,sans-serif;
+}
+.excl-container .caption{
+    bottom: -52px;
+    left: 0;
+}
+.journey .content{
+    width: auto;
+}
+
+/*.amc-column .item-custom:after{
+    content: '';
+    width: 50%;
+    height: 216px;
+    background: rgba(17,17,17,0.31);
+background: -moz-linear-gradient(left, rgba(17,17,17,0.31) 0%, rgba(43,43,43,0.31) 0%, rgba(89,89,89,0.31) 0%, rgba(102,102,102,0.31) 0%, rgba(71,71,71,0.31) 0%, rgba(76,76,76,0.31) 0%, rgba(19,19,19,0.4) 70%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(17,17,17,0.31)), color-stop(0%, rgba(43,43,43,0.31)), color-stop(0%, rgba(89,89,89,0.31)), color-stop(0%, rgba(102,102,102,0.31)), color-stop(0%, rgba(71,71,71,0.31)), color-stop(0%, rgba(76,76,76,0.31)), color-stop(70%, rgba(19,19,19,0.4)));
+background: -webkit-linear-gradient(left, rgba(17,17,17,0.31) 0%, rgba(43,43,43,0.31) 0%, rgba(89,89,89,0.31) 0%, rgba(102,102,102,0.31) 0%, rgba(71,71,71,0.31) 0%, rgba(76,76,76,0.31) 0%, rgba(19,19,19,0.4) 70%);
+background: -o-linear-gradient(left, rgba(17,17,17,0.31) 0%, rgba(43,43,43,0.31) 0%, rgba(89,89,89,0.31) 0%, rgba(102,102,102,0.31) 0%, rgba(71,71,71,0.31) 0%, rgba(76,76,76,0.31) 0%, rgba(19,19,19,0.4) 70%);
+background: -ms-linear-gradient(left, rgba(17,17,17,0.31) 0%, rgba(43,43,43,0.31) 0%, rgba(89,89,89,0.31) 0%, rgba(102,102,102,0.31) 0%, rgba(71,71,71,0.31) 0%, rgba(76,76,76,0.31) 0%, rgba(19,19,19,0.4) 70%);
+background: linear-gradient(to right, rgba(17,17,17,0.31) 0%, rgba(43,43,43,0.31) 0%, rgba(89,89,89,0.31) 0%, rgba(102,102,102,0.31) 0%, rgba(71,71,71,0.31) 0%, rgba(76,76,76,0.31) 0%, rgba(19,19,19,0.4) 70%);
+display: inline-block;
+position: absolute;
+right: 20px;
+top: 0;
+}*/
+.amc-column .item-custom .text-on-image{
+    right: 50px;
+    bottom: 20px;
+    width: 170px;
+}
+.amc-column .item-custom:last-of-type .text-on-image{
+    right: 30px;
+}
+.amc-column .item-custom .text-on-image .btn-amica-basic{
+    border: 1px solid white !important;
+    color: white !important;
+    padding: 8px 20px 8px !important;
+}
+.content-journey .content strong{
+        margin-top: 10px;
+    margin-bottom: 7px;
+    display: inline-block;
+        max-width: 160px;
+}
+.content-thank{
+    max-width: 630px;
+    margin: 0 auto;
+}
+.content-thank p{
+    line-height: 1.5;
+}
+.content-thank > p:last-of-type{
+    margin-bottom: 0;
+}
+@media (max-width: 960px){
+    .container-2 .item {
+        width: 220px;
+    }
+    .img-zoom-span img.img-zoom {
+        width: 220px;
+    }
+    .countrie-items{
+        overflow: auto;
+            width: calc(100% + 33px);
+    }
+}

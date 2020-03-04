@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 3:35:12 PM
+    Author     : dtnguyen
+*/
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 92%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+hr{
+    display: block;
+    border: none;
+    height: 0.1rem;
+    margin: 0;
+}
+.contain-background-ededed{
+    background: #ededed;
+}
+.container-6 .tt-custom{
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 2.75rem;
+    line-height: 3rem;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.container-6 .btn-link{
+    border-radius: 3rem;
+    border: 0.1rem #e65925 solid;
+    margin: 0;
+    width: 100%;
+    clear: left;
+    height: 4.7rem;
+    display: table;
+}
+.container-6 .btn-link span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 2rem;
+}
+iframe{
+    min-height: 22rem;
+}

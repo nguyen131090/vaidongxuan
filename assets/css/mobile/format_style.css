@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 26, 2017, 2:38:09 PM
+    Author     : dtnguyen
+*/
+a:active, a:focus{
+    text-decoration: none;
+}
+.contain {
+    padding: 0 4vw;
+    font-size: 1.6rem;
+    float: left;
+    width: 100%;
+}
+.contain.no-padding {
+    padding: 0;
+    margin: 0;
+}
+.img-responsive{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+.space{
+    display: flex;
+    width: 100%;
+    
+}
+.space-100{
+    height: 5rem;
+}
+.space-80{
+    height: 4rem;
+}
+.space-70{
+    height: 3.5rem;
+}
+.space-160{
+    height: 8rem;
+}
+.space-40{
+    height: 2rem;
+}
+.space-10{
+    height: 0.5rem;
+}
+.space-12{
+    height: 0.6rem;
+}
+.space-24{
+    height: 1.2rem;
+}
+.space-20{
+    height: 1rem;
+}
+.space-30{
+    height: 1.5rem;
+}
+.space-50{
+    height: 2.5rem;
+}
+.space-60{
+    height: 3rem;
+}
+.space-65{
+    height: 3.25rem;
+}
+.space-txt-80{
+    height: 3.65rem;
+}
+.tt-title{
+   margin: 0; 
+   padding: 0;
+}
+.tt-color-e65925{
+    color: #e65925;
+}
+
+.tt-color-1f1f1f{
+    color: #1f1f1f;
+}
+.tt-color-white{
+    color: white;
+}
+.tt-color-black{
+    color: black;
+}
+.tt-color-6b6b6b{
+    color: #6b6b6b;
+}
+.tt-fontsize-45{
+    font-size: 2.25rem;
+/*    line-height: 2.4rem;*/
+}
+.tt-fontsize-40{
+    font-size: 2rem;
+/*    line-height: 2.7rem;*/
+}
+.tt-fontsize-32{
+    font-size: 1.6rem;
+/*    line-height: 1.76rem;*/
+}
+.tt-fontsize-28{
+    font-size: 1.4rem;
+/*    line-height: 1.55rem;*/
+}
+.tt-fontsize-24{
+    font-size: 1.2rem;
+/*    line-height: 1.55rem;*/
+}
+.tt-latolatin-bold{
+   font-family: 'LatoLatin-Bold', sans-serif; 
+}
+.tt-latolatin-semibold{
+   font-family: 'LatoLatin-Semibold', sans-serif; 
+}
+.tt-latolatin-regular{
+    font-family: 'LatoLatin-Regular', sans-serif; 
+}
+.tt-uppercase{
+    text-transform: uppercase;
+}
+
+.tt-align-left{
+    text-align: left;
+}
+.tt-align-right{
+    text-align: right;
+}
+.tt-align-center{
+    text-align: center;
+}
+p{
+    font-family: 'LatoLatin-Regular', sans-serif;
+   
+    font-size: 1.6rem;
+   
+}
+.fil-background{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0));
+}
+ul.no-padding{
+    padding: 0;
+}
+li.no-liststyle{
+    list-style: none;
+}
+.no-margin{
+    margin: 0;
+}
+iframe{
+    width: 100%;
+    height: auto;
+}
+
+.full-width{
+    margin-left: -4vw;
+    margin-right: -4vw;
+}
+.swiper-container.full-width{
+    overflow: visible;
+}
+
+h1.main-title{
+    margin: 2.5rem 0;
+   
+}
+.sub-title-page{
+    margin: 4rem 0 2.5rem;
+   
+}
+.no-padding{
+    padding: 0;
+}
+a.download-pdf{
+    color: #e65925;
+    padding: 0rem 0 0rem 4rem;
+    background: url(/assets/img/page2016/icon-pdf.png) left top no-repeat transparent;
+    background-size: 2.9rem;
+    display: inline-block;
+    min-height: 3.5rem;
+}
+.contain-background-ededed{
+    background: #ededed;
+}
+.tt-line-height-1-2{
+    line-height: 1.2;
+}
+.tt-line-height-1-5{
+    line-height: 1.5;
+}
+.m-0{
+    margin: 0 !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+.mt-32{
+    margin-top: 1.6rem !important; 
+}
+.mb-32{
+    margin-bottom: 1.6rem !important; 
+}
+.mt-80{
+    margin-top: 4rem !important; 
+}
+.mb-80{
+    margin-bottom: 4rem !important; 
+}
+.mt-50{
+    margin-top: 2.5rem !important; 
+}
+.mb-50{
+    margin-bottom: 2.5rem !important; 
+}

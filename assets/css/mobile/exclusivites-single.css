@@ -1,0 +1,119 @@
+
+.top-tour .features-tour li img{
+    width: 2.7rem;
+}
+.number-rate {
+       position: absolute;
+    right: 0;
+    top: -0.7rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background: #e75925;
+    color: #fff;
+    font: 1.1rem LatoLatin-Bold,sans-serif;
+    line-height: 2rem;
+    text-align: center;
+}
+.position-relative{
+    position: relative;
+}
+.top-tour .features-tour li img{
+    margin-left: 0.5rem;
+}
+.top-tour .features-tour li p, .top-tour .features-tour li a{
+    font: 1.3rem LatoLatin-Bold,sans-serif;
+    margin-left: 1rem;
+}
+.container-hostdes{
+    margin: 0 -4vw;
+    background: #f7f7f7;
+    width: 100vw;
+    padding: 0 4vw;
+    text-align: center;
+}
+.host-content{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.host-content img{
+    margin: 35px 0;
+}
+.host-content > p{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.host-content > div > p{
+    margin-top: 0;
+}
+.host-content a{
+    color: #e97525;
+    font-family: LatoLatin-Bold;
+    font-size: inherit;
+    display: block;
+    margin: 1.7rem 0 2.5rem;
+}
+.video-col > p{
+    margin-bottom: 0;
+}
+.video-col > p:first-of-type{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 2.5rem;
+}
+.content-container{
+    background: #ededed;
+    padding-top: 2.5rem;
+}
+.content-container .map img{
+    max-width: 100%;
+}
+.content-col{
+    font: 1.6rem LatoLatin-Regular,sans-serif;
+}
+.content-col h2 {
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    color: #1c1c1c;
+/*    padding-left: 45px;
+    background: url(../../img/icon-pen.png) left center no-repeat transparent;
+    min-height: 40px;*/
+    margin-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    margin: 2.5rem 0 2.5rem 0 !important;
+}
+.item-tour-content{
+    width: 100vw;
+    padding: 0 4vw;
+}
+.item-tour-content .sub-title-page{
+    text-transform: none;
+}
+.fil-background{
+    display: none;
+}
+.entry-body h3 {
+    margin: 2rem 0;
+    text-align: left!important;
+    font-size: 1.6rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    line-height: 1.5;
+}
+.top-tour .features-tour li p, .top-tour .features-tour li a{
+    margin-left: 0;
+}
+.rate-icon{
+/*    padding-right: 0.35rem;
+    margin-right: 0.3rem;*/
+}
+.rate-title{
+    margin: 0;
+}
+.content-col p:last-of-type{
+    margin-bottom: 2.5rem;
+}
+.item-tour-content .amc-column{
+    padding: 0 4vw 3rem;
+}

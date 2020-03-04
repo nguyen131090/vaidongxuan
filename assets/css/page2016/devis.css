@@ -1,0 +1,837 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 10:29:54 AM
+    Author     : dtnguyen
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.contain .amc-column-fixpadding{
+    
+    padding: 0 0px;
+}
+.contain .amc-column .rows {
+    clear: left;
+    width: 100%;
+    float: left;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-1 .amc-column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 35px 0px;
+}
+.container-2{
+    z-index: 2;
+}
+
+.form .has-error input, .form .has-error select, .form .has-error textarea{
+      
+    border: 1px solid #e25825;
+}  
+.form input, .form select{
+    border: 1px solid #d9d9d9;
+    height: 42px;
+    line-height: 22px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.form textarea{
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form{
+    width: 880px;
+    margin: 0 auto;
+}
+.text .tt{
+    font-size: 22px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 40px 0 0px;
+    text-transform: uppercase;
+    color: #e75925;
+}
+
+.input_full{
+    width: 100%;
+}
+.code-anti{
+    vertical-align: top;
+}
+.fix-text-code{
+    margin: 20px 0 0;
+}
+#btn-valider-big{
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    background: #da521f url(/assets/img/page2016/arrow_white.png) 328px center no-repeat;
+    display: inline-block;
+/*    width: 396px;
+    line-height: 59px;
+    height: 57px;
+    float: left;*/
+    text-align: center;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 30px 0 35px;
+    border-radius: 5px;
+    padding-right: 32px;
+    width: 293px;
+    height: 46px;
+}
+#btn-valider-big:hover{
+    opacity: 0.8;
+}
+.error-summary ul li{
+    color: #e26640;
+}
+.has-error .text-label{
+   /* color: #e26640; */
+}
+table.has-error{
+   /* background-color: #fbe6df; */
+}
+.has-error div{
+   /* background-color: #fbe6df; */
+}
+
+
+.form .fix-arrow{
+     background: #fff url(/assets/img/page2016/arrow_up_down_cam.png?v=002) no-repeat scroll right 15px center;
+    
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+     appearance: none !important;
+     -ms-accelerator: none !important;
+    
+     padding-right: 27px;
+}
+.form.booking-form .fix-arrow{
+    background: #fff url(/assets/img/page2016/arrow_up_down_cam.png) no-repeat scroll right 15px center;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+     appearance: none !important;
+     -ms-accelerator: none !important;
+     padding-right: 27px;
+}
+
+.form .rdv .fix-arrow{
+     background: #fff url(/assets/img/page2016/arrow_down_black.png) no-repeat scroll right center;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+     appearance: none !important;
+     -ms-accelerator: none !important;
+     padding-right: 27px;
+}
+
+.input-fullname{
+    width: 100%;
+}
+span.fix-tt{
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.input-ville{
+   
+    width: 100%;
+}
+.text-top-form{
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.text-top-form p{
+    margin: 0;
+}
+
+.text-area{
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    background: url(/assets/img/page2016/bg_border.png) center 0 no-repeat;
+    margin: 30px 0 10px;
+    padding-top: 30px;
+}
+.text-area-1{
+    margin-top: 31px;
+    padding-top: 34px;
+}
+.text-area-2{
+    margin-top: 33px;
+    padding-top: 34px;
+}
+.text-area-3{
+    margin-top: 30px;
+    padding-top: 34px;
+}
+.text-area-4{
+    margin-top: 33px;
+    padding-top: 34px;
+}
+.text-area-5 {
+    margin: 26px 0 0;
+    padding-top: 14px;
+}
+
+.input-deretourDate{
+    width: 130px;
+}
+
+span.field-devisform-deretourdate{
+/*    display: inline-block;
+    padding-right: 43px;
+    height: 100%;
+    background: url(/assets/img/page2016/icon_input_datepicker.png) right 5px no-repeat;*/
+}
+.input-tourLength{
+    width: 100%;
+}
+
+label{
+    font-family: 'LatoLatin-Regular', sans-serif;
+    display: block;
+    margin: 0 15px 5.5px 0;
+    font-size: 15.5px;
+    font-weight: normal;
+    color: #707070;
+}
+label:hover{
+    color: #010101;
+    cursor: pointer;
+    text-shadow: 0px 0px 0px #010101;
+}
+#devisform-prefix label{
+    display: inline-block;
+    margin-bottom: 0;
+    border: 1px solid #d9d9d9;
+    padding: 10px 25px 10px 25px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form .ta-r{
+    padding-right: 10px;
+}
+.input-numberOfTravelers12,
+.input-numberOfTravelers2,
+.input-numberOfTravelers0{
+    width: 65px;
+    
+}
+.input-agesOfTravelers12{
+    width: 130px;
+    margin-left: 0px;
+}
+.f-t{
+    display: inline-block;
+    margin-right: 13px;
+}
+.f-t-4{
+    margin-right: 10px;
+}
+.f-t-3{
+    margin-left: 27px;
+}
+.div-area{
+    display: table;
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.div-area-1 select,
+.div-area-3 select{
+    margin-right: 20px;
+}
+.div-area-2 .t-t,
+.div-area-4 .t-t{
+    margin-left: 20px;
+}
+.div-area .t-t{
+    display: table-cell;
+    float: left;
+}
+.div-area-3, .div-area-4{
+    margin-bottom: 10px;
+}
+.fix-text-align{
+    text-align: center;
+}
+.input-chambres{
+    width: 70px;
+    
+}
+.form .amc-col{
+    padding: 0 10px;
+}
+/* CUSTOM FORM RADIO */
+input[type="radio"], input[type="checkbox"] {
+    display:none;
+}
+
+input[type="radio"] + span, input[type="checkbox"] + span {
+    display:inline-block;
+    width:15px;
+    height:19px;
+    margin:-3px 0px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+input[type="checkbox"] + span{
+    border-radius: 0px;
+}
+
+input[type="radio"] + span {
+     background: url("/assets/img//page2016/bg_radio_new.png") no-repeat scroll left center;
+     margin-right: 6px;
+}
+input[type="checkbox"] + span{
+    background: url("/assets/img//page2016/bg_checkbox_mauxam.png") no-repeat scroll left center;
+    margin-right: 6px;
+}
+
+input[type="radio"]:checked + span{
+     background: url("/assets/img//page2016/bg_list_active.png") no-repeat scroll left center;
+}
+input[type="checkbox"]:checked + span{
+    background: url("/assets/img//page2016/bg_checkbox_mauxam_active.png") no-repeat scroll left center;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span,
+input[type="checkbox"] + label span,
+input[type="checkbox"]:checked + label span{
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+/* CUSTOM FORM SELECT OPTION */
+
+.text-summary-fix{
+    margin: 10px 0 -10px 0;
+}
+.col-fix-align{
+    text-align: right;
+}
+.fix-middle-text{
+    display: inline-block;
+    margin-top: 12px;
+}
+.fix-text{
+    display: block;
+}
+.fix-col-left{
+    display: table;
+    height: 100%;
+   
+}
+.fix-col-left .middle-text{
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+.t-t{
+    display: inline-block;
+    margin: 0 0 5px 0;
+}
+
+
+.form .help-block{
+    font-size: 13px;
+    font-family: 'Lato-Regular';
+    font-style: italic;
+    color: #e25825;
+    margin: 0px 0 0 0;
+}
+.field-devisform-numberoftravelers12 .help-block{
+    width: 300px;
+    position: absolute;
+    left: 158px;
+}
+
+.field-devisform-verificationcode .help-block{
+    width: 300px;
+    position: absolute;
+    left: 8px;
+    top: 40px;
+}
+.field-devisform-calltime .help-block{
+    position: absolute;
+    left: 21px;
+    bottom: 0;
+}
+
+
+
+/* CSS POPUP*/
+ #backgroundPopup {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+
+#toPopup {
+    
+    background: none repeat scroll 0 0 #f0f0f0;
+   // border: 10px solid #ccc;
+   // border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    display: none;
+    
+   // left: 25%;
+    //margin-left: -410px;
+    position: fixed;
+    top: 50px;
+    width: 1000px;
+    z-index: 9999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    //overflow-y: auto;
+   // overflow-x: hidden;
+    height: 90%;
+}
+#popup_content .popup{
+    display: none;
+}
+div.loader {
+    background: url("/assets/img//loading.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    margin-left: -10px;
+}
+div.close {
+    background: url("/assets/img//page2016/icon_cancel.png") no-repeat scroll 0px 0px transparent;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -27px;
+    top: -24px;
+    width: 30px;
+    opacity: 1;
+}
+div.close:hover {
+    opacity: 1;
+}
+span.ecs_tooltip {
+       background: #000000 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #ffffff;
+    display: none;
+    font-size: 11px;
+    height: 23px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -72px;
+    text-align: center;
+    top: -53px;
+    width: 110px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content {
+   // margin: 4px 7px;
+    /* remove this comment if you want scroll bar */
+    font-family: 'LatoLatin-Regular', sans-serif;
+    font-size: 15.5px;
+    overflow-y:auto;
+    height:100%;
+    overflow-x: hidden;
+    
+}
+/*END POPUP*/
+
+/* CSS content popup */
+.popup .entry {
+    padding: 0 50px;
+}
+.popup .title{
+    clear: left;
+    float: left;
+    width: 100%;
+    margin: 20px 0 10px;
+}
+.popup .tt{
+    font-size: 22px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: uppercase;
+    color: #e75925;
+    width: 500px;
+    float: left;
+    margin: 0;
+}
+.popup .title a{
+    display: inline-block;
+    float: right;
+    padding: 0px 30px;
+     font-size: 13.5px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: #da521f;
+    line-height: 38px;
+}
+.popup .title a:hover{
+    opacity: 0.7;
+}
+.popup .title a.active{
+    background-color: #ccc;
+}
+.popup .list{
+    list-style: none;
+    margin: 0px 0 10px;
+    padding: 0;
+    clear: left;
+    float: left;
+    width: 100%;
+}
+.popup .list li{
+    float: left;
+    margin-right: 30px;
+    padding: 5px 0 5px 30px;
+    font-size: 14.2px;
+}
+.popup .list li.posi{
+    background: url(/assets/img/page2016/icon_posi_black.png) 0 0 no-repeat;
+}
+
+.popup .list li.plus{
+    background: url(/assets/img/page2016/icon_black.png) 0 0 no-repeat;
+}
+.popup .list li.plus-1{
+    background: url(/assets/img/page2016/au-plus-pres-des-peuples.png) 0 center no-repeat;
+}
+.popup .list li.plus-2{
+    background: url(/assets/img/page2016/bouillon-black.png) 0 center no-repeat;
+}
+.popup .list li.plus-3{
+    background: url(/assets/img/page2016/plongee-dans-la-vie-locale.png) 0 center no-repeat;
+}
+.popup .list li.plus-4{
+    background: url(/assets/img/page2016/escales-de-charme-black.png) 0 center no-repeat;
+}
+.popup .list li.plus-5{
+    background: url(/assets/img/page2016/sur-la-route-du-miam.png) 0 center no-repeat;
+}
+.popup .list li.plus-6{
+    background: url(/assets/img/page2016/les-paradis-oublies-black.png) 0 center no-repeat;
+}
+.popup .summary{
+    clear: left;
+    padding: 10px 0;
+    font-size: 14.2px;
+    background: url(/assets/img/page2016/bg_border.png) 0 bottom no-repeat;
+}
+.popup .program {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.popup .program .t,
+.popup .program h4,
+.popup .program h2,
+.popup .program .tt-pro{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: uppercase;
+    color: #e75925;
+}
+.popup .program .tt-sub-pro{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.popup .program ul{
+    list-style: none;
+    list-style-image: url(/assets/img/page2016/bg-list.png);
+}
+
+.popup .program .area-video{
+    margin-top: 30px;
+}
+
+.popup .program .text-video{
+    padding: 10px 0 10px 40px;
+    background: url(/assets/img/page2016/icon-video.png) 0 0 no-repeat;
+    margin: 10px 0;
+}
+.popup .program .text-video span{
+    text-transform: uppercase;
+    font-family: 'Lato-Regular', sans-serif;
+}
+.popup .program .btn-pdf a{
+     background: transparent url("/assets/img//page2016/icon-pdf.png") no-repeat scroll left top;
+    color: #e75925;
+    display: inline-block;
+    font-family: "LatoLatin-Medium",sans-serif;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding: 15px 0 10px 40px;
+    text-decoration: underline;
+}
+.popup-infos {
+    position: relative;
+}
+.popup-infos .tab-content{
+    clear: left;
+    float: left;
+    padding: 0 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+.popup-infos .tab-content .tt-info{
+    font-size: 16.5px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    //padding: 10px 0;
+    border-bottom: 1px solid #cbc0a2;
+    background: url(/assets/img/page2016/arrow_down_cam.png) right center no-repeat;
+    clear: left;
+    cursor: pointer;
+}
+.popup-infos .tab-content .tt-info span{
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 37px;
+    background: #bcb090;
+}
+.popup-infos .tab-content .tab-children .entry-content{
+    display: none;
+}
+.popup-infos .tab-content .tab-children.active .entry-content{
+    display: block;
+    margin: 10px 0 40px;
+}
+.popup-infos .tab-content .tab-children.active h4{
+    background: url(/assets/img/page2016/arrow_up.png) right center no-repeat;
+}
+.popup-infos .btn-tabs{
+    height: 455px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.popup-infos .btn-tabs .img-tabs{
+    display: none;
+}
+.popup-infos .btn-tabs .img-tabs.active{
+    display: block;
+}
+.popup-infos .nav-tabs > li:nth-of-type(1){
+    margin-left: 114px;
+}
+.popup-infos .nav-tabs > li:nth-of-type(2){
+    margin-left: 65px;
+}
+.popup-infos .nav-tabs > li:nth-of-type(3){
+    margin-left: 40px;
+}
+.popup-infos .nav-tabs > li:nth-of-type(4){
+    margin-left: 55px;
+}
+.popup-infos .nav-tabs > li:nth-of-type(5){
+    margin-left: 40px;
+}
+.popup-infos .nav-tabs > li > a{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    border: 0px;
+    border-radius: 0px;
+}
+.popup-infos .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    border: 0px;
+    background: transparent;
+     color: #e75925;
+}
+.popup-infos .nav > li > a:focus, .nav > li > a:hover{
+    background: none;
+    color: #e75925;
+}
+
+.popup-infos .nav-tabs{
+    float: left;
+    clear: left;
+    width: 100%;
+    padding-top: 150px;
+    border: 0px;
+    padding-bottom: 63px;
+    margin-top: 0;
+}
+
+.btn-extension {
+    background: #e75925 none repeat scroll 0 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-family: LatoLatin-Bold;
+    font-size: 13px;
+    margin: 6px 0 0;
+    padding: 11px 24px 9px;
+    text-transform: uppercase;
+}
+.btn-extension.active {
+    background: #ccc none repeat scroll 0 0;
+}
+
+.extension .topopup{
+    cursor: pointer;
+}
+/* Fix Css link file pdf */
+.download-pdf{
+    background: transparent url("/assets/img//page2016/icon-pdf.png") no-repeat scroll left top;
+    color: #e75925;
+    display: inline-block;
+    font-family: "LatoLatin-Medium",sans-serif;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding: 15px 0 10px 40px;
+    text-decoration: underline;
+    text-transform: none;
+}
+/* End Fix css link file pdf */
+
+/* End CSS content popup */
+
+/*.fix-tour-theme label{
+    color: #707070;
+}
+.fix-tour-theme label:hover{
+    color: #010101;
+    cursor: pointer;
+    text-shadow: 0px 0px 0px #010101;
+}
+.fix-tour-theme input[type="checkbox"] + span{
+    background: url("/assets/img//page2016/bg_checkbox_mauxam.png") no-repeat scroll left center;
+    margin-right: 10px;
+}
+.fix-tour-theme input[type="checkbox"]:checked + span{
+    background: url("/assets/img//page2016/bg_checkbox_mauxam_active.png") no-repeat scroll left center;
+}*/
+.fix-tour-theme .group-opt {
+    border: 1px solid #d9d9d9;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 15px 15px 9.5px;
+}
+.fix-tour-theme .group-opt:last-of-type{
+    margin-bottom: 0;
+}
+
+.btn-contactez-nous {
+    right: 0;
+     left: 100%;
+     transform: rotate(90deg);
+     background: #e75925 url(/assets/img/icon-phone.png) 14px center no-repeat;
+     width: 230px;
+     height: 50px;
+     padding-left: 48px;
+     /* display: flex; */
+     padding-top: 5px;
+ }
+ .contain.container-1{
+     height: 475px !important;
+ }   
+
+ .fix-tour-theme .group-opt {
+     border: 1px solid #d9d9d9;
+     margin: 10px 0;
+     border-radius: 5px;
+     padding: 15px 15px 9.5px;
+     float: left;
+     width: 46%;
+     margin-right: 10px;
+ }    
+
+@media (max-width: 960px){
+    .list-hotel .option{
+        max-width: 43%;
+        width: 40%;
+    }
+}

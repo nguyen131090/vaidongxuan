@@ -1,0 +1,320 @@
+
+
+.tour-slider.swiper-container-horizontal>.swiper-scrollbar{
+	    bottom: 50%;
+}
+
+.tour-slider .swiper-slide .text-on-img h3, .secrets-slider .swiper-slide h3 {
+    margin: 2rem 0 10px;
+    font: 2rem LatoLatin-Bold,sans-serif;
+    text-transform: uppercase;
+
+}
+.swiper-scrollbar-drag{
+	background-color: #e65925;
+}
+.swiper-slide{
+	overflow: hidden;
+}
+/*.swiper-container-horizontal>.swiper-scrollbar{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}*/
+.fix-space-4-7rem{
+    display: none;
+}
+.fix-space-4-7rem.active{
+    display: block;
+    height: 4.7rem;
+}
+.container-filter .custom-btn-filter{
+    display: inline-block;
+    width: 100%;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: white;
+    padding: 0 3rem;
+    border-top: 0.1rem solid #ccc;
+    border-top-left-radius: 0.7rem !important;
+    border-top-right-radius: 0.7rem !important;
+    max-height: 0rem;
+}
+@keyframes slideDown{
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 6.6rem;
+    }
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom.active{
+    max-height: 6.6rem;
+    /* iE doesn't play nice with shorthand play-state, but it's initially running so it's redundant */
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+
+    -webkit-animation: slideDown 500ms linear 0ms 1 normal forwards; /* Chrome 4.3 | Edge | Safari 4.0 - 8.0 */
+    -moz-animation: slideDown 500ms linear 0ms 1 normal forwards; /* Firefox 5.0 | Gecko 16.0 */
+    -o-animation: slideDown 500ms linear 0ms 1 normal forwards; /* Opera 12 */
+    animation: slideDown 500ms linear 0s 1 normal forwards; /* Modern browsers */
+   
+}
+.container-filter .tt-custom-btn-filter{
+    
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+    display: block;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom .tt-custom-btn-filter{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+     height: 4.1rem; 
+     line-height: initial; 
+    border-radius: 10rem;
+    margin: 0.9rem 0;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 0 1.3rem;
+}
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.tt-custom-btn-filter{
+    display: inline-block;
+    bottom: 2.75rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+
+/* Css Item Tour Voyage */
+.all-tour .item{
+    position: relative;
+}
+.all-tour .col-right .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.5rem;
+    padding: 0 1.25rem;
+}
+.all-tour .item a{
+    position: relative;
+    display: block;
+}
+.all-tour .item a .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+}
+.all-tour .item .col-right .title .tt-custom{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 6.2rem;*/
+    
+    line-height: 6.5vmin;
+    margin-bottom: 0rem;
+    
+
+}
+.all-tour .item .col-right .title .tt-custom-sub-tt{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 2rem;*/
+    line-height: 5.5vmin;
+    
+}
+.summary{
+    float: left;
+    width: 100%;
+}
+
+.list-info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    float: left;
+}
+.list-info li{
+    float: left;
+    min-height: 3.4rem;
+    height: 3.4rem;
+    font-size: 1.25rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.list-info li.country{
+    padding-left: 2.45rem;
+    background: url(/assets/img/mobile/address-49-43.png) 0 center no-repeat;
+    padding: 0.3rem 0 0.1rem 2.95rem;
+    background-size: 2.45rem auto;
+    display: table;
+    width: 32%;
+}
+.list-info li.country span{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+.list-info li.time{
+    padding-left: 2.45rem;
+    background: url(/assets/img/mobile/calendar-35-37.png) 0 center no-repeat;
+    padding: 0.3rem 0 0.1rem 2.25rem;
+    background-size: 1.75rem auto;
+    display: table;
+    width: 25%;
+}
+.list-info li.time span{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+.secrets-ailleurs.list-info li.loaitour{
+    width: 49%;
+}
+
+.list-info li.loaitour{
+    
+    display: table;
+    padding: 0.3rem 0 0.1rem;
+    /* position: relative; */
+    width: 40%;
+    float: right;
+}
+.list-info li.loaitour .icon{
+    background-image: url(/assets/img/mobile/icon-tour-45-46.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    float: left;
+    height: 2.3rem;
+    margin-right: 0.5rem;
+    width: 2.25rem;
+    min-height: 3rem;
+    max-width: 3rem;
+}
+.list-info li.loaitour .text{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.btn-see-more{
+    display: block;
+    text-align: center;
+    border-radius: 3rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+/* End Css Item Tour Voyage */
+
+.full-text{
+    display: none;
+}
+/*  fix nut btn tron footer */
+    .btn-show-footer.active{
+        display: none;
+    }
+    /* end fix nut btn tron footer */
+
+/* Fix Css xoay ngang cho Iphone 4 */
+
+@media only screen and (orientation:landscape){
+    
+    .contain{
+        padding: 0 1.5rem;
+    }
+    
+    .all-tour .item{
+        float: left;
+        width: 48%;
+    }
+    .space.space-horizontal{
+        float: left;
+        width: 4%;
+    }
+}
+
+/* End Fix Css xoay ngang cho Iphone 4 */
+
+/* Fix Css Xoay Ngang Iphone 5 tro len */
+
+
+@media (min-width: 568px) and (orientation:landscape){
+    .all-tour .item .col-left{
+        width: 48%;
+    }
+    .all-tour .item .col-right{
+        width: 49.5%;
+    }
+    .all-tour .item .col-right .summary p{
+        line-height: 6vmin;
+    }
+    .list-info li.country{
+        margin-right: 0.7rem;
+        padding-left: 2.3rem;
+        background-size: 2.2rem auto;
+    }
+    .list-info li.time{
+        background-size: 1.55rem auto;
+        padding-left: 1.7rem;
+    }
+    .list-info li.loaitour{
+        width: 40%;
+    }
+    .list-info li.loaitour .icon{
+        background-size: 90% auto;
+        background-position: 0 center;
+        margin-right: 0;
+    }
+/*    .all-tour .item .col-left a.fix-xoay-ngang{
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        min-height: 11rem;
+        max-height: 22rem;
+    }*/
+}
+
+/* End  Fix Css Xoay Ngang Iphone 5 tro len */
+
+@media (min-width: 667px) and (orientation:landscape){
+    .list-info li.country{
+        margin-right: 1.5rem;
+       
+    }
+}

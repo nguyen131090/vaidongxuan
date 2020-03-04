@@ -1,0 +1,10 @@
+## Directories to ignore  
+helpers/**
+storage/**
+tour-output/**
+phpThumb/**
+runtime/**
+upload-images/**
+uploads/**
+upload/**
+.idea/**

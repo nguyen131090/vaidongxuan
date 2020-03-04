@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2019, 5:06:59 PM
+    Author     : dtnguyen
+*/
+
+.container-button-guide-book .area-guide-book{
+    padding: 130px 0 60px;
+    background: #d9d8d4;
+    position: relative;
+    overflow: hidden;
+    height: 569px;
+    
+}
+.container-button-guide-book .area-guide-book.vietnam.visible{
+    background-image: url('/assets/img/page2016/vietnam.jpg');
+}
+.container-button-guide-book .area-guide-book.laos.visible{
+    background-image: url('/assets/img/page2016/laos.jpg');
+}
+.container-button-guide-book .area-guide-book.cambodge.visible{
+    background-image: url('/assets/img/page2016/cambodge.jpg');
+}
+.container-button-guide-book .area-guide-book.birmanie.visible{
+    background-image: url('/assets/img/page2016/birmanie.jpg');
+}
+.container-button-guide-book .area-guide-book.visible{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0;
+}
+
+.container-button-guide-book .area-guide-book::before{
+    content: '';
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #e6e6e4;
+    bottom: 0;
+    z-index: 0;
+/*    display: none;*/
+}
+.container-button-guide-book .area-guide-book .img-book{
+    z-index: 1;
+    position: relative;
+}
+.container-button-guide-book .area-guide-book .img-book::before, container-button-guide-book .area-guide-book .img-book::after
+{
+/*    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 58px;
+    left: 32px;
+    width: 84%;
+    top: 76%;
+    max-width: 289px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: -161px 87px 30px #777;
+    -webkit-transform: rotate(-16deg);
+    -moz-transform: rotate(-16deg);
+    -o-transform: rotate(-16deg);
+    -ms-transform: rotate(-16deg);
+    transform: rotate(16deg);*/
+}
+.container-button-guide-book .area-guide-book .img-book::after
+{
+/* -webkit-transform: rotate(-16deg);
+    -moz-transform: rotate(-16deg);
+    -o-transform: rotate(-16deg);
+    -ms-transform: rotate(-16deg);
+    transform: rotate(16deg);
+  right: 10px;
+  left: auto;*/
+    content: '';
+    position: absolute;
+    right: 100%;
+    width: 167px;
+    height: 98px;
+    background: url(/assets/img/page2016/shadow-guide-book.png) right bottom no-repeat;
+    bottom: 0;
+    background-size: 100%;
+    
+        
+}
+
+
+
+.container-button-guide-book .area-guide-book .right-guide{
+    width: 390px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.container-button-guide-book .area-guide-book .right-guide p:first-of-type{
+    line-height: 1.2;
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-button-guide-book .area-guide-book .right-guide p{
+    margin: 0;
+}
+.container-button-guide-book .area-guide-book .right-guide p:nth-of-type(2){
+    margin-bottom: 16px;
+}
+.container-button-guide-book .area-guide-book .right-guide form input{
+    width: 100%;
+    margin: 22px 0 0px;
+    font-family: LatoLatin-Regular,sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 48px;
+    border: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b1b1b1;
+    font-size: 13.5px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #b1b1b1;
+    font-size: 13.5px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #b1b1b1;
+    font-size: 13.5px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #b1b1b1;
+    font-size: 13.5px;
+}
+.container-button-guide-book .area-guide-book .right-guide form .error-email{
+    font-size: 13px;
+    color: #e35429;
+    margin-top: 5px;
+    line-height: 1;
+    display: none;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.container-button-guide-book .area-guide-book .right-guide form .submit-email{
+    float: right;
+    margin-top: 25px;
+}
+
+.container-button-guide-book .area-guide-book .right-guide form input[type="checkbox"]+span {
+    background: url(/assets/img/page2016/bg_checkbox.png) no-repeat scroll left center;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    margin: 1px 5px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    float: left;
+    
+}
+.container-button-guide-book .area-guide-book .right-guide form input[type=checkbox]:checked+span {
+    background: url(/assets/img/page2016/bg_checkbox_active.png) no-repeat scroll left center;
+}
+@media (max-width: 960px){
+    .container-button-guide-book .amc-column {
+        width: 100% !important;
+    }
+}

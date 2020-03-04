@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 12, 2019, 9:47:17 AM
+    Author     : dtnguyen
+*/
+#tabletFilter{
+       font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    height: 100%;
+    overflow: scroll;
+}
+.amc-filter-tablet{
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    background: white;
+    display: block;
+    z-index: 999;
+    visibility: hidden;
+}
+.amc-filter-tablet.show{
+    width: 100%;
+    background: white;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    visibility: visible;
+    transition-duration: 0.1s;
+    transition-property: top;
+    transition-timing-function: ease-out;
+}
+#tabletFilter .updatefilter{
+    padding: 0 35px 80px;
+    margin-top: 40px;
+}
+#tabletFilter .custom-header{
+    height: 72px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #bfbfbf;
+    display: flex;
+    align-items: center;
+    padding: 0 15px 0 35px;
+}
+#tabletFilter .custom-header .tt-text-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+}
+#tabletFilter .btn-close{
+    width: 70px;
+    height: 72px;
+    background: url(/assets/img/mobile/icon_x_37_40.png) center center no-repeat;
+    text-indent: -9999px;
+    background-size: 26px;
+}
+#tabletFilter ul.options{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#tabletFilter .options li{
+    float: left;
+    display: flex;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    align-items: center;
+    color: #b1b1b1;
+    padding: 0 0px 0 14px;
+    width: calc((100% - 36px)/4);
+    margin-right: 12px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#tabletFilter .options li.selected{
+    background: #e75925;
+    color: white;
+}
+#tabletFilter .options li:nth-of-type(4n){
+    margin-right: 0;
+}
+#tabletFilter .options.voyage li{
+    width:calc((100% - 24px)/3);
+    margin-right: 12px;
+}
+#tabletFilter .options.voyage li:nth-of-type(3n){
+    margin-right: 0;
+}
+#tabletFilter .options.voyage li:nth-of-type(4n){
+    margin-right: 12px;
+}
+#tabletFilter .updatefilter p.tt-title {
+    margin-bottom: 12px;
+    margin-top: 25px;
+    text-align: left;
+}
+#tabletFilter .area-reset-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+#tabletFilter .area-reset-filter .reset-filter{
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #acacac;
+    width: 25%;
+    border-radius: 5px;
+}
+#tabletFilter .fix-button-filter{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#tabletFilter .cs-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    background: #e75925;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}

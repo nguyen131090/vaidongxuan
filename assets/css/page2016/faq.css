@@ -1,0 +1,345 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 3:52:20 PM
+    Author     : dtnguyen
+
+*/
+.space{
+    display: block;
+    
+    width: 100%;
+    clear: both;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.space-65{
+    height: 65px;
+    
+}
+.space-60{
+    height: 60px;
+}
+.space-40{
+    height: 38px;
+}
+.space-50{
+    height: 50px;
+}
+.space-25{
+    height: 25px;
+}
+.fix-space-33{
+    height: 33px;
+}
+.fix-space-27{
+    height: 27px;
+}
+.fix-space-31{
+    height: 31px;
+}
+.fix-space-30{
+    height: 30px;
+}
+.space-41{
+    height: 41px;
+}
+.space-36{
+    height: 36px;
+}
+.space-35{
+    height: 35px;
+}
+.tt{
+    margin: 0;
+    padding: 0;
+    
+}
+.tt-latolatin-bold{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.tt-latolatin-regular{
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.tt-24{
+    font-size: 24px;
+    
+}
+.tt-18{
+    font-size: 18px;
+    
+}
+.tt-40{
+    font-size: 40px;
+}
+
+.tt-uppercase{
+    text-transform: uppercase;
+}
+.tt-color-white{
+    color: white; 
+}
+.fix-align-center{
+    text-align: center;
+}
+.contain.container-1::before {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contain .rows{
+    float: left;
+    clear: left;
+    width: 100%;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 1100px;
+}
+.container-1 .amc-column h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 37px;
+}
+.container-1 .row-2 .tt-custom{
+    margin: 0 0 10px 0;
+}
+.container-1 .row-2 .search-question{
+    width: 488px;
+    margin: 0 auto;
+    
+}
+.container-1 .row-2 .search-question .input-question{
+    border: medium none;
+    border-radius: 0;
+    color: #dedede;
+    float: left;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 15.5px;
+    height: 42px;
+    margin: 0 0 0px;
+    padding: 0 0 0 19px;
+    width: 100%;
+    background: #e1653f url(/assets/img/page2016/icon_search_faq.png) 445px center no-repeat;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.container-1 .row-2 .search-question .input-question::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #dedede;
+  opacity: 0.5;
+}
+.container-1 .row-2 .search-question .input-question::-moz-placeholder { /* Firefox 19+ */
+  color: #dedede;
+  opacity: 0.5;
+}
+.container-1 .row-2 .search-question .input-question:-ms-input-placeholder { /* IE 10+ */
+  color: #dedede;
+  opacity: 0.5;
+}
+.container-1 .row-2 .search-question .input-question:-moz-placeholder { /* Firefox 18- */
+  color: #dedede;
+  opacity: 0.5;
+}
+.container-1 .row-2 .area-query-search{
+    
+   
+    float: left;
+    position: relative;
+    width: 100%;
+    
+}
+.container-1 .row-2 .area-query-search.active{
+    background: #dadada;
+    border-top-left-radius: 25px;
+    
+    border-top-right-radius: 25px;
+}
+.container-1 .row-2 .result-search{
+    position: absolute;
+    left: 0;
+    top: 44px;
+   
+    width: 100%;
+    display: none;
+}
+.container-1 .row-2 .result-search.active{
+    display: block;
+}
+.container-1 .row-2 .result-search ul{
+    margin: 0;
+    padding: 7px 18px 2px;
+    list-style: none;
+    width: 100%;
+     background: #dadada;
+}
+.container-1 .row-2 .result-search ul li{
+    margin-bottom: 15px;
+}
+.container-1 .row-2 .result-search ul li.selected{
+    background: #c0c0c0;
+}
+
+.container-2 .item{
+    float: left;
+    width: 194px;
+    
+}
+.container-2 .item a{
+    display: block;
+}
+.container-2 .item a:hover{
+    color: inherit;
+}
+.container-2 .item-2{
+    width: 300px;
+    margin-left: 133px;
+}
+.container-2 .item-3{
+    width: 200px;
+    margin-left: 111px;
+}
+.container-2 .item-4{
+    width: 196px;
+    
+}
+.container-2 .item-5{
+    width: 300px;
+    margin-left: 133px;
+}
+.container-2 .item-6{
+    width: 200px;
+    margin-left: 111px;
+}
+.container-2 .item img{
+    display: inline-block;
+    margin-top:2px; 
+}
+
+.container-2 .item .tt-custom{
+    margin-top: 14px;
+}
+.fix-border .border{
+     border-bottom: 1px solid #c6b995;
+    display: block;
+    height: 1px;
+    margin: -1px auto;
+    width: 100px;
+}
+.container-4 .tt-custom{
+   
+}
+.container-4 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+@media (max-width: 763px){
+    .amc-column{
+        width: 100% !important;
+        padding: 0 10px !important;
+    }
+    .amc-column .rows{
+        width: 100%;
+    }
+    .container-1{
+        margin-top: 80px;
+    }
+    .container-1.fix-top{
+        margin-top: 50px;
+    }
+    .container-1 .row-1{
+        top:0;
+    }
+    .container-1 .breadcrumb{
+        width: 100%;
+    }
+    .container-1 .amc-column .title{
+        font-size: 20px;
+    }
+    .img-responsive{
+        width: 100%;
+    }
+    .container-1 .row-2 .search-question{
+        width: 100%;
+    }
+    .container-1 .row-2 .tt-custom.tt-responsive{
+        font-size: 23px;
+    }
+    .space-65.fix-responsive{
+        height: 25px;
+    }
+    .container-2 .item{
+        float: none;
+        margin: 0 auto 40px !important;
+        width: 100%;
+    }
+    .space.fix-responsive-hide{
+        display: none;
+    }
+    
+}

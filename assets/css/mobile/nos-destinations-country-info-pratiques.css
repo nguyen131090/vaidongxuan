@@ -1,0 +1,273 @@
+
+.tour-slider.swiper-container-horizontal>.swiper-scrollbar{
+	    bottom: 50%;
+}
+
+.tour-slider .swiper-slide .text-on-img h3, .secrets-slider .swiper-slide .tt-custom {
+    margin: 0rem 0 0.5rem;
+   
+    
+}
+
+.swiper-slide{
+	overflow: hidden;
+}
+/*.swiper-container-horizontal>.swiper-scrollbar{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}*/
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2.5rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 92%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary .tt-custom{
+    text-align: left !important;
+}
+.text-sumary p{
+    text-align: left !important;
+    
+}
+
+.full-text{
+    display: none;
+}
+/* End Css Banner Filter */
+
+
+
+/* Slide tour exclusive */
+.exclusive-slider .secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .exclusive-slider .secrets-slider .item-slide{
+     position: relative;
+ }
+ .exclusive-slider .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .exclusive-slider .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.exclusive-slider .swiper-slide img{
+    width: 100%;
+}
+
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+/* End css slide tour exclusive */
+
+/* Css all item no on_top */
+
+.all-item-no-on-top .all-aticle {
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.all-item-no-on-top .all-aticle li {
+    float: left;
+    width: 100%;
+    display: table;
+    margin: 0;
+    padding: 1rem 0 1rem 2rem;
+    border-radius: 0.5rem;
+    
+}
+.vietnam.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #e6a85e;
+}
+.laos.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #e65925;
+}
+.cambodge.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #ca8b09;
+}
+.birmanie.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #d64c48;
+}
+.all-item-no-on-top .all-aticle li a {
+    display: table-cell;
+    height: 3.4rem;
+    text-align: left;
+    position: relative;
+    padding-left: 4.8rem;
+    vertical-align: middle;
+}
+.all-item-no-on-top .all-aticle li .icon.vietnam {
+    background-color: #e6a85e;
+}
+.all-item-no-on-top .all-aticle li .icon.laos {
+    background-color: #e65925;
+}
+.all-item-no-on-top .all-aticle li .icon.cambodge {
+    background-color: #ca8b09;
+}
+.all-item-no-on-top .all-aticle li .icon.birmanie {
+    background-color: #d64c48;
+}
+.all-item-no-on-top .all-aticle li .icon {
+    width: 3.4rem;
+    height: 3.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.see-more{
+    float: left;
+    width: 100%;
+}
+.btn-see-more{
+    display: block;
+    text-align: center;
+    border-radius: 3rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+/* End css all item no on_top */
+
+/* Css Tour Voyage */
+.secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .secrets-slider .item-slide{
+     position: relative;
+ }
+ .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+     padding: 0 1rem;
+ }
+.swiper-slide img{
+    width: 100%;
+}
+.item-tour-voyage {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.item-tour-voyage .swiper-button-prev {
+    background: url(/assets/img/mobile/arrow-white-back-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    left: -4vw;
+}
+.item-tour-voyage .swiper-button-next {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    right: -4vw;
+}
+/* End Css Tour Voyage */
+
+@media only screen and (orientation:landscape){
+    .exclusive-slider .swiper-slide{
+        width: 40%;
+    }
+    .all-item-no-on-top .all-aticle li{
+        width: 31%;
+        display: inline-block;
+    }
+    .space.space-horizontal{
+        float: left;
+        width: 3.5%;
+    }
+    .all-item-no-on-top .all-aticle li{
+        padding: 0;
+    }
+    .all-item-no-on-top .all-aticle li a{
+        padding: 0 0 1.5rem;
+        text-align: center;
+        height: auto;
+        display: block;
+    }
+    .all-item-no-on-top .all-aticle li .icon{
+        position: inherit;
+        left: auto;
+        top: auto;
+        margin: 1.5rem 0;
+    }
+    .all-item-no-on-top .all-aticle li a .text{
+        display: block;
+        padding: 0 8%;
+        
+    }
+    .hide-xoayngang{
+        display: none;
+    }
+}

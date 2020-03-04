@@ -1,0 +1,332 @@
+
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.container-filter .custom-btn-filter{
+    display: inline-block;
+    width: 100%;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.container-filter .tt-custom-btn-filter{
+    
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+    display: block;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom .tt-custom-btn-filter{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    bottom: 0;
+    width: 100%;
+}
+.area-filter .tt-custom-btn-filter{
+    display: inline-block;
+   
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+
+/* Css Item Tour Voyage */
+.all-tour .item{
+    position: relative;
+/*    display: table;*/
+}
+/*.all-tour .item .col{
+    float: left;
+    width: 100%;
+}*/
+.all-tour .col-right .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+/*    top: 13rem;*/
+    padding: 0 1.25rem;
+}
+.all-tour .item a{
+    position: relative;
+    display: block;
+}
+.all-tour .item a .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+}
+.all-tour .item .col-right .title .tt-custom{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 6.2rem;*/
+    
+    line-height: 6.5vmin;
+    
+
+}
+.all-tour .item .col-right .title .tt-custom-sub-tt{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 2rem;*/
+    line-height: 5.5vmin;
+    
+}
+.summary{
+    float: left;
+    width: 100%;
+}
+.container-3 .item {
+    display: flex;
+    align-items: center;
+}
+.container-3 .item .col-left{
+    float: left;
+    width: 9rem;
+}
+.container-3 .item .col-left img{
+    border-radius: 100%;
+}
+.container-3 .item .col-right{
+    float: left;
+    width: 60%;
+    padding-left: 2rem;
+}
+.container-3 .item .col-right .title{
+/*    min-height: 9rem;
+    height: 9rem;
+    display: table;*/
+}
+.container-3 .item .col-right .title .tt-custom{
+/*    display: table-cell;
+    vertical-align: middle;*/
+}
+.contain-background-ededed{
+    background: #ededed;
+}
+.container-4 .tt{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.container-4 .tt strong{
+    
+    display: block;
+    width: 100%;
+    font: 2rem LatoLatin-Bold,sans-serif;
+}
+
+.container-4 .left p:nth-of-type(1){
+    display: none;
+}
+.container-4 .left p:nth-of-type(2){
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #e65925;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 1.5rem;
+}
+.container-4 .left br{
+    display: none;
+}
+.container-4 .right iframe{
+    margin: 1.2rem 0 0;
+}
+.excl-container {
+    background: #fff;
+    display: inline-block;
+    margin-top: 2.5rem;
+}
+.excl-container .block-excl .tt {
+    font: 3.4rem Grand hotel,sans-serif;
+    text-transform: none;
+    color: #000;
+}
+.excl-container .block-excl .tt span{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+
+img.focus-center {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 500px;
+    height: 22.25rem;
+}
+ .excl-container .btn-excl{
+    width: 100%;
+    height: 5rem;
+    border-radius: 2.5rem;
+    border: 1px solid #e97754;
+    color: #e97754;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font: 1.6rem LatoLatin-Bold,sans-serif;
+    text-transform: none;
+}
+.container-4 .right > p{
+    margin: 0;
+}
+ .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .raisons-slider{
+        position: relative;
+    }
+.raisons .tt{
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+
+}
+.raisons-slider .swiper-slide {
+    background: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 2.5rem 0 4rem;
+    height: auto;
+}
+.raisons-slider .swiper-pagination {
+    bottom: 2.5rem;
+    z-index: 1;
+}
+
+.raisons-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 3vmin;
+    height: 3vmin;
+    background: #fff;
+    opacity: .8;
+    box-shadow: 1px 0 5px;
+}
+.raisons-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background: #e35429;
+    box-shadow: none;
+}
+.raisons-slider .swiper-slide img{
+    border-radius: 100%;
+     width: 100%;
+}
+.raisons-slider .swiper-slide{
+    text-align: center;
+}
+.raisons-slider .tt-1{
+    margin: 2.5rem 0 0;
+}
+.raisons-slider .tt-2{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0;
+}
+.container-6 .tt-custom {
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 8.59375vmin;
+    line-height: 9.59375vmin;
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
+.container-6 .btn-link {
+    border-radius: 3rem;
+    border: .1rem #e65925 solid;
+    margin: 0;
+    width: 100%;
+    clear: left;
+    height: 4.7rem;
+    display: table;
+}
+.container-6 .btn-link span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 2rem;
+    line-height: 1;
+}
+.contain p{
+    line-height: 1.5;
+}
+/* Fix Css xoay ngang cho Iphone 4 */
+.container-2 .row-1 .two-col{
+    display: table;
+}
+.container-2 .row-1 .two-col .amc-col-2{
+    display: table-header-group;
+}
+.container-2 .row-1 .two-col .amc-col-1{
+    display: table-footer-group;
+}
+.container-2 .row-1 .two-col .amc-col-1 img{
+    margin-top: 2.5rem;
+}
+.container-2 .row-1 .full-content{
+    display: none;
+}
+.container-2 .row-1 .full-content.active{
+    display: block;
+}
+.container-2 .row-1 .sub-content.active{
+    display: block;
+}
+.full-show, .sub-show{
+    color: #e65925;
+}
+@media only screen and (orientation:landscape){
+    
+    .contain{
+        padding: 0 1.5rem;
+    }
+    .all-tour .item{
+        float: left;
+        width: 48%;
+    }
+    .space-horizontal{
+        display: inline-block;
+        width: 4%;
+        float: left;
+    }
+}
+
+/* End Fix Css xoay ngang cho Iphone 4 */
+
+/* Fix Css Xoay Ngang Iphone 5 tro len */
+
+
+@media (min-width: 568px) and (orientation:landscape){
+    
+}
+
+/* End  Fix Css Xoay Ngang Iphone 5 tro len */
+
+@media (min-width: 667px) and (orientation:landscape){
+    
+}

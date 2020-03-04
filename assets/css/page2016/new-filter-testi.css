@@ -1,0 +1,472 @@
+a/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 13, 2017, 10:19:28 AM
+    Author     : dtnguyen
+*/
+
+
+/* Css backgroundwhite*/
+.getcontent{
+    position: relative;
+}
+.backgroundwhite{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 98;
+    background: rgba(255,255,255,0.7);
+}
+/* End Css*/
+
+
+/* Fix Css Col Filter */
+
+.container-filter .row-1 .col-amc-2{
+    width: 240px;
+    padding: 0 10px;
+    margin: 0;
+    float: left;
+}
+.container-filter .search-form{
+    margin: 0;
+    background: #eaeaea;
+    padding: 15px 5px 20px 16px;
+    float: left;
+}
+.container-filter .row-1 .col-amc-2 .area-1{
+    margin: 30px 0;
+    background: #cbc0a2 none repeat scroll 0 0;
+    float: left;
+    padding: 0 15px;
+    text-align: center;
+}
+.container-filter .row-1 .col-amc-2 .area-1 .tt {
+    clear: left;
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 25px;
+    line-height: 23px;
+    margin: 20px 25px;
+}
+.container-filter .row-1 .col-amc-2 .area-1 ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.container-filter .row-1 .col-amc-2 .area-1 ul li {
+    float: left;
+    font-size: 13.5px;
+    width: 50%;
+}
+.container-filter .row-1 .col-amc-2 .area-1 ul li:last-child {
+    padding: 10px 0 0 10px;
+}
+
+.container-filter .title-filter{
+    background: #f1f1f1 url(/assets/img//page2016/3-gach-black.png) no-repeat scroll 168px center;
+    /* color: white; */
+    display: flex;
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 18px;
+    height: 60px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 14px 60px 13px 16px;
+    text-align: left;
+    float: left;
+    width: 100%;
+    align-items: center;
+}
+.container-filter .vietnam .title-filter{
+    background-color: #e6a85e;
+}
+.container-filter .laos .title-filter{
+    background-color: #e65925;
+}
+.container-filter .cambodge .title-filter{
+    background-color: #ca8b09;
+}
+.container-filter .birmanie .title-filter{
+    background-color: #d44c47;
+}
+.container-filter .search-form .cs-select .cs-placeholder{
+    font-size: 15.5px;
+    font-family: "LatoLatin-Bold",sans-serif;
+    color: #3e3e3e;
+    background: none;
+    border: none;
+    cursor: default;
+    padding: 0 0 0 0px;
+    line-height: inherit;
+    margin-bottom: 3px;
+}
+.container-filter .form-search .cs-select{
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.container-filter .form-search .cs-select .cs-options{
+    display: block !important;
+    border: none;
+    float: left;
+}
+.container-filter .form-search .cs-select .cs-options > ul{
+    border-top: none; 
+    padding: 0;
+    
+}
+.container-filter .search-form .filter-type .cs-options ul li{
+    font-size: 14px;
+    color: #3e3e3e;
+    background: url(/assets/img/page2016/filter_checkbox_new.png) 0 2px no-repeat;
+    line-height: 18px;
+    margin: 6px 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+    width: 100%;
+    padding-left: 32px;
+    white-space: normal;
+    
+}
+.container-filter .search-form .filter-type .cs-options ul li:hover{
+    color: #3e3e3e;
+}
+.container-filter .search-form .filter-type .cs-options ul li.active{
+         background: url(/assets/img/page2016/filter_checkbox_active_new.png) 0 2px no-repeat;
+    color: #e75925;
+}
+
+.container-filter .form-search .fix-css-option-filter .cs-options > ul >li{
+    background: none;
+    float: left;
+    border: 1px solid #adadad;
+    border-radius: 3px;
+    width: 82px;
+    line-height: 26px;
+    display: inline-block;   
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 14px;
+}
+.container-filter .form-search .fix-css-option-filter .cs-options > ul >li:nth-of-type(2n+1){
+    margin-right: 30px;
+}
+.container-filter .form-search .fix-css-option-filter .cs-options > ul >li:hover{
+    color: #3e3e3e;
+}
+.container-filter  .search-form .fix-css-option-filter .cs-options > ul > li.active{
+    background: #e35429;
+    color: white;
+    border-color: #e35429;
+}
+.container-filter .form-search hr{
+    
+    border-top: 1px solid #717171;
+    width: 95%;
+    float: left;
+    margin: 12px 0 15px;
+}
+.container-filter .form-search .cs-select .list-option{
+    display: none;
+}
+.container-filter .search-form .cs-select.submit{
+    float: left;
+    margin: 15px 0 0;
+    width: 100%;
+}
+.container-filter .row-1 .col-amc-2 .fix-area{
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.container-filter .row-1 .col-amc-2 .fix-area .btn-contact{
+    display: block;
+    float: left;
+    font-size: 16.5px;
+    height: 47px;
+    line-height: 47px;
+    margin: 12px 0 0 -15px;
+    padding: 0;
+    width: 116%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+     background: #da521f none repeat scroll 0 0;
+    clear: left;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-filter .img-filter{
+    float: left;
+    height: 178px;
+    margin: 10px 0 13px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.container-filter .img-filter .map-filter-country{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+.container-filter .img-filter .map-filter-country.active{
+    display: block;
+}
+
+.container-filter .search-form .cs-select.active .cs-placeholder{
+    border-bottom: none;
+}
+.container-filter .search-form .cs-select.submited{
+    background: #3e3e3e;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .container-filter .search-form .filter-type .cs-options ul li{
+        padding-top: 1px;
+    }
+}
+/* End Fix Css*/
+
+/* Fix Css Filter page vietnam/itineraire */
+
+.container-filter .tab-panel-3 .search-form {
+    background: #eaeaea none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 15px 13px 20px;
+    border: none;
+}
+.container-filter .tab-panel-3 .search-form form {
+    background: none;
+    bottom: 0px;
+    padding-right: 0px;
+    position: relative;
+    float: left;
+}
+
+.container-filter .tab-panel-3 .search-form .cs-select .cs-options{
+    background: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    left: 0;
+    padding: 0 0px;
+    position: relative;
+    width: auto;
+    z-index: 1;
+    top: 0;
+}
+.container-filter .tab-panel-3 .search-form .form-search .cs-select {
+    border: medium none;
+    border-radius: 0;
+    cursor: default;
+    float: left;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.container-filter .tab-panel-3 .search-form .form-search .fix-css-option-filter .cs-options > ul > li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #adadad;
+    border-radius: 3px;
+    color: #3e3e3e;
+    display: inline-block;
+    float: left;
+    line-height: 26px;
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    width: 82px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.container-filter .tab-panel-3 .search-form .form-search .fix-css-option-filter .cs-options > ul > li.active{
+     background: #e35429 none repeat scroll 0 0;
+    border-color: #e35429;
+    color: white;
+} 
+.container-filter .tab-panel-3 .search-form .form-search .cs-select .cs-options > ul {
+    border-top: medium none;
+    margin: 0;
+    padding: 0;
+}
+.container-filter .tab-panel-3 .search-form .form-search .fix-css-option-filter .cs-options > ul > li:nth-of-type(2n+1) {
+    margin-right: 30px;
+}
+
+.container-filter .tab-panel-3 .search-form .filter-type .cs-options ul li {
+    background: rgba(0, 0, 0, 0) url("/assets/img//page2016/filter_checkbox.png") no-repeat scroll 0 -38px;
+    color: #3e3e3e;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 7px 0;
+    padding-bottom: 0;
+    padding-top: 0px;
+    width: 100%;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.container-filter .tab-panel-3 .search-form .filter-type .cs-options ul li:hover{
+    color: #3e3e3e;
+}
+.container-filter .tab-panel-3 .search-form .filter-type .cs-options ul li.active {
+    background: rgba(0, 0, 0, 0) url("/assets/img//page2016/filter_checkbox.png") no-repeat scroll 0 0;
+}
+
+.container-filter .tab-panel-3 .fix-area{
+     background: #cbc0a2 none repeat scroll 0 0;
+    float: left;
+    margin: 30px 0px;
+    padding: 0 15px;
+    text-align: center;
+}
+.container-filter .tab-panel-3 .fix-area .tt{
+    clear: left;
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 25px;
+    line-height: 23px;
+    margin: 20px 25px;
+}
+.container-filter .tab-panel-3 .fix-area ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.container-filter .tab-panel-3 .fix-area ul li {
+    float: left;
+    font-size: 13.5px;
+    width: 50%;
+}
+.container-filter .tab-panel-3 .fix-area ul li:last-child {
+    padding: 10px 0 0 10px;
+}
+.container-filter .tab-panel-3 .fix-area .btn-contact {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: block;
+    float: left;
+    font-size: 16.5px;
+    height: 47px;
+    line-height: 47px;
+    margin: 12px 0 0 -15px;
+    padding: 0;
+    width: 116%;
+    background: #da521f none repeat scroll 0 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-filter .tab-panel-3 .fix-area .btn-contact:hover{
+    opacity: 0.8;
+}
+.container-filter .tab-panel-3 .search-form .cs-select.submit {
+    background: #da521f none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "LatoLatin-Bold",sans-serif;
+    line-height: 33px;
+   
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 0px;
+    font-size: 13.5px;
+    float: left;
+    margin: 15px 0 0;
+}
+.container-filter .tab-panel-3 .search-form .cs-select.submited{
+    background: #3e3e3e;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .container-filter .tab-panel-3 .search-form .filter-type .cs-options ul li{
+        padding-top: 1px;
+    }
+}
+
+/* End Css */
+
+.result-filter{
+    float: left;
+    width: 100%;
+   
+}
+
+.result-filter .fix-text{
+    height: 100px;
+    display: block;
+    background: url(/assets/img/page2016/bg_result_filter.jpg) 0 0 no-repeat;
+    margin: 0 0 30px;
+}
+.vietnam .result-filter .fix-text{
+    background: url(/assets/img/page2016/bg_result_filter_vietnam.jpg) 0 0 no-repeat;
+}
+.laos .result-filter .fix-text{
+    background: url(/assets/img/page2016/bg_result_filter_laos.jpg) 0 0 no-repeat;
+}
+.cambodge .result-filter .fix-text{
+    background: url(/assets/img/page2016/bg_result_filter_cambodge.jpg) 0 0 no-repeat;
+}
+.birmanie .result-filter .fix-text{
+    background: url(/assets/img/page2016/bg_result_filter_birmanie.jpg) 0 0 no-repeat;
+}
+.result-filter .fix-text .gettext{
+    color: white;
+    display: inline-block;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 13.5px;
+    line-height: 16px;
+    padding: 30px 0 18px 16px;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+}
+.result-filter .fix-text .gettext .number{
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.result-filter .fix-text .gettext.fix-tour-type .number{
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.result-filter .remove-result-filter{
+    color: #575656;
+    cursor: pointer;
+    float: left;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0px 0 18px;
+    text-align: right;
+    text-decoration: underline;
+    width: 100%;
+    display: none;
+}
+.result-filter .remove-result-filter.active{
+    display: block;
+}
+/*.text-auto{
+    display: none;
+}
+.text-auto.active{
+    display: block;
+}*/

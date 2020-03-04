@@ -1,0 +1,285 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2019, 2:18:20 PM
+    Author     : dtnguyen
+*/
+#video{
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+#video h2{
+    margin: 35px 0 30px !important;
+}
+.parent-caption{
+    margin-bottom: 0;
+}
+.caption-image{
+    font-size: 13.5px !important;
+    font-family: 'Lato-Regular', sans-serif !important;
+    color: #6b6b6b !important;
+}
+
+.contain {
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+
+.contain .amc-column {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+
+.amc-row h1{
+    font-size: 24px;
+    color: #e65925;
+    font-family: LatoLatin-Bold;
+    margin: 0 0 33px 0 !important;
+}
+.amc-row h2{
+    font-size: 24px;
+    font-family: LatoLatin-Bold;
+    margin: 0 0 33px 0 !important;
+}
+.amc-row-1{
+    width: 140%;
+    margin-right: -40%;
+    margin-top: 65px;
+}
+.amc-row-1 .amc-col-left{
+    width: 460px;
+    text-align: left;
+    float: left;
+    padding-top: 85px;
+}
+.amc-row-1 img{
+    margin-left: -75px;
+}
+.amc-row-2{
+    width: 122%;
+    margin: 55px -11% 0;
+}
+.amc-row-2 img{
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+    display: inline-block;
+    margin: 0 auto;
+}
+.amc-row-3{
+    margin-top: 33px;
+    padding: 0 55px;
+}
+.amc-row-4{
+    width: 100vw;
+    margin: 55px calc(((100vw - 940px)/2)*-1) 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 40px;
+}
+.amc-row-4 .amc-col-left{
+    margin-right: 45px;
+        width: 40.5%;
+    overflow: hidden;
+}
+.amc-row-4 .amc-col-left p:last-of-type{
+    text-align: right;
+}
+.amc-row-4 .amc-col-right{
+    width: 620px;
+}
+.amc-row-5{
+    display: flex;
+    margin-top: 55px;
+}
+.amc-row-5 .amc-col-left{
+    margin: 0 40px 0 0px;
+}
+.amc-row-7{
+    width: 100vw;
+    margin: 55px calc(((100vw - 960px)/2)*-1) 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 40px;
+}
+.amc-row-7 .amc-col-left{
+    width: 400px;
+    margin-right: 80px;
+}
+.amc-row-7 .amc-col-right{
+    width: 51%;
+    min-width: 40%;
+    max-width: 52%;
+}
+.amc-row-8{
+    display: flex;
+    width: 1120px;
+    margin: 55px -80px 0;
+}
+.amc-row-8 .amc-col-left{
+    margin-right: 35px;
+}
+.amc-row-8 .amc-col-left p:first-of-type{
+    margin-bottom: 25px;
+}
+.amc-row-9{
+    margin: 30px 0 0 0;
+}
+.amc-row-10{
+    display: flex;
+    margin: 55px 0px 55px 0;
+}
+.amc-row-10 .amc-col-left{
+    margin: 0 40px 0 0;
+}
+@media (max-width: 960px){
+    .amc-row{
+        width: 100% !important;
+    }
+    .amc-row-1{
+        display: table;
+    }
+    .amc-row-1 img{
+        display: table-header-group;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+    .amc-row-1 .amc-col-left{
+        display: table-footer-group;
+        float: none;
+    }
+    .amc-row-2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .amc-row-2 img{
+        margin-left: -5%;
+        width: 110% !important;
+        margin-right: -5%;
+        max-width: 110%;
+    }
+    .amc-row-3{
+        padding: 0;
+    }
+    .amc-row-4{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .amc-row-4 .amc-col-left{
+        margin: 0;
+        width: 100%;
+        overflow: unset;
+    }
+    .amc-row-4 .amc-col-left img{
+        width: 110% !important;
+        margin: 0 -5%;
+    }
+    .amc-row-4 .amc-col-right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .amc-row-5 .amc-col-left{
+        margin-left: 0;
+        width: 50%;
+    }
+    .amc-row-5 .amc-col-right{
+        width: 50%;
+    }
+    .amc-row-5 .amc-col-right img{
+        width: 115% !important;
+        
+    }
+    .amc-row-7{
+        display: table;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .amc-row-7 .amc-col-left{
+        width: 100%;
+        margin: 0;
+        display: table-footer-group;
+    }
+    .amc-row-7 .amc-col-right{
+        display: table-header-group;
+    }
+    .amc-row-7 .amc-col-right p:last-of-type{
+        margin-bottom: 35px;
+    }
+    .amc-row-7 .amc-col-right img{
+        width: 110% !important;
+        margin: 0 -5%;
+    }
+    .amc-row-8{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .amc-row-8 .amc-col-left, .amc-row-8 .amc-col-right{
+        width: 50%;
+    }
+    .amc-row-8 .amc-col-left{
+        margin-right: 25px;
+    }
+    .amc-row-8 .amc-col-left img{
+        width: 110% !important;
+        margin-left: -10%;
+    }
+    .amc-row-8 .amc-col-right img{
+        width: 110% !important;
+        margin-right: -10%;
+    }
+    .amc-row-8 .amc-col-left p:first-of-type{
+        margin-bottom: 17px;
+    }
+    .amc-row-10 div{
+        width: 50%;
+    }
+    .amc-row-10 .amc-col-left img{
+        width: 110% !important;
+        margin-left: -10%;
+    }
+}
+@media (max-width: 1025px){
+    .amc-row-5 .amc-col-left{
+        margin-left: 0;
+    }
+}

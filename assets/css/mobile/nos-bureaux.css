@@ -1,0 +1,251 @@
+
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+.container-filter .custom-btn-filter{
+    display: inline-block;
+    width: 100%;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.container-filter .tt-custom-btn-filter{
+    
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+    display: block;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom .tt-custom-btn-filter{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    bottom: 0;
+    width: 100%;
+}
+.area-filter .tt-custom-btn-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+
+/* Css Item Tour Voyage */
+.all-tour .item{
+    position: relative;
+/*    display: table;*/
+}
+/*.all-tour .item .amc-col{
+    float: left;
+    width: 100%;
+}*/
+.all-tour .col-right .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3.5rem;
+/*    top: 13rem;*/
+    padding: 0 1.25rem;
+}
+.all-tour .item a{
+    position: relative;
+    display: block;
+}
+.all-tour .item a .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+}
+.all-tour .item .col-right .title .tt-custom{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 6.2rem;*/
+    
+    line-height: 6.5vmin;
+    
+
+}
+.all-tour .item .col-right .title .tt-custom-sub-tt{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 2rem;*/
+    line-height: 5.5vmin;
+    
+}
+.summary{
+    float: left;
+    width: 100%;
+}
+
+.list-info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    float: left;
+}
+.list-info li{
+    float: left;
+    min-height: 3.4rem;
+    height: 3.4rem;
+    font-size: 1.2rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.list-info li.country{
+    padding-left: 2.45rem;
+    background: url(/assets/img/mobile/address-49-43.png) 0 0.7rem no-repeat;
+    padding: 0.3rem 0 0.1rem 2.95rem;
+    background-size: 2.45rem auto;
+    display: table;
+    width: 32%;
+}
+.list-info li.country span{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+.list-info li.time{
+    padding-left: 2.45rem;
+    background: url(/assets/img/mobile/calendar-35-37.png) 0 center no-repeat;
+    padding: 0.3rem 0 0.1rem 2.25rem;
+    background-size: 1.75rem auto;
+    display: table;
+    width: 25%;
+}
+.list-info li.time span{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+.secrets-ailleurs.list-info li.loaitour{
+    width: 49%;
+}
+
+.list-info li.loaitour{
+    
+    display: table;
+    padding: 0.3rem 0 0.1rem;
+    /* position: relative; */
+    width: 40%;
+    float: right;
+}
+.list-info li.loaitour .icon{
+    background-image: url(/assets/img/mobile/icon-tour-45-46.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    float: left;
+    height: 2.3rem;
+    margin-right: 0.5rem;
+    width: 2.25rem;
+    min-height: 3rem;
+    max-width: 3rem;
+}
+.list-info li.loaitour .text{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.btn-see-more{
+    display: block;
+    text-align: center;
+    border-radius: 3rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+/* End Css Item Tour Voyage */
+
+.contain-background-ededed{
+    background: #ededed;
+}
+.container-6 .tt-custom{
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 2.75rem;
+    line-height: 3rem;
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+.container-6 .btn-link{
+    border-radius: 3rem;
+    border: 0.1rem #e65925 solid;
+    margin: 0;
+    width: 100%;
+    clear: left;
+    height: 4.7rem;
+    display: table;
+}
+.container-6 .btn-link span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+/* Fix Css xoay ngang cho Iphone 4 */
+
+@media only screen and (orientation:landscape){
+    
+    .contain{
+        padding: 0 1.5rem;
+    }
+    .all-tour .item{
+        float: left;
+        width: 48%;
+    }
+    .space-horizontal{
+        display: inline-block;
+        width: 4%;
+        float: left;
+    }
+}
+
+/* End Fix Css xoay ngang cho Iphone 4 */
+
+/* Fix Css Xoay Ngang Iphone 5 tro len */
+
+
+@media (min-width: 568px) and (orientation:landscape){
+    
+}
+
+/* End  Fix Css Xoay Ngang Iphone 5 tro len */
+
+@media (min-width: 667px) and (orientation:landscape){
+    
+}

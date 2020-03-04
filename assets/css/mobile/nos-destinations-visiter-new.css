@@ -1,0 +1,358 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 8, 2019, 10:54:24 AM
+    Author     : dtnguyen
+*/
+
+.leaflet-control-attribution a{ display: none; }
+.leaflet-popup-content-wrapper{
+    box-shadow: none;
+    border-radius: 5px;
+}
+.leaflet-popup-content{
+    margin: 2px 20px;
+}
+.leaflet-container a{
+    color: #000;
+}
+
+.tt-color-6b6b6b{
+    color: #6b6b6b;
+}
+.banner {
+    position: relative;
+    margin: -0.3rem -4vw 0;
+    min-height: 20rem;
+}
+.banner .text-on-banner {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0));
+    
+}
+.banner .text-on-banner h1 {
+    color: #fff;
+    font-size: 2.25rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0rem;
+}
+.area-text h2{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.area-text .amc-btn-control-text{
+    color: #e65925;
+    cursor: pointer;
+}
+.area-text .fullstring-text{
+    display: none;
+}
+.area-text .last-character {
+    display: none;
+}
+.area-input{
+    margin: 2rem 0 2.5rem;
+}
+.container-search-destination-map .amc-column{
+    position: relative;
+    z-index: 1;
+}
+.control-map{
+    margin: 0 -4vw;
+    z-index: 0;
+    position: relative;
+}
+.control-map #map{
+    min-height: 32rem;
+    width: 100%;
+    display: flex;
+}
+.area-query-destination .ui-input-text{
+    border: none;
+}
+.search-destination .area-query-destination {
+   
+    position: relative;
+    width: 100%;
+}
+.area-query-destination input{
+    border: 1px solid #b1b1b1;
+    height: 4.5rem;
+    background: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+}
+.result-search {
+    position: absolute;
+    left: 0;
+    top: 4.6rem;
+    width: 100%;
+    display: none;
+}
+.result-search.active {
+    display: block;
+}
+.result-search ul {
+    margin: 0;
+    padding: 1.5rem 1.8rem 0.2rem;
+    list-style: none;
+    width: 100%;
+    background: #ececec;
+    border: 1px solid #b1b1b1;
+}
+.result-search ul li {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.result-search ul li.selected {
+    background: #c0c0c0;
+}
+.result-search ul li.selected .it{
+    color: #e65925;
+}
+.result-search ul li .it {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    padding-left: 1rem;
+}
+.result-search ul li:hover .it{
+    color: #e65925;
+    background: #c0c0c0;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+}
+.area-envis{
+    margin: 2.3rem 0 0 0;
+}
+.envies-slider .tt-1{
+    margin: 1.6rem 0 0 0;
+}
+
+.container-button-guide-book{
+    margin: 4rem 0;
+}
+.container-button-guide-book .area-guide-book{
+    padding: 0rem 0 0rem;
+    background: #d9d8d4;
+    position: relative;
+    overflow: hidden;
+}
+.container-button-guide-book .area-guide-book  .area-image-book{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    position: relative;
+}
+.container-button-guide-book .area-guide-book .area-image-book::before{
+       content: '';
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #e6e6e4;
+    /* top: 100%; */
+    z-index: 0;
+    bottom: -50px;
+}
+.container-button-guide-book .area-guide-book .img-book.vietnam.visible{
+     background-image: url(/assets/img/page2016/vietnam_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book.laos.visible{
+     background-image: url(/assets/img/page2016/laos_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book.cambodge.visible{
+     background-image: url(/assets/img/page2016/cambodge_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book.birmanie.visible{
+     background-image: url(/assets/img/page2016/birmanie_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book{
+    z-index: 1;
+    position: relative;
+   width: 50%;
+/*   
+    margin: 0 auto;
+    background-size: 100% 100%;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;*/
+}
+
+.container-button-guide-book .area-guide-book .img-book img{
+    width: 100%;
+    position: relative;
+}
+.container-button-guide-book .area-guide-book .img-book::before, container-button-guide-book .area-guide-book .img-book::after
+{
+/*    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 58px;
+    left: 32px;
+    width: 84%;
+    top: 76%;
+    max-width: 289px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: -161px 87px 30px #777;
+    -webkit-transform: rotate(-16deg);
+    -moz-transform: rotate(-16deg);
+    -o-transform: rotate(-16deg);
+    -ms-transform: rotate(-16deg);
+    transform: rotate(16deg);*/
+   
+}
+.container-button-guide-book .area-guide-book .img-book::after
+{
+/* -webkit-transform: rotate(-16deg);
+    -moz-transform: rotate(-16deg);
+    -o-transform: rotate(-16deg);
+    -ms-transform: rotate(-16deg);
+    transform: rotate(16deg);
+  right: 10px;
+  left: auto;*/
+
+        content: '';
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 98px;
+    background: url(/assets/img/page2016/shadow-guide-book.png) right bottom no-repeat;
+    bottom: 0;
+    background-size: 100% 98px;
+}
+
+
+.container-button-guide-book .area-guide-book .right-guide{
+    width: 100%;
+    /* margin-left: 60px; */
+    z-index: 1;
+    padding: 0 4vw 4rem;
+    background: #e6e6e4;
+    position: relative;
+    margin-top: 0rem;
+}
+.container-button-guide-book .area-guide-book .right-guide p:first-of-type{
+    line-height: 1.2;
+    padding: 0 4rem;
+    margin-top: 0;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.container-button-guide-book .area-guide-book .right-guide p:nth-of-type(2){
+    margin-bottom: 1.6rem;
+    padding: 0 2rem;
+}
+.ui-input-text, .ui-input-search{
+    border: none;
+}
+.container-button-guide-book .area-guide-book .right-guide form input{
+    width: 100%;
+    margin: 22px 0 0px;
+    font-family: LatoLatin-Regular,sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 5rem;
+    /* border: none; */
+    margin: 0;
+    background: white;
+    border: 1px solid #999999;
+    border-radius: 0.5rem;
+}
+.container-button-guide-book .area-guide-book .right-guide form input.error{
+    border-color: #e65925;
+}
+.container-button-guide-book .area-guide-book .right-guide form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form input::-moz-placeholder { /* Firefox 19+ */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form input:-ms-input-placeholder { /* IE 10+ */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form input:-moz-placeholder { /* Firefox 18- */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form .error-email{
+    font-size: 13px;
+    color: #e35429;
+    margin-top: 5px;
+    line-height: 1;
+    display: none;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.container-button-guide-book .area-guide-book .right-guide form .submit-email{
+   
+       display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: LatoLatin-Bold;
+    background: #e65925;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+    border: none;
+}
+
+
+.container-button-contact .devis-btn-block .text {
+    font: 25px grand hotel,sans-serif;
+}
+.container-button-contact .devis-btn-block {
+    background: #f2f2f2;
+}
+#download-guide-form{
+    margin-top: 2.5rem;
+}
+@media only screen and (orientation:landscape){
+    .container-button-guide-book .area-guide-book .img-book{
+/*        height: 57.1rem;
+        background-size: contain;*/
+        width: auto;
+    }
+}

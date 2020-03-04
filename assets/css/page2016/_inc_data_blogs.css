@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2018, 10:26:25 AM
+    Author     : dtnguyen
+*/
+.container-blogs{
+    clear: both;
+    display: table;
+    width: 100%;
+}
+.container-blogs .column{
+     margin: 0 auto;
+    padding: 0 10px;
+    width: 960px;
+}
+.guide-blogs{
+	text-align: left;
+	position: relative;
+}
+.guide-blogs .guide{
+	float: left;
+	width: 300px;
+	margin-bottom: 0px;
+        margin-right: 20px;
+}
+.guide-blogs .guide > .title-guide{
+	margin: 0 0 25px;
+	font-size: 24px;
+        font-family: LatoLatin-Regular,sans-serif;
+	text-transform: inherit;
+}
+/*.guide-blogs .guide > .title-guide:first-letter{
+    text-transform: uppercase;
+}*/
+.guide-blogs .guide > .title-guide > span{
+	font-family: LatoLatin-Bold;
+}
+.guide-blogs .guide > img{
+	margin-bottom: 20px;
+}
+.guide-blogs .guide .text p{
+	font-size: 15.5px;
+        font-family: LatoLatin-Regular,sans-serif;
+	margin: 15px 0 4px;
+        
+}
+.guide-blogs .guide p.bigger{
+    align-items: center;
+    display: flex;
+    
+    font-family: LatoLatin-Bold;
+    font-size: 18px;
+    height: 18.2px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.2;
+}
+.guide-blogs .blogs{
+	width: 620px;
+	float: left;
+}
+.guide-blogs .blogs > .title-blog{
+	font-size: 24px;
+        font-family: 'LatoLatin-Bold', sans-serif;
+	margin: 0 0 25px;
+	text-transform: inherit;
+}
+/*.guide-blogs .blogs > .title-blog:first-letter{
+    text-transform: uppercase;
+}*/
+.guide-blogs .blogs .item-img{
+	width: 100%;
+	clear: both;
+	margin-bottom: 25px;
+	display: inline-block;
+        float: left;
+}
+.guide-blogs .blogs .item-img .img{
+	position: relative;
+	float: left;
+        width: 300px;
+        height: 200px;
+}
+.guide-blogs .blogs .item-img .img img{
+    width: 100%;
+    height: 100%;
+}
+.guide-blogs .blogs .item-img .img p{
+	    margin: 0;
+    color: #6d6d6d;
+    font-size: 13.5px;
+    font-family: LatoLatin-Regular,sans-serif;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ebe8de;
+}
+.guide-blogs .blogs .item-img .text{
+	float: right;
+	width: 305px;
+	text-align: left;
+}
+.guide-blogs .blogs .item-img .text p{
+	font-size: 15.5px;
+        font-family: LatoLatin-Regular,sans-serif;
+        margin: 0;
+}
+.guide-blogs .blogs .item-img .text .title-item{
+	font-size: 18px;
+    font-family: LatoLatin-Bold, sans-serif;
+	text-transform: none;
+	margin: 0 0 14px;
+    line-height: 1.2;
+}
+.guide-blogs .blogs .item-img .img:hover{
+    opacity: 1;
+}
+.guide-blogs .blogs .item-img .text .title-item:hover{
+    opacity: 0.7;
+    color: #e65925;
+}
+.guide-blogs .guide form input{
+	width: 100%;
+	margin: 15px 0 17px;
+	font-size: 13.5px;
+        font-family: LatoLatin-Regular,sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 35px;
+	border: 1px solid #b7b7b7 !important;
+        line-height: 36px;
+        padding-bottom: 0px;
+}
+
+.guide-blogs .guide form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  
+}
+.guide-blogs .guide form input::-moz-placeholder { /* Firefox 19+ */
+ 
+}
+.guide-blogs .guide form input:-ms-input-placeholder { /* IE 10+ */
+  
+}
+.guide-blogs .guide form input:-moz-placeholder { /* Firefox 18- */
+  
+}
+.guide-blogs .guide form .submit-email{
+	float: right;
+	width: 158px;
+	height: 36px;
+	color: #fff;
+	background: #e65925;
+	text-align: center;
+	cursor: pointer;
+        font-size: 16px;
+        font-family: 'LatoLatin-Bold', sans-serif;
+        text-transform: inherit;
+}
+.guide-blogs .guide form .submit-email:hover{
+	opacity: 0.7;
+}
+#download-guide-form{
+    position: relative;
+    
+}
+#download-guide-form .error-email {
+    background: url(/assets/img/error-newsletter-bg.png) left top no-repeat transparent;
+    width: 358px;
+    height: 53px;
+    display: inline-block;
+    position: absolute;
+    left: -17px;
+    top: -55px;
+    font: 14.5px LatoLatin-Bold,sans-serif;
+    color: #fff;
+    padding: 21px 35px;
+    display: none;
+} 
+.container-blogs .link-to-blog{
+    display: inline-block;
+    color: #e65925;
+/*    background: url(/assets/img/page2016/icon_arrow.png) right center no-repeat;*/
+    font-size: 13.5px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+    margin: -2px 0 0;
+    padding: 0;
+    float: right;
+    background-size: 9px;
+}
+.container-blogs .link-to-blog:hover{
+    opacity: 0.7;
+}
+
+/* Fix css Blogs for page birmanie */
+
+.container-blogs .birmanie .blogs{
+    width: 100%;
+    position: relative;
+}
+.container-blogs .birmanie .blogs::after{
+    content: "";
+    top: 20px;
+    left: 0;
+    border-bottom: 1px solid #d9cfb5;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.container-blogs .birmanie .blogs .item{
+    width: 300px;
+    float: left;
+    clear: none;
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container-blogs .birmanie .blogs .item-2{
+    margin: 0 20px 20px;
+}
+.container-blogs .birmanie .blogs .item .text{
+    width: 100%;
+    margin: 0;
+}
+.container-blogs .birmanie .blogs .item .text .tt{
+    margin: 20px 0;
+    line-height: 20px;
+}
+.container-blogs .birmanie .link-to-blog{
+    margin: 10px 0 0px;
+    clear: both;
+}
+.container-blogs .birmanie .title-blog{
+    float: left;
+    font: 24px LatoLatin-Bold,sans-serif;
+    margin-bottom: 33px;
+    position: relative;
+    text-align: left;
+    /* text-transform: uppercase; */
+    /* width: 510px; */
+    background: white;
+    padding-right: 15px;
+}
+
+.container-blogs .clearfix{
+    display: none;
+}
+.container-blogs .birmanie .clearfix{
+    display: block;
+}
+.container-blogs .birmanie .blogs .item:nth-child(2n){
+    margin: 0 20px;
+}

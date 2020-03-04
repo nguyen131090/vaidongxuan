@@ -1,0 +1,158 @@
+body .header{
+	
+	position: relative;
+	background: rgba(222,224,227,0.9);
+	z-index: 999;
+	padding: 18px 0;
+	height: 95px;
+}
+
+.header .info-header{
+	text-align: right;
+}
+.header .info-header p{
+	font: 14.5px LatoLatin-Regular,sans-serif;
+	color: #232323;
+	margin: 2px 0;
+}
+.contain.container-1{
+	position: relative;
+        margin-top: -150px;
+}
+.contain .column {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 960px;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 15.5px;
+}
+.container-1 .row-2 {
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 1100px;
+}
+.container-1 .column .title {
+    color: white;
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 40px;
+    margin-top: 37px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.container-flud .column {
+    
+    position: relative;
+    text-align: center;
+    
+}
+.menu-tab .column{
+	background: url('/assets/img//new-pays/bg-menu-tab.png') center -1px no-repeat transparent;
+	height: 105px;
+	padding-top: 19px;
+}
+.menu-tab .column ul{
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+}
+.menu-tab .column ul li{
+	list-style: none;
+	padding: 10px 41px;
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid #a59a7f;
+	box-sizing: border-box;
+        float: left;
+}
+.menu-tab .column ul li:last-of-type{
+	border: none;
+}
+.menu-tab .column ul li a{
+	font: 15.5px LatoLatin-Regular,sans-serif;
+	color: #292929;
+}
+.menu-tab .column ul li a:hover{
+    border: none;
+    color: #e65925;
+}
+.menu-tab .column ul li a.active{
+    background: none;
+    border: none;
+    color: #e65925;
+}
+.menu-tab .column ul li:hover a, .menu-tab .column ul li.active a{
+	color: #e65925;
+}
+/*.menu-tab .column ul li:hover:after, .menu-tab .column ul li.active:after{
+	content: "";
+	width: 75%;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: #e65925;
+}*/
+.popup-infos .tab-content{
+    margin: 40px 0 80px;
+}
+.popup-infos .tab-content .tt-info{
+    font-size: 16.5px;
+    text-transform: uppercase;
+    margin: 10px 0 23px;
+    
+    border-bottom: 1px solid #cbc0a2;
+    background: url(/assets/img/page2016/arrow_down_cam.png) right center no-repeat;
+    clear: left;
+    cursor: pointer;
+}
+.popup-infos .tab-content .tt-info span{
+     background: #bcb090 none repeat scroll 0 0;
+    display: inline-block;
+    height: 34px;
+    line-height: 37px;
+    padding: 0 10px;
+}
+.popup-infos .tab-content .tab-children .entry-content{
+    display: none;
+}
+.popup-infos .tab-content .tab-children.active .entry-content{
+    display: block;
+    margin: 10px 0 40px;
+}
+.popup-infos .tab-content .tab-children.active .tt-info{
+    background: url(/assets/img/page2016/arrow_up.png) right center no-repeat;
+}
+.popup-infos .btn-tabs{
+    height: 455px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.popup-infos .btn-tabs .img-tabs{
+    display: none;
+}
+.popup-infos .btn-tabs .img-tabs.active{
+    display: block;
+}
+
+
+.fix-img-bottom-left {
+    bottom: 100%;
+    left: auto;
+    right: 0;
+    z-index: 2;
+    position: absolute;
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    html{
+    	zoom: 80%;
+    }
+}

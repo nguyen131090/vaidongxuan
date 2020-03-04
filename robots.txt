@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /*?
+Allow: /*?*page=*
+Disallow: */form$
+Disallow: *?PageSpeed=noscript$
+
+User-agent: AdsBot-Google
+Disallow: *?*mkwid=*
+Disallow: *?*msclkid=*
+
+Sitemap: https://www.amica-travel.com/uploads/files/sitemap.xml

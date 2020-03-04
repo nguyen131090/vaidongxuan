@@ -1,0 +1,445 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 26, 2018, 9:24:41 AM
+    Author     : dtnguyen
+*/
+.bx-wrapper{
+        margin: 0 auto;
+    }
+.bx-wrapper .bx-pager{
+    display: none;
+}
+.bx-wrapper .bx-viewport {
+        height: auto !important;
+}
+
+/* Css responsive btn-area-devis-col-left */
+.responsive-area-devis-col-left{
+    background: #cbc0a2;
+}
+.responsive-area-devis-col-left .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-area-devis-col-left .item{
+    width: 35%;
+    text-align: center;
+    
+}
+.responsive-area-devis-col-left .item-2{
+    width: 30%;
+}
+.responsive-area-devis-col-left .item-1 .tt{
+    display: inline-block;
+    font-size: inherit;
+    font-family: inherit;
+    text-align: center;
+}
+.responsive-area-devis-col-left .item-1 .tt-1{
+    font-family: "Grand Hotel",sans-serif;
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+/* Css responsive btn-area-devis-col-left */
+
+@media (max-width: 960px){
+    .column, .amc-column{
+        width: 700px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .column .rows, .column .row, .amc-column .rows, .amc-column .row{
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .container-1 .breadcrumb{
+        width: 700px !important;
+        padding: 0 20px;
+    }
+    .container-1 .row-1{
+        top: 150px;
+        width: 100% !important;
+    }
+    .container-1 .row-2{
+/*        margin: 0 auto !important;*/
+    }
+    
+    /* Search-menu */
+    .area-search-menu.responsive-search-menu{
+        height: auto;
+    }
+    
+    .responsive-search-menu .cs-select.submit{
+        width: 100% !important;
+        margin-top: 65px;
+    }
+    .responsive-search-menu .cs-select.une-envie{
+        width: 340px;
+    }
+    .responsive-search-menu .group-search .cs-placeholder{
+        width: 295px;
+    }
+    .responsive-search-menu .group-search .cs-select.search-length{
+        left: 360px;
+        margin: 0;
+    }
+    /* End Search-menu */
+    
+    /* Entry-body */
+    .responsive-entry-body .bx-wrapper .bx-loading{
+        display: none;
+    }
+   
+    .responsive-entry-body .country-tours > p{
+        width: auto;
+    }
+    /* End Entry-body */
+    
+    /* slide 4 item , 2col */
+    .responsive-entry-body .tous-slider .item-img{
+        width: 48.9%;
+/*        height: 220px !important;*/
+        margin-bottom: 20px;
+    }
+    .responsive-entry-body .tous-slider li .item-img:nth-of-type(2n+1){
+        margin-right: 2.1%;
+    }
+    .responsive-entry-body .tous-slider li .item-img:nth-of-type(3n){
+/*        margin-right: 0;*/
+    }
+    .responsive-entry-body .tous-slider .item-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .responsive-entry-body .contain .bx-wrapper .bx-viewport {
+        height: auto !important;
+    }
+    .responsive-entry-body .pourquoi .btn-pourquoi{
+        background-position: right top;
+    }
+    .responsive-entry-body .tous-slider li .item-img .text-slide p{
+        font-size: 13.5px;
+        margin-bottom: 10px;
+    }
+    .responsive-entry-body .tous-slider li .item-img .text-slide .bottom-block{
+        padding: 0 5px;
+    }
+    /* end slide 4 item, 2 col */
+    
+    
+    .responsive-entry-body .secrets .bx-wrapper .bx-viewport{
+        height: auto !important;
+    }
+    .responsive-entry-body .secrets .bx-controls-direction{
+        display: none;
+    }
+    .responsive-entry-body .bx-wrapper{
+        margin: 0 auto;
+    }
+    .responsive-entry-body .bx-wrapper .bx-pager{
+        padding: 25px 0 0;
+        bottom: auto;
+        display: block;
+    }
+    .responsive-entry-body .bx-wrapper .bx-pager.bx-default-pager a{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+    }
+    .responsive-entry-body .secrets .item-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .responsive-entry-body .secrets .text-slide .bottom-block{
+        padding: 0 5px;
+    }
+    .responsive-entry-body .secrets .text-slide .bottom-block .title-hover{
+        margin-bottom: 5px;
+    }
+    .responsive-entry-body .secrets .text-slide .bottom-block .btn{
+        margin-bottom: 5px;
+    }
+    .responsive-entry-body .secrets .text-slide .bottom-block p{
+        font-size: 13.5px;
+        margin-bottom: 10px;
+    }
+    .responsive-entry-body .secrets .bx-wrapper img{
+        height: 100%;
+    }
+    
+    
+     .responsive-entry-body .preparer-voyage.birmanie{
+        margin-top: 60px !important;
+    }
+    .responsive-entry-body .testi .bx-wrapper .bx-viewport{
+        height: auto !important;
+    }
+    .responsive-entry-body .testi .testi-slider .text{
+        background-size: 100% 100%;
+        min-height: 300px;
+    }
+    .responsive-entry-body .testi .testi-slider .info .text-info{
+        float: right;
+        padding-left: 0;
+        width: 155px;
+    }
+    .responsive-entry-body .testi .testi-slider .info .img-info{
+        margin-top: 0;
+    }
+    .responsive-entry-body .testi .logo-pages .logos{
+        width: 474px;
+        margin-left: 19px;
+    }
+    .responsive-entry-body .testi .logo-pages .logos span{
+        margin: 0 15px;
+    }
+    
+    /* area Blog */
+    .responsive-content-blog .guide-blogs .guide{
+        width: 100%;
+    }
+    .responsive-content-blog .guide-blogs .guide img{
+        float: left;
+        margin-bottom: 40px !important;
+        width: auto !important;
+    }
+    .responsive-content-blog .guide-blogs .guide .text{
+        float: right;
+        width: 52%;
+    }
+    .responsive-content-blog .guide-blogs .blogs{
+        width: 100%;
+    }
+    .responsive-content-blog .guide-blogs .blogs .item-img .text{
+        width: 375px;
+    }
+    
+    .responsive-content-blog .guide-blogs .blogs .title-blog::after{
+        display: none;
+    }
+    .responsive-content-blog .guide-blogs.birmanie .blogs .item-img .text{
+        width: 100%;
+    }
+    .responsive-content-blog .guide-blogs.birmanie .blogs .item-img .img{
+        width: auto;
+        height: auto;
+    }
+    .responsive-content-blog .birmanie .blogs .item:nth-child(2n){
+        margin: 0 2.1%;
+    }
+    .responsive-content-blog .birmanie .blogs .item{
+        width: 31.9%;
+    }
+    /* End area blog */
+    
+    /* Form Search ngang */
+    
+    .responsive-search-form-ngang .search-form .submit{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .responsive-search-form-ngang .search-form .cs-select .cs-options ul li .text-option{
+        width: auto;
+    }
+    .responsive-search-form-ngang .search-form .search-excl-form .submit{
+        margin-top: 0;
+        width: 340px;
+    }
+    
+    /* Form search ngang */
+    
+    /* slide 3 item page info */
+    
+    .responsive-entry-body .container-6 .column::before{
+        display: none;
+    }
+    /* end slide 3 item page info */
+    
+    /* Submenu page info-pratic */
+    .responsive-submenu .text-def-select{
+        cursor: pointer;
+        display: block;
+        font-family: inherit;
+        font-size: 15.5px;
+        line-height: 40px;
+        margin: 0 20px;
+        background: transparent url("/assets/img//page2016/arrow-filter-down.png") no-repeat scroll right center;
+    }
+    .responsive-submenu .text-def-select.active{
+        border-bottom: 1px solid #e6a85e;
+        background: transparent url("/assets/img//page2016/arrow-filter-up.png") no-repeat scroll right center;
+        color: #a5a5a5;
+        background-size: 15px;
+    }
+    .menu-right > ul > li > .arrow-down-up{
+        background: transparent url("/assets/img//drop-down.png") no-repeat scroll center center;
+        background-size: 10px;
+    }
+    .menu-right > ul > li > .arrow-down-up.active{
+        background-position: center center;
+    }
+    .responsive-submenu ul{
+        display: none;
+    }
+    .responsive-submenu ul.active{
+        display: block;
+    }
+    
+    .responsive-entry-body .group-on-top .item{
+        width: 31.9%;
+    }
+    .responsive-entry-body .group-on-top .item img{
+        width: 100%;
+    }
+    .responsive-entry-body .group-on-top .item-2{
+        margin: 0 2.12%;
+    }
+    /* End Submenu page info-pratic */
+    
+    /* Responsive page guide */
+    
+    .responsive-entry-body .responsive-page-guide .bx-controls-direction{
+        display: none;
+    }
+    .responsive-entry-body .top-guides .item{
+        width: 32%;
+        margin-right: 1.968%;
+    }
+    .responsive-entry-body .top-guides .item:last-of-type{
+        margin-right: 0;
+    }
+    .responsive-entry-body .top-guides .item img{
+        width: 100%;
+    }
+    .responsive-entry-body .envies > .title::after{
+        display: none;
+    }
+    .responsive-entry-body .responsive-page-guide .bx-wrapper .text-slide p{
+        margin-bottom: 10px;
+    }
+    
+    .responsive-entry-body .guides-normal .item .text{
+        width: 180px;
+        
+    }
+    /* End responsive page guide */
+    
+    /* Responsive  Page visiter*/
+    .responsive-entry-body .tab-panel-2 .amc-col-2{
+        width: 100%;
+    }
+    .responsive-entry-body .tab-panel-2 .amc-col-2 .le .tx-2{
+        width: 585px;
+    }
+    .responsive-entry-body #width-75{
+        width: 66%;
+    }
+    .responsive-entry-body #width-62{
+        width: 48%;
+    }
+    .responsive-entry-body .tab-panel-2 .r2 .list-tour{
+        width: 100%;
+        padding-left: 0;
+    }
+    .responsive-entry-body .tab-panel-2 .r2 .item{
+        width: 33%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .responsive-entry-body .tab-panel-2 .r2 .item a{
+        display: flex;
+        align-items: center;
+    }
+    /* End Responsive Page visiter */
+    
+    /* Responsive page ideel, exclu */
+    .responsive-entry-body .responsive-slidefade{
+        height: auto;
+    }
+    .responsive-entry-body .responsive-slidefade .col-left{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+        height: 100px;
+    }
+    .responsive-entry-body .responsive-slidefade .col-right{
+        width: 100%;
+        height: auto;
+    }
+    /* End Responsive page ideel, exclu */
+    
+    
+    /* Css Responsive Swiper 3 item */
+    .responsive-swiper-slider-3-item .area-slider-swiper-3-item .swiper-pagination{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .responsive-swiper-slider-3-item .area-slider-swiper-3-item .swiper-button-next, .area-slider-swiper-3-item .swiper-button-prev{
+        display: none;
+    }
+    /* End Css Responsive Swiper 3 item */
+    
+    /* Css Responsive  menu-tab in module Destination */
+    .menu-tab.responsive-menu-tab .column{
+        background-size: 100% 100%;
+    }
+    .menu-tab.responsive-menu-tab .column ul li{
+        max-width: 100px;
+        padding: 0 10px;
+        line-height: 17px;
+        display: flex;
+    }
+    .menu-tab.responsive-menu-tab .column ul li:hover::after, .menu-tab.responsive-menu-tab .column ul li.active::after{
+        display: none;
+    }
+    /* End Css Responsive  menu-tab in module Destination */
+    
+    /* Css Responsive area 10 raisons */
+    
+    .responsive-10-raisons .item{
+        width: 120px !important;
+        margin: 0 10px !important;
+    }
+    /* End Responsive area 10 raisons  */
+    
+    /* Css responsive area btn-link */
+    
+    .responsive-area-btn-link .link-btn{
+        width: 39%;
+    }
+    /* End Css responsive area btn-link */
+
+      
+    .responsive-entry-body .testi .logo-pages > span{
+        padding-right: 0;
+    }
+    .amc-menu-tab.menu-tab .column ul{
+        display: flex !important;
+    }
+    .amc-menu-tab.menu-tab .column ul li{
+        margin: 0 10px;
+    }
+    
+}
+@media(max-width: 1366px){
+    
+}
+@media(max-width: 1199px){
+     .contain.container-1 .row-1{
+        top: 0px;
+        width: 100% !important;
+    }
+}
+@media(max-width: 1025px){
+    .menu-tab .amc-column ul li{
+        padding: 10px 16.5px;
+    }
+}

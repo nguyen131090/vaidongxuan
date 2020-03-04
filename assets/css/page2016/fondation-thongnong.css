@@ -1,0 +1,318 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 10:29:54 AM
+    Author     : dtnguyen
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.container-1 .row-2 .tt-s{
+    font-size: 22px;
+    color: white;
+    margin: -20px 0 30px;
+}
+.container-1 .amc-column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+.container-2 .amc-column{
+   // text-align: center;
+    
+    margin: 23px auto 0;
+    padding-top: 40px;
+}
+.container-2 .row-1{
+    background: #f2f2f2;
+    padding-top: 25px;
+}
+.container-2 .row-1.loaded{
+     background: rgba(0, 0, 0, 0) url("/assets/img//page2016/bg_1_fondation_thongnong.jpg") no-repeat scroll 0 -2px / 100% ;
+}
+.container-2 .row-1 .title{
+    font-size: 24px;
+    color: black;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.container-2 .row-1 .logo-projets{
+   
+    width: 66px;
+    height: 64px;
+    margin-right: 10px;
+}
+.container-2 .row-1 ul{
+   
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.container-2 .row-1 ul li{
+    
+    padding: 0 0 0 0px;
+    margin: 0 0px;
+    text-align: left;
+    line-height: 1.3;
+    color: #6b6b6b;
+    background-position: 0 0 !important;
+}
+.container-2 .row-1 ul li span{
+    display: block;
+    color: black;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+    margin: 0;
+}
+.container-2 .row-1 ul li:nth-of-type(1){
+    background: url(/assets/img/page2016/icon_2_fonda_sg_new_29_29.png) 0 40% no-repeat;
+    padding: 0 0 0 35px;
+    margin-right: 80px;
+    
+}
+.container-2 .row-1 ul li:nth-of-type(2){
+    background: url(/assets/img/page2016/icon_3_fonda_sg_new_28_28.png) 0 40% no-repeat;
+    padding: 0 0 0 35px;
+   
+}
+.container-2 .row-2{
+  
+   padding: 0;
+}
+.container-2 .row-2 ul li{
+  
+}
+
+
+.container-5{
+   
+    margin: 48px 0 40px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    //color: white;
+    text-align: center;
+    height: 258px;
+}
+.container-5.loaded{
+    background: url(/assets/img/page2016/bg_5_fonda_thongnong.jpg) center center no-repeat transparent;
+    background-size: cover;
+}
+
+.container-5 table{
+    float: left;
+    width: 420px;
+    
+    margin: 60px 0;
+    text-align: left;
+}
+.container-5 table:nth-of-type(2){
+    float: right;
+}
+.container-6{
+    margin-top: 40px;
+}
+.container-7 .tt{
+    font-family: 'Grand Hotel', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 22px 0 7px;
+}
+.container-7{
+    
+    text-align: center;
+    /*height: 130px;*/
+    //line-height: 87px;
+    margin: 40px 0 20px;
+    padding-bottom: 25px;
+}
+.container-7.loaded{
+    background: url(/assets/img/page2016/bg_footer_new.jpg) 0 0 no-repeat transparent;
+    background-size: cover;
+}
+.container-7 .rows{
+    padding: 0;
+}
+
+
+
+.container-7 a{
+    display: inline-block;
+    font-size: 14.2px;
+    
+    font-family: 'LatoLatin-Bold', sans-serif;
+    padding: 5px 20px;
+    color: #da521f;
+    border: 1px solid #da521f;
+    line-height: 22px;
+    margin:10px 10px 0;
+}
+.container-7 a:hover{
+    background: #da521f none repeat scroll 0 0;
+    border-color: #da521f;
+    color: white;
+}
+.container-8{
+    margin: 40px 0;
+}
+.container-8 .amc-col{
+    float: left;
+}
+.container-8 .amc-col-1{
+    
+    margin: 0 0px;
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+   
+}
+.container-8 .amc-col-1 .tt{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    padding-bottom: 40px;
+}
+.container-8 .item{
+    width: 300px;
+    margin: 0 10px;
+    float: left;
+}
+.container-8 .item-1{
+    margin-left: 0;
+}
+.container-8 .item-3{
+    margin-right: 0;
+}
+.container-8 .item h5{
+    text-transform: uppercase;
+    margin: 5px 0;
+    padding: 10px 0;
+    line-height: 22px;
+    border-bottom: 1px solid #e5dfd0;
+    font-size: 15.5px;
+    font-family: inherit;
+}
+.container-8 .item h5 a:hover{
+    color: #da521f;
+}
+.container-8 .item .tt{
+    display: block;
+    margin: 0;
+    padding: 25px 0 0;
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    line-height: 1.2;
+}
+.container-8 .item span.amica-91-suggest > *{
+    line-height: 1.2;
+}
+.container-8 .item span.amica-91-suggest a:hover{
+    color: #da521f;
+}
+.container-8 .item .posi{
+    display: block;
+    padding: 5px 0 5px 30px;
+    background: url(/assets/img/page2016/posi.png) 0 0 no-repeat;
+    margin: 10px 0;
+}
+
+.contain.hr{
+    height: 1px;
+    background: url(/assets/img/page2016/bg_border.png) no-repeat center bottom;
+    margin: 40px 0;
+}
+.border-line.tourisme-solidaire{
+    display: none !important;
+}
+.entry-body h2{
+    color: #303030;
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.entry-body h2 *{
+    color: #303030;
+}
+.entry-body h2, .entry-body h3{
+    margin-top: 30px !important;
+    margin-bottom: 13px !important;
+}
+img.img-responsive{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 960px){
+    .container-2 .row-1.loaded{
+        background-size: 100% 100%;
+    }
+    .container-8 .amc-col-1{
+        width: 100%;
+        
+    }
+    .container-5 table{
+        width: 340px;
+        margin: 40px 0;
+    }
+    .container-8 .item{
+        width: 220px;
+    }
+}

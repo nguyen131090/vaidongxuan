@@ -1,0 +1,1069 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2017, 11:27:31 AM
+    Author     : dtnguyen
+*/
+.space{
+    display: block;
+    
+    width: 100%;
+    clear: both;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.space-65{
+    height: 65px;
+    
+}
+.space-40{
+    height: 38px;
+}
+.space-50{
+    height: 50px;
+}
+.space-25{
+    height: 25px;
+}
+.space-20{
+    height: 20px;
+}
+a:hover{
+    color: inherit;
+}
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    z-index:1;
+    position: relative;
+}
+.contain .column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.container-1 .row-2 .tt-s{
+    font-size: 22px;
+    color: white;
+    margin: -20px 0 30px;
+}
+.container-1 .column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin:0;
+    line-height: 1.1;
+}
+
+
+.menu-tab .column{
+	background: url('/assets/img//new-pays/bg-menu-tab.png') center -1px no-repeat transparent;
+	height: 105px;
+	padding-top: 19px;
+        background-size: 940px auto;
+        text-align: center;
+}
+.menu-tab .column ul{
+	margin: 0 auto;
+	padding: 0;
+    display: inline-block;
+        
+}
+.menu-tab .column ul li{
+	list-style: none;
+	padding: 10px 19.5px;
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid #a59a7f;
+	box-sizing: border-box;
+        float: left;
+}
+.menu-tab .column ul li:last-of-type{
+	border: none;
+}
+.menu-tab .column ul li a{
+	font: 15.5px LatoLatin-Regular,sans-serif;
+	color: #292929;
+}
+.menu-tab .column ul li:hover a, .menu-tab .column ul li.active a{
+	color: #e65925;
+}
+.menu-tab .column ul li:hover:after, .menu-tab .column ul li.active:after{
+	content: "";
+	width: 75%;
+	height: 3px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: #e65925;
+}
+.container-3 .text-summary{
+    width: 700px;
+    margin: 42px auto 35px;
+    text-align: center;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.container-3 .text-summary h2{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 35px;
+}
+.container-3 .text-summary p{
+    margin-bottom: 15px;
+    
+}
+.container-4 .group-on-top .item{
+    float: left;
+    width: 300px;
+    text-align: center;
+    
+}
+.container-4 .group-on-top .item-2{
+    margin: 0 20px;
+}
+.container-4 .group-on-top .item .image{
+    position: relative;
+}
+.container-4 .group-on-top .item .image .icon{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-indent: -9999px;
+    margin: 0;
+    padding: 0;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+/*    transition: opacity ease-out 500ms;*/
+}
+.container-4 .group-on-top .item .image .icon.vietnam{
+    background-color: rgba(230,168,94,0.5);
+}
+.container-4 .group-on-top .item .image .icon.laos{
+    background-color: rgba(231,89,37,0.5);
+}
+.container-4 .group-on-top .item .image .icon.cambodge{
+    background-color: rgba(202,139,9,0.5);
+}
+.container-4 .group-on-top .item .image .icon.birmanie{
+    background-color: rgba(212,76,71,0.5);
+}
+.container-4 .group-on-top .item .image:hover .icon{
+    opacity: 1;
+/*    transition: opacity ease-in 500ms;*/
+}
+.container-4 .group-on-top .item .tt{
+    font-size: 18px;
+    text-transform: inherit;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+    
+    margin: 25px 0 25px;
+}
+.container-4 .group-on-top .item .tt:hover{
+    color: #e65925;
+}
+.container-4 .group-on-top .item .summary{
+    
+}
+.container-5 .all-aticle{
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0;
+}
+.container-5 .all-aticle li{
+    float: left;
+    width: 233px;
+    display: inline-flex;
+    margin: 20px 0;
+    padding-right: 10px;
+}
+.container-5 .all-aticle li a{
+    
+    display: flex;
+    height: 44px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    padding-left: 55px;
+    align-items: center;
+}
+.container-5 .all-aticle li a span:hover{
+    color: #e65925;
+    opacity: 0.8;
+}
+.container-5 .all-aticle li .icon{
+    width: 44px;
+    height: 44px;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container-5 .all-aticle li .icon.vietnam{
+    background-color: #e6a85e
+}
+.container-5 .all-aticle li .icon.laos{
+    background-color: #e65925
+}
+.container-5 .all-aticle li .icon.cambodge{
+    background-color: #ca8b09
+}
+.container-5 .all-aticle li .icon.birmanie{
+    background-color: #d64c48
+}
+.secrets .column{
+    position: relative;
+}
+.container-6 .tt-big {
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold',sans-serif;
+    text-align: left;
+    
+    margin: 15px 0 40px;
+    display: inline-block;
+    background: #fff;
+    z-index: 9999;
+    position: relative;
+    padding-right: 10px;
+}
+
+.container-6 .column::before {
+    content: "";
+    width: 70%;
+    height: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: #d9cfb5;
+}
+.container-6.laos .column::before{
+    width: 70%;
+}
+
+.container-6 .btn-link-voyage{
+    display: inline-block;
+    color: #e65925;
+/*    background: url(/assets/img/page2016/icon_arrow.png) right center no-repeat;*/
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+    margin: 25px 0 30px;
+    padding: 10px 18px 10px 0;
+    float: right;
+}
+.container-6 .btn-link-voyage:hover{
+    opacity: 0.7;
+}
+.secrets{
+	overflow: hidden;
+	position: relative;
+}
+.secrets > h2{
+	font: 24px LatoLatin-Bold,sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+.secrets > p{
+	font: 15.5px/22px LatoLatin-Regular,sans-serif;
+	margin: 0 0 21px;
+	width: 700px;
+	display: inline-block;
+}
+.secret-slider{
+	margin: 0;
+	padding: 0;
+}
+.secrets .bx-wrapper .bx-viewport{
+	border: 0px;
+    box-shadow: none;
+    left: 0;
+    height: auto !important;
+}
+.secrets  .bx-controls-direction a {
+    width: 35px;
+    height: 55px;
+    background: url(/assets/img/new-home/arrow-inspiration-slider.png) 12px center no-repeat #afafaf;
+    top: 74px;
+    margin: 0;
+}
+.secrets .bx-controls-direction a.bx-prev {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: -50px;
+}
+.secrets .bx-controls-direction a.bx-next {
+    right: -51px;
+}
+.secrets .bx-controls-direction a:hover {
+    background-color: #e75925;
+    background-position: 12px center;
+}
+.secrets ul li{
+    text-align: center;
+}
+.secrets ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.secrets ul li a img{
+    height: 100%;
+}
+.secrets ul li .text-on-img{
+    font: 18px LatoLatin-Bold,sans-serif;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+    background: linear-gradient(transparent, rgba(73,70,64,0.9));
+    padding: 0 15px 28px;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+} 
+.secrets .item .tt{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: inherit;
+    margin: 25px 0 20px;
+   
+    
+}
+.secrets .item .tt:hover{
+    opacity: 0.7;
+    color: #e65925;
+}
+.bx-wrapper .text-slide .bottom-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 25px;
+    bottom: 0;
+}
+.bx-wrapper  .text-slide span {
+    font: 18px LatoLatin-Bold,sans-serif;
+    text-transform: uppercase;
+    margin-top: auto;
+    color: #fff;
+    margin-bottom: 15px;
+    -webkit-transition: margin-bottom 0.5s;
+    transition: margin-bottom 0.5s;
+    display: inline-block;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.bx-wrapper .text-slide p {
+    font: 15.5px LatoLatin-Regular,sans-serif;
+    margin: 0 0 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+.bx-wrapper .text-slide .btn {
+    width: 157px;
+    height: 34px;
+    text-transform: uppercase;
+    color: #000;
+    font: 13.5px/36px LatoLatin-Bold,sans-serif;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    text-shadow: none;
+}
+.bx-wrapper img.active{
+	width: 299px;
+    box-shadow: 0px 0px 150px #000000;
+    -webkit-transition: all 400ms ease-out;
+    -webkit-transform: scale(1.112);
+    -ms-transition: all 400ms ease-out;
+    -ms-transform: scale(1.112);
+    -moz-transition: all 400ms ease-out;
+    -moz-transform: scale(1.112);
+    transition: all 400ms ease-out;
+    transform: scale(1.112);
+    z-index: 2;
+}
+.secrets .bx-wrapper img.active{
+	width: 100%;
+	height: 200px;
+}
+.secrets .bx-wrapper li .item-img{
+	width: 100%;
+	//height: 200px;
+	//overflow: hidden;
+}
+.country-tours .bx-wrapper img.active{
+	width: 460px;
+}
+.bx-wrapper .item-img img {
+    transition-duration: 805ms;
+    transition-delay: 0ms;
+}
+.bx-wrapper li .item-img{
+	overflow: hidden;
+}
+.bx-wrapper .text-slide.active{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.bx-wrapper .text-slide {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    bottom: 0;
+    z-index: 99;
+    box-sizing: border-box;
+    left: 0;
+    padding: 0 25px;
+    margin: 0;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    overflow: hidden;
+}
+.bx-wrapper .text-slide.vietnam{
+    background-color: rgba(230,168,94,0.5);
+}
+.bx-wrapper .text-slide.laos{
+    background-color: rgba(231,89,37,0.5);
+}
+.bx-wrapper .text-slide.cambodge{
+    background-color: rgba(202,139,9,0.5);
+}
+.bx-wrapper .text-slide.birmanie{
+    background-color: rgba(212,76,71,0.5);
+}
+
+/* Fix Css Filter */
+.container-7{
+    background: #3e3e3e;
+    z-index: 2;
+}
+.container-7 .tt-search-form{
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 24px;
+    
+    margin: 20px 0 10px;
+    text-align: left;
+    line-height: 1.2;
+}
+.container-7 .search-form {
+    clear: left;
+    float: left;
+    margin: 0 0 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.container-7 .search-form form{
+    width: 650px;
+    margin: 0 auto;
+}
+.container-7 .search-form .cs-select {
+    cursor: pointer;
+    float: left;
+    line-height: 31px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+}
+
+.container-7 .search-form .cs-placeholder.active {
+    background: transparent url("/assets/img//page2016/arrow_dropdown_white.png") no-repeat scroll 95% center;
+    color: white;
+    display: block;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 14.2px;
+    padding: 0 25px 0 15px;
+    text-align: left;
+    border: 1px solid #8b8b8b;
+    border-radius: 3px;
+}
+.container-7 .search-form .cs-select.active {
+    background: #3e3e3e none repeat scroll 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.container-7 .search-form .cs-select.active .cs-placeholder.active{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.container-7 .search-form .cs-select.destination {
+   
+    margin-right: 20px;
+    
+}
+.container-7 .search-form .cs-select.une-envie {
+    
+    margin-right: 20px;
+    
+}
+.container-7 .search-form .cs-select.type-de-voyage {
+    
+    margin-right: 20px;
+    
+}
+
+.container-7 .search-form .submit {
+    float: left;
+    color: #da521f;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Medium', sans-serif;
+    width: 200px;
+    border:1px solid #da521f;
+}
+.container-7 .search-form .submit:hover {
+   color: white;
+   background: #da521f;
+}
+
+.container-7 .search-form .cs-select .cs-options {
+    background: #3e3e3e none repeat scroll 0 0;
+    display: none;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+      border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #8b8b8b;
+    border-top: 0px;
+    z-index: 2;
+}
+.container-7 .search-form .cs-select .cs-options.cs-options-active{
+    display: block;
+} 
+.container-7 .search-form .cs-select .cs-options ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.container-7 .search-form .cs-select .cs-options ul li {
+    background: transparent url("/assets/img//page2016/bg_list.png") no-repeat scroll 5px 7px;
+    color: white;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 13.5px;
+    line-height: 22px;
+    padding: 3px 0 3px 30px;
+    text-align: left;
+}
+.container-7 .search-form .cs-select .cs-options ul li:hover{
+    color: #e75925;
+}
+.container-7 .search-form .cs-select .cs-options ul li.active {
+    background: transparent url("/assets/img//page2016/bg_list_active.png") no-repeat scroll 5px 7px;
+}
+
+.container-7 .search-form .cs-select .list-option ul{
+    margin: 3px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.container-7 .search-form .cs-select .list-option ul li{
+    float: left;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #8b8b8b;
+    line-height: 19px;
+    font-size: 12px;
+    padding: 3px 30px 3px 15px;
+    margin: 3px 6px 3px 0;
+    cursor: auto;
+    position: relative;
+    text-align: left;
+}
+.container-7 .search-form .cs-select .list-option ul li span{
+    
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background: url(/assets/img/page2016/icon_x.png) center center no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 6px;
+}
+
+
+.container-7{
+    background: #e8e8e8;
+    padding: 0px 0 20px;
+    margin-bottom: 65px;
+}
+.container-7 .search-form{
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+}
+.container-7 .search-form .cs-select{
+    width: 360px;
+}
+.container-7 .search-form .cs-select.destination{
+    width: 240px;
+    
+}
+.container-7 .search-form .cs-placeholder {
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    color: #212121;
+    display: block;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 14px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f5f5f5;
+}
+.container-7 .search-form .cs-placeholder .icon-left{
+    display: inline-block;
+    width: 47px;
+    height: 40px;
+    
+    margin: -1px 13px 0 -1px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    float: left;
+}
+.container-7 .search-form .destination .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-destination.png) center center no-repeat;
+}
+.container-7 .search-form .une-envie .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-duree.png) center center no-repeat;
+}
+.container-7 .search-form .type-de-voyage .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-type.png) center center no-repeat;
+}
+.container-7 .search-form .cs-placeholder .icon-right{
+    float: right;
+    display: inline-block;
+     height: 38px;
+    width: 31px;
+    background: transparent url(/assets/img/page2016/arrow-filter-down.png) center center no-repeat;
+}
+.container-7 .search-form .submit{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    background: #da521f;
+    border-radius: 3px;
+}
+.container-7 .search-form form{
+    width:auto;
+}
+.container-7 .search-form .cs-select.une-envie{
+    width: 290px;
+}
+.container-7 .search-form .cs-select.type-de-voyage{
+    
+}
+.form-search .cs-select .cs-options{
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+.container-7 .search-form .cs-select.active{
+    background: none;
+}
+.container-7 .search-form .cs-select.search-length .cs-placeholder .input-text{
+/*    float: left;
+    width: 198px;
+    height: 38px;
+    overflow: hidden;*/
+}
+.container-7 .search-form .cs-select .cs-placeholder .input-text{
+    
+}
+.container-7 .search-form .cs-select.destination .cs-placeholder .input-text{
+    width: 147px;
+}
+.container-7 .search-form .cs-select.active .cs-placeholder .icon-right{
+    background: transparent url(/assets/img/page2016/arrow-filter-up.png) center center no-repeat;
+    border-left: 1px solid #bebebe;
+}
+.container-7 .search-form .cs-select.active .cs-placeholder{
+    border-radius: 0px;
+}
+.container-7 .search-form .cs-select.active .cs-placeholder .icon-left{
+    border-radius: 0px;
+}
+.container-7 .search-form .cs-select .cs-options{
+    background: #e7e7e7;
+    color: #f5f5f5; 
+    border-radius: 0px;
+    border-top: none;
+    padding: 10px 0 !important;
+    border-color: #bebebe;
+    cursor: default;
+}
+.form-search .cs-select .cs-options > ul{
+    border-top: none;
+}
+
+.container-7 .search-form .cs-select .cs-options ul li{
+    background: none;
+    padding: 0;
+    margin: 5px 0;
+    float: left; 
+    cursor: pointer;
+}
+.container-7 .search-form .cs-select .cs-options ul li .icon-check{
+    float: left;
+    display: inline-block;
+    background: transparent url(/assets/img/page2016/bg-filter-list.jpg) center center no-repeat;
+    height: 24px;
+    width: 44px;
+}
+
+.container-7 .search-form .cs-select .cs-options ul li .text-option{
+    display: inline-block;
+    float: left;
+    border-radius: 3px;
+  
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+    font-size: 14px;
+    width: 296px;
+  
+}
+.container-7 .search-form .cs-select.destination .cs-options ul li .text-option{
+    width: 184px;
+}
+.container-7 .search-form .cs-select.search-length .cs-options ul li .text-option{
+    width: 244px;
+}
+.container-7 .search-form .cs-select .cs-options ul li.active{
+    background: none;
+}
+.container-7 .search-form .cs-select .cs-options ul li.active .icon-check{
+    background: transparent url(/assets/img/page2016/bg-filter-list-active.jpg) center center no-repeat;
+}
+.container-7 .search-form .cs-select .cs-options ul li.active .text-option{
+    color: #d4532c;
+  
+}
+.container-7 .search-form .cs-select .list-option{
+    display: none;
+}
+.container-7 .search-form .submit:hover{
+    opacity: 0.8;
+}
+
+/* Css all items tour */
+.area-slider-swiper-3-item .item .image{
+    
+    position: relative;
+}
+.area-slider-swiper-3-item .item .image:hover::before{
+    content: "";
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 8;
+    background: rgba(0, 0, 0, 0.5);
+}
+.area-slider-swiper-3-item .item .image:hover::after{
+    content: 'Personnaliser';
+    text-transform: inherit;
+    font: 16px LatoLatin-Bold,sans-serif;
+    width: 160px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    left: 0;
+    top: 0;
+    /* transform: translate(-50%,-50%); */
+    z-index: 9;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+/* End Css all items tour */
+/*.guide-blogs{
+	text-align: left;
+	position: relative;
+}
+.guide-blogs .guide{
+	float: left;
+	width: 300px;
+	margin-bottom: 0px;
+        margin-right: 20px;
+}
+.guide-blogs .guide >p{
+	margin: 0 0 25px;
+	font-size: 18px;
+        font-family: LatoLatin-Regular,sans-serif;
+	text-transform: uppercase;
+}
+.guide-blogs .guide >p > span{
+	font-family: LatoLatin-Bold;
+}
+.guide-blogs .guide > img{
+	margin-bottom: 20px;
+}
+.guide-blogs .guide .text p{
+	font-size: 15.5px;
+        font-family: LatoLatin-Regular,sans-serif;
+	margin: 15px 0 4px;
+        
+}
+.guide-blogs .guide p.bigger{
+    align-items: center;
+    display: flex;
+    
+    font-family: LatoLatin-Bold;
+    font-size: 18px;
+    height: 18.2px;
+    margin: 0;
+    text-align: left;
+}
+.guide-blogs .blogs{
+	width: 620px;
+	float: left;
+}
+.guide-blogs .blogs > p{
+	font-size: 18px;
+        font-family: 'LatoLatin-Bold', sans-serif;
+	margin: 0 0 25px;
+	text-transform: uppercase;
+}
+.guide-blogs .blogs .item-img{
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+	display: inline-block;
+        float: left;
+}
+.guide-blogs .blogs .item-img .img{
+	position: relative;
+	float: left;
+}
+.guide-blogs .blogs .item-img .img p{
+	    margin: 0;
+    color: #6d6d6d;
+    font-size: 13.5px;
+    font-family: LatoLatin-Regular,sans-serif;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ebe8de;
+}
+.guide-blogs .blogs .item-img .text{
+	float: right;
+	width: 305px;
+	text-align: left;
+}
+.guide-blogs .blogs .item-img .text p{
+	font-size: 15.5px;
+        font-family: LatoLatin-Regular,sans-serif;
+        margin: 0;
+}
+.guide-blogs .blogs .item-img .text .title-item{
+	font-size: 18px;
+        font-family: LatoLatin-Medium, sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 14px;
+        line-height: 1.1;
+}
+.guide-blogs .blogs .item-img .img:hover{
+    opacity: 0.7;
+}
+.guide-blogs .blogs .item-img .text .title-item:hover{
+    opacity: 0.7;
+}
+.guide-blogs .guide form input{
+	width: 100%;
+	margin: 15px 0 17px;
+	font-size: 13.5px;
+        font-family: LatoLatin-Regular,sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 35px;
+	border: 1px solid #b7b7b7 !important;
+}
+.guide-blogs .guide form .submit-email{
+	float: right;
+	width: 158px;
+	height: 36px;
+	font: 15.5px/40px LatoLatin-Bold,sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background: #e65925;
+	text-align: center;
+	cursor: pointer;
+}
+.guide-blogs .guide form .submit-email:hover{
+	opacity: 0.7;
+}
+#download-guide-form{
+    position: relative;
+    
+}
+#download-guide-form .error-email {
+    background: url(/assets/img/error-newsletter-bg.png) left top no-repeat transparent;
+    width: 358px;
+    height: 53px;
+    display: inline-block;
+    position: absolute;
+    left: -17px;
+    top: -55px;
+    font: 14.5px LatoLatin-Bold,sans-serif;
+    color: #fff;
+    padding: 21px 35px;
+    display: none;
+} 
+.container-8 .link-to-blog{
+    display: inline-block;
+    color: #e65925;
+    background: url(/assets/img/page2016/icon_arrow.png) right center no-repeat;
+    font-size: 13.5px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+    margin: -20px 0 0;
+    padding: 10px 18px 10px 0;
+    float: right;
+    background-size: 9px;
+}
+.container-8 .link-to-blog:hover{
+    opacity: 0.7;
+}
+
+ Fix css Blogs for page birmanie 
+
+.container-8 .birmanie .blogs{
+    width: 100%;
+}
+.container-8 .birmanie .blogs .item{
+    width: 300px;
+    float: left;
+    clear: none;
+    margin-bottom: 0 !important;
+}
+.container-8 .birmanie .blogs .item-2{
+    margin: 0 20px 20px;
+}
+.container-8 .birmanie .blogs .item .text{
+    width: 100%;
+}
+.container-8 .birmanie .blogs .item .text .tt{
+    margin: 20px 0;
+    line-height: 20px;
+}
+.container-8 .birmanie .link-to-blog{
+    margin: 10px 0 0px;
+    clear: both;
+}
+.container-8 .birmanie .title-blog{
+    float: left;
+    font: 24px LatoLatin-Bold,sans-serif;
+    margin-bottom: 33px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    width: 510px;
+}
+.container-8 .birmanie .title-blog::after{
+     background: #d9cfb5 none repeat scroll 0 0;
+    bottom: 8px;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    left: 520px;
+    position: absolute;
+    width: 417px;
+}
+.container-8 .clearfix{
+    display: none;
+}
+.container-8 .birmanie .clearfix{
+    display: block;
+}*/

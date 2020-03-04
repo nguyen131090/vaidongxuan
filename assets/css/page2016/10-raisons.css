@@ -1,0 +1,373 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 3:52:20 PM
+    Author     : dtnguyen
+
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contain .rows{
+    float: left;
+    clear: left;
+    width: 100%;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 1100px;
+}
+.container-1 .amc-column h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.rows{
+    clear: left;
+}
+.rows .tt{
+    font-size: 24px;
+    text-transform: inherit;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 33px 0;
+}
+
+.rows .amc-col{
+    float: left;
+    
+}
+iframe{
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.container-2{
+    margin-top: 60px;
+}
+.container-2 .row-1 .amc-col-1{
+    width: 280px;
+    padding-left: 10px;
+}
+.container-2 .row-1 .amc-col-1 img{
+    border-radius: 100%;
+    border: 3px solid #e2dccc;
+}
+.container-2 .row-1 .amc-col-2{
+    width: 650px;
+    padding-top: 30px;
+}
+.container-2 .row-2{
+  
+}
+.container-2 .row-2 .amc-col{
+    width: 450px;
+      margin: 60px 0;
+}
+.container-2 .row-2 .amc-col-1{
+    margin-right: 20px;
+}
+.container-2 .row-2 .amc-col-2{
+    margin-left: 20px;
+}
+.container-3{
+    height: 466px;
+    z-index: 0;
+}
+.container-3.loaded, .container-3.visible{
+    background: url(/assets/img/page2016/bg_container_3_raisons.jpg) center center no-repeat;
+    background-size: cover;
+}
+.container-3 .amc-col{
+    width: 380px;
+    margin: 160px 0 0 510px;
+}
+
+.container-4 .amc-col{
+    width: 265px;
+    margin: 50px 0 25px;
+    
+}
+.container-4 .row-1 .amc-col{
+    width: 275px;
+}
+.container-4 .amc-col-1 .tt{
+    margin-bottom: 35px;
+}
+.amc-col p{
+
+    text-align: justify;
+    margin: 0;
+}
+.container-4 .amc-col-2{
+    margin: 50px 55px;
+}
+.container-4 .row-2 .amc-col-1{
+    width: 570px;
+    
+}
+.container-4 .row-2 .amc-col-2{
+    margin: 30px 0 30px 90px; 
+    width: 275px;
+}
+
+.container-5 {
+    color: white;
+    font-family: "LatoLatin-Medium",sans-serif;
+    height: 466px;
+    text-align: center;
+    margin: 20px 0;
+}
+.container-5.loaded {
+    background: rgba(0, 0, 0, 0) url("/assets/img//page2016/bg_slider.jpg") no-repeat scroll center center / cover ;
+}
+.container-5 .row-1 .tt{
+    font-size: 22px;
+    text-transform: none;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    margin: 60px 0;
+}
+.container-5 .row-1 .item{
+    float: left;
+    width: 140px;
+    margin: 0 20px 0 0;
+}
+.container-5 .row-1 .item img{
+    border-radius: 100%;
+}
+.container-5 .row-1 .item .title{
+    font-size: 17.5px;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+.container-5 .row-1 .item .destination{
+    font-size: 14.5px;
+    margin: 0;
+}
+.container-5 .row-1 .item a:hover{
+    color: #e75925;
+}
+.container-5 .row-1 .item:last-child{
+    margin-right: 0px;
+}
+.container-6 .amc-col{
+    width: 450px;
+    margin: 50px 0;
+    
+}
+.container-6 .amc-col-1{
+    margin-right: 20px;
+    padding-right: 32px;
+}
+.container-6 .amc-col-2{
+    margin-left: 20px;
+}
+
+.container-7{
+    
+    text-align: center;
+    margin: 25px 0 0;
+}
+.container-7 p{
+     background: #ececec none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.container-7 .tt{
+     display: inline-block;
+    
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0 35px;
+}
+
+.container-7 a{
+     border: 1px solid #da521f;
+    color: #da521f;
+    display: inline-block;
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 14.2px;
+    margin: 0 35px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+
+.container-5{
+    height: 466px;
+    
+    font-family: 'LatoLatin-Medium', sans-serif;
+    color: white;
+    text-align: center;
+}
+.container-5.loaded{
+    background: url(/assets/img/page2016/bg_slider.jpg) center center no-repeat;
+    background-size: cover;
+}
+.container-5 .rows .tt{
+    font-size: 20px;
+    
+    text-align: center;
+     margin: 50px 0 40px;
+}
+.container-5 .slide{
+    text-align: center;
+}
+.container-5 .slide img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+.container-5 .slide a:hover{
+    color: #e75925;
+}
+.container-5 .slide a:hover img{
+    opacity: 0.8;
+}
+.container-5 .slide a .title{
+    font-size: 17.5px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.container-5 .slide a .destination{
+    font-size: 14.5px;
+    margin: 0;
+}
+.container-5 .rows .link-btn{
+    font-size: 18px;
+    padding: 8px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.container-5 .rows .link-btn:hover{
+    color: white;
+    border-color: #da521f;
+    background-color: #da521f;
+}
+.container-5 .bx-wrapper{
+    margin-bottom: 40px;
+}
+.container-5 .bx-wrapper .bx-controls-direction a.disabled{
+    display: block !important;
+}
+.container-5 .bx-wrapper .bx-controls-direction a{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    margin: 0;
+}
+.container-5 .bx-wrapper .bx-prev{
+    background: url(/assets/img/page2016/btn-next.png) center center no-repeat transparent;
+     left: -55px;
+    top: -145px;
+}
+.container-5 .bx-wrapper .bx-next{
+    background: url(/assets/img/page2016/btn-prev.png) center center no-repeat transparent;
+   
+    right: -55px;
+    top: -145px;
+}
+.container-5 .bx-wrapper .bx-pager{
+    display: none;
+}
+.bx-has-controls-direction {
+    bottom: 0;
+   // height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    //top: 0;
+    width: 100%;
+}
+
+@media (max-width: 960px){
+    .container-2 .row-1 .amc-col-2{
+        width: 420px;
+    }
+    .container-2 .row-2 .amc-col{
+        width: 330px;
+    }
+    .container-3 .amc-col{
+        margin: 160px 0 0 340px;
+        width: 350px;
+    }
+    .container-4 .row-1 .amc-col{
+        width: 206px;
+    }
+    .container-4 .amc-col-2{
+        margin: 50px 40px;
+    }
+    .container-4 .row-2 .amc-col-1{
+        width: 450px;
+    }
+    .container-4 .row-2 .amc-col-2{
+        width: 230px;
+        margin-left: 20px;
+    }
+    .container-6 .amc-col{
+        width: 330px;
+    }
+    .container-6 .amc-col-1{
+        padding-right: 0;
+    }
+}

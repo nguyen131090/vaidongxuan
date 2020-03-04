@@ -1,0 +1,511 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 10:29:54 AM
+    Author     : dtnguyen
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contain.container-1 .row-2 .title{
+    margin: 0 0 2rem;
+    font-size: 2.25rem;
+    font-family: 'LatoLatin-Bold',sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+.contain .column-fixpadding{
+    
+    padding: 0 0px;
+}
+.contain .column .rows {
+    clear: left;
+    width: 100%;
+    float: left;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-1 .column .title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 2rem 0px;
+}
+
+.form .has-error input, .form .has-error select, .form .has-error textarea{
+    border: 1px solid #fbe6df;
+    background-color: #fbe6df
+}  
+.form input, .form select{
+    border: 1px solid #d9d9d9;
+    height: 42px;
+    line-height: 44px;
+    padding: 0 10px;
+}
+.form textarea{
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    padding: 10px;
+}
+.form{
+    width: 870px;
+    margin: 0 auto;
+}
+.text .tt{
+    font-size: 22px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 40px 0 0px;
+    text-transform: uppercase;
+    color: #e75925;
+}
+.form td{
+    padding: 10px 0;
+}
+.input_full{
+    width: 100%;
+}
+.code-anti{
+    vertical-align: top;
+}
+.fix-text-code{
+    margin: 10px 0 0;
+}
+#btn-valider-big{
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    background: #da521f;
+    display: inline-block;
+    width: 160px;
+    line-height: 50px;
+    height: 46px;
+    float: right;
+    text-align: center;
+}
+#btn-valider-big:hover{
+    opacity: 0.8;
+}
+.error-summary ul li{
+    color: #e26640;
+}
+.has-error .text-label{
+    color: #e26640;
+}
+table.has-error{
+    background-color: #fbe6df;
+}
+.has-error div{
+    background-color: #fbe6df;
+}
+.input-prefix{
+    width: 70px;
+    margin-right: 30px;
+   
+}
+.form .fix-arrow{
+     background: #fff url(/assets/img/page2016/arrow_up_down_cam.png?v=001) no-repeat scroll right center;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+     appearance: none !important;
+     -ms-accelerator: none !important;
+    
+     padding-right: 27px;
+}
+.form .rdv .fix-arrow{
+     background: #fff url(/assets/img/page2016/arrow_down_black.png) no-repeat scroll right center;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+     appearance: none !important;
+     -ms-accelerator: none !important;
+     padding-right: 27px;
+}
+.input-country{
+    width: 100%;
+}
+.input-region{
+    width: 100%;
+}
+.input-fullname{
+    width: 100%;
+}
+span.fix-tt{
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.input-ville{
+   
+    width: 100%;
+}
+.text-top-form{
+    width: 670px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0px 0 0 0;
+}
+.text-top-form p{
+    text-align: left !important;
+}
+
+.text-area{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'LatoLatin-Bold',sans-serif;
+    color: #e65925;
+  
+}
+.text-area-1{
+    margin-top: 0;
+}
+.input-departureDate{
+    width: 130px;
+}
+.input-deretourDate{
+    width: 130px;
+}
+span.field-devisform-departuredate{
+    margin-right: 30px;
+}
+span.field-devisform-departuredate,
+span.field-devisform-deretourdate,
+span.field-devisform-calldate{
+    display: inline-block;
+    padding-right: 43px;
+    height: 100%;
+    background: url(/assets/img/page2016/icon_input_datepicker.png) right center no-repeat;
+}
+.input-tourLength{
+    width: 100%;
+}
+
+label{
+    font-family: 'LatoLatin-Regular', sans-serif;
+    display: block;
+    margin: 0 15px 0 0;
+    font-size: 15.5px;
+    font-weight: normal;
+}
+#devisform-countriestovisit label{
+    display: inline-block;
+}
+#devisform-callback label{
+    display: inline-block;
+}
+
+.form .ta-r{
+    padding-right: 10px;
+}
+.input-numberOfTravelers12,
+.input-numberOfTravelers2,
+.input-numberOfTravelers0{
+    width: 65px;
+    
+}
+.input-agesOfTravelers12{
+    width: 130px;
+    margin-left: 0px;
+}
+.f-t{
+    display: inline-block;
+    margin-right: 13px;
+}
+.f-t-4{
+    margin-right: 10px;
+}
+.f-t-3{
+    margin-left: 27px;
+}
+.div-area{
+    display: table;
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.div-area-1 select,
+.div-area-3 select{
+    margin-right: 20px;
+}
+.div-area-2 .t-t,
+.div-area-4 .t-t{
+    margin-left: 20px;
+}
+.div-area .t-t{
+    display: table-cell;
+    float: left;
+}
+.div-area-3, .div-area-4{
+    margin-bottom: 10px;
+}
+.fix-text-align{
+    text-align: center;
+}
+.input-chambres{
+    width: 70px;
+    
+}
+.form .col{
+    padding: 0 10px;
+}
+/* CUSTOM FORM RADIO */
+input[type="radio"], input[type="checkbox"] {
+    display:none;
+}
+
+input[type="radio"] + span, input[type="checkbox"] + span {
+    display:inline-block;
+    width:15px;
+    height:19px;
+    margin:-3px 0px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+input[type="checkbox"] + span{
+    border-radius: 0px;
+}
+
+input[type="radio"] + span {
+     background: url("/assets/img//page2016/bg_radio.png") no-repeat scroll left center;
+}
+input[type="checkbox"] + span{
+    background: url("/assets/img//page2016/bg_checkbox.png") no-repeat scroll left center;
+}
+
+input[type="radio"]:checked + span{
+     background: url("/assets/img//page2016/bg_list_active.png") no-repeat scroll left center;
+}
+input[type="checkbox"]:checked + span{
+    background: url("/assets/img//page2016/bg_checkbox_active.png") no-repeat scroll left center;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span,
+input[type="checkbox"] + label span,
+input[type="checkbox"]:checked + label span{
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+/* CUSTOM FORM SELECT OPTION */
+
+.text-summary-fix{
+    margin: 10px 0 -10px 0;
+}
+.col-fix-align{
+    text-align: right;
+}
+.fix-middle-text{
+    display: inline-block;
+    margin-top: 12px;
+}
+.fix-text{
+    display: block;
+}
+.fix-col-left{
+    display: table;
+    height: 100%;
+   
+}
+.fix-col-left .middle-text{
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+.t-t{
+    display: inline-block;
+    margin: 0 0 5px 0;
+}
+#devisform-hoteltypes input[type="checkbox"] + span{
+    margin-right: 8px;
+}
+#devisform-tourthemes input[type="checkbox"] + span{
+    margin-right: 8px;
+}
+input[id="devisform-newsletter"] + span{
+    margin-right: 8px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+} 
+.btn-prev{
+    display: block;
+    background: url(/assets/img/page2016/arrow_prev.png) 1rem center no-repeat #8e8e8e;
+    font-size: 1.6rem;
+    font-family: inherit;
+    color: white;
+    text-transform: uppercase;
+    width: 10.6rem;
+    height: 3.6rem;
+    
+    padding-left: 3rem;
+    line-height: 3.6rem;
+    margin: 2rem 0 2rem -2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.text-title{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #e65925;
+    text-align: left;
+    margin: 0rem 0;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    padding: 2rem 0;
+}
+.form td.info-error > .col{
+    margin: 0 !important;
+}
+.form tr:nth-of-type(3) > td > .col{
+    margin: 0 !important;
+}
+.fix-tour-theme .group-opt{
+    margin: 1rem 0 3rem;
+}
+.fix-tour-theme .group-opt:last-of-type{
+    margin-bottom: 0;
+}
+@media (max-width: 500px){
+    .column{
+        width: 100% !important;
+        padding: 0 2rem !important;
+    }
+    .column .col{
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+    .item{
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+    .column .rows{
+        width: 100%;
+    }
+    .container-1{
+        margin-top: 80px;
+    }
+    .container-1.fix-top{
+        margin-top: 50px;
+    }
+    .container-1 .row-1{
+        top:0;
+    }
+    .container-1 .breadcrumb{
+        width: 100%;
+        height: auto;
+    }
+    .container-1 .column .title{
+        font-size: 20px;
+    }
+    .container-2 .column{
+        padding: 0 10px;
+    }
+    .img-responsive{
+       
+        width: 100%;
+        margin: 0 auto;
+    }
+    .form{
+        width: 100%;
+    }
+    .form .col{
+        padding: 0px;
+    }
+    .text-top-form{
+        width: 100%;
+    }
+    .fix-text-align{
+        text-align: left;
+    }
+    .fix-text-align .t-t{
+        float: left;
+    }
+    .input-chambres{
+        float: right;
+    }
+    
+    .col-fix-align{
+        text-align: left;
+    }
+    .fix-middle-text{
+        margin: 0;
+    }
+    
+    .fix-text{
+        display: inline-block;
+    }
+    .fix-col-left{
+        display: block;
+        height: auto;
+        min-height: auto !important;
+    }
+    .fix-col-left .middle-text{
+        padding: 0;
+    }
+}

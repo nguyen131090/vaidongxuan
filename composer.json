@@ -1,0 +1,55 @@
+{
+    "name": "noumo/easyii-shop",
+    "description": "Easyiicms simple shop with examples of all modules",
+    "keywords": ["yii2", "cms", "control panel", "admin", "easy", "shop"],
+    "homepage": "http://easyiicms.com",
+    "type": "project",
+    "license": "GNU GPL V3",
+    "support": {
+        "wiki": "http://easyiicms.com/docs",
+        "source": "https://github.com/noumo/easyii-shop.git",
+        "issues": "https://github.com/noumo/easyii-shop/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "noumo/easyii": "dev-master",
+		"mailgun/mailgun-php": "~1.7.1",
+		"symfony/event-dispatcher" : "~2.7",
+        "mailjet/mailjet-apiv3-php": "dev-master",
+        "yii-ext/yii-easyimage": "dev-master",
+        "yiicod/yii2-easyimage": "dev-master",
+        "himiklab/yii2-recaptcha-widget": "*",
+        "guzzlehttp/guzzle": "^6.3@dev",
+        "wadeshuler/yii2-ckeditor-cdn": "~1.0",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "kartik-v/yii2-widget-datetimepicker": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "generateCookieValidationKey": [
+                "app/config/web.php"
+            ]
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        },
+	    "writable": [
+            "assets",
+            "uploads",
+            "runtime"
+        ]
+    }
+}

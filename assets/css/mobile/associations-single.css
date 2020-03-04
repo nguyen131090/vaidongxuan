@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2018, 10:44:02 AM
+    Author     : dtnguyen
+*/
+.amc-rr{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.amc-rr.r2 p{
+    margin: 0;
+}
+.icon-logo{
+    float: left;
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+}
+.amc-area-info-detail{
+    margin: 0 -4vw;
+    padding: 2.5rem 4vw;
+    list-style: none;
+    background: #ededed;
+}
+.amc-text-title .tt-sub-title{
+    margin: 1rem 0 0;
+}
+.amc-area-info-detail li{
+    
+    margin-bottom: 1.7rem;
+    line-height: 1.3;
+    background-position: 0 0 !important;
+}
+.amc-area-info-detail li *{
+    line-height: 1.3;
+}
+.amc-area-info-detail li:last-of-type{
+    margin-bottom: 0;
+}
+.amc-area-info-detail li span{
+    text-transform: none;
+    display: block;
+    color: #6b6b6b;
+}
+.amc-area-info-detail li span a{
+    color: #e65925;
+}
+.amc-area-info-detail li:nth-of-type(1){
+    background: url(../../img/mobile/icon_3_fonda_sg_new_64_64.png) 0 center no-repeat;
+    padding: 0 0 0 4rem;
+    background-size: 3.2rem;
+    
+}
+.amc-area-info-detail li:nth-of-type(2){
+    background: url(../../img/mobile/icon_2_fonda_sg_new_64_64.png) 0rem center no-repeat;
+    padding: 0 0 0 4rem;
+    background-size: 3.2rem;
+}
+.amc-area-info-detail li:nth-of-type(3){
+    background: url(../../img/mobile/icon_4_fonda_sg_new_64_64.png) 0 center no-repeat;
+    padding: 0 0 0 4rem;
+    background-size: 3.2rem;
+}
+
+.amc-entry-body h2{
+    font-family: 'LatoLatin-SemiBold', sans-serif !important;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+.amc-entry-body h2 *{
+    font-size: 2rem !important;
+}
+.exclusive-slider .swiper-slide{
+    width: 75%;
+}
+.area-gallery{
+    position: relative;
+}
+.galeries-slider .text-on-image {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0));
+    width: 100%;
+    padding: 2rem 1.25rem;
+}
+.galeries-slider .button-slider {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    right: -4vw;
+    margin-top: -2.15rem;
+}
+.galeries-slider .swiper-button-prev {
+    background-color: transparent;
+    background-size: 2rem;
+    left: -0.5rem;
+    transform: rotate(180deg);
+}
+.galeries-slider .swiper-button-next {
+    background-color: transparent;
+    background-size: 2rem;
+    right: -0.5rem;
+}
+.area-2{
+   // height: 14rem;
+    position: relative;
+    
+}
+.area-2.visible{
+    background: url(/assets/img/page2016/img_fontda_sg_new_btn.jpg) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.area-2 .tt-area-2{
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 6.5rem; 
+    line-height: 1.2;
+}
+.area-2 .btn{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.6rem;    
+}
+
+
+.area-1{
+    border: 1px solid #787878;
+    padding: 2.5rem 2.5rem 0;
+}
+.area-1 ul{
+    margin: 0;
+    padding: 2rem 0 1.5rem;
+    list-style: none;
+}
+.area-1 ul li{
+    text-align: left;
+    
+    margin-bottom: 1.5rem;
+/*    padding-bottom: 10.5px;
+    border-bottom: 1px solid #bab9b9;*/
+}
+.area-1 ul li a{
+    display: flex;
+    align-items: center;
+/*    justify-content: center;*/
+    color: inherit;
+}
+.area-1 ul li a:hover{
+    color: #e75925;
+}
+.area-1 ul li a img{
+    width: 4rem;
+    height: 4rem;
+    margin: auto 1.2rem auto 0;
+    border-radius: 100%;
+}
+.area-1 .tt-area-1{
+    font-size: 2.75rem;
+    color: #262626;
+    font-family: 'Grand Hotel', sans-serif;
+    text-align: left;
+    margin: 0;
+}

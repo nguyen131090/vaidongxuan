@@ -1,0 +1,621 @@
+a.ui-link{
+    color: inherit;
+    text-shadow: none !important;
+}
+.tbl-form .ui-input-text {
+    margin: 1.25rem 0;
+    position: relative;
+    background: none;
+    text-shadow: none;
+    border: none;
+    border-width: 0px;
+    box-shadow: unset;
+}
+.form-tour .col{
+    padding-left: 0;
+    padding-top: 0.6rem;
+    padding-right: 0;
+}
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited{
+    color: inherit;
+}
+.text-top{
+    margin: 0 1.5rem 2.3rem;
+}
+.form-tour {
+    font-size: 1.6rem;
+    font-family: LatoLatin-Regular,sans-serif;
+}   
+.form-tour .title{
+    text-transform: uppercase;
+    color: #e65925;
+    margin: 3rem 0 0.5rem 0;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+ 
+.form-tour p{
+    text-align: left !important;
+
+}
+.banner{
+    width: 100%;
+}
+.form-tour h1.title{
+    text-transform: inherit;
+    color: #e65925;
+    
+    font-size: 2.4rem;
+    
+    font-family: LatoLatin-Bold, sans-serif;
+    margin: 2.5rem 0 1.5rem;
+}
+table{
+    width: 100%;
+}
+td{
+    vertical-align: middle;
+    
+}
+td.ta-r{
+    padding: 0;
+}
+input,select{
+    border: none;
+    height: 3rem;
+}
+.note-form td{
+    padding: 0.5rem 0 1.5rem;
+}
+
+
+.field-contactformmobile-fullname .ui-input-text{
+    display: inline-block;
+    width: 100%;
+}
+
+
+h2.entry-title{
+    display: inline-block;
+}
+.form-tour ul.nav-tabs{
+    width: 100%;
+}
+.form-tour ul.nav-tabs li:first-of-type{
+    margin-left: 5%;
+}
+.text-captcha img#contactformmobile-verificationcode-image{
+    display: none;
+}
+.field-contactformmobile-verificationcode, .field-contactformmobile-verificationimgcode{
+    float: right;
+    width: 50%;
+}
+.field-contactformmobile-verificationcode .ui-input-text, .field-contactformmobile-verificationimgcode .ui-input-text{
+    width: 100%;
+}
+.captcha{
+    line-height: 5rem;
+}
+#btn-valider-big{
+    display: table;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background: #e65925;
+    border-radius: 3rem;
+    margin: 2rem 0 1.5rem;
+    padding: 0;
+    text-transform: inherit;
+}
+#contactformmobile-verificationcode:parent{
+    border: none;
+}
+
+#contactformmobile-message{
+    height: 140px !important;
+}
+.error-summary{
+    font: italic 1.6rem LatoLatin-Regular,sans-serif;
+    color: #e26640;
+}
+.btn-bottom .contact a {
+    display: inline-block;
+}
+.btn-bottom li.contact {
+    /*background: url(/assets/img/mobile/icon_devis_36_47.png) 1rem center no-repeat transparent;
+    background-size: 3rem;
+    padding-left: 4.5rem;*/
+}
+.btn-bottom li.contact-tour{
+    width: 66%;
+    border: none;
+    padding-left: 4.5rem;
+    background: url(/assets/img/mobile/icon_devis_36_47.png) 1rem center no-repeat transparent;
+    background-size: 3rem;
+    background-position: calc(50% - 8rem) 50%;
+}
+.btn-bottom li.rdv-tour{
+    width: 33%;
+    float: right;
+    height: 4.85rem;
+    padding: 0.4rem 0;
+}
+.btn-bottom .contact a p {
+    text-transform: uppercase;
+    font: 1.2rem LatoLatin-Bold,sans-serif;
+    color: #f8f8f8;
+    margin: 0;
+    text-align: left;
+    text-shadow: none;
+    line-height: 2rem;
+}
+.btn-bottom .contact a p.big-text {
+    font-size: 1.7rem;
+}
+.ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after{
+    border-color: #e65925;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active{
+        background-color: #e65925;
+    border-color: #e65925;
+}
+a#btn-valider-big img{
+    margin-left: 1rem;
+}
+.ui-select .ui-btn-icon-left:after, .ui-select .ui-btn-icon-right:after, .ui-select .ui-btn-icon-top:after, .ui-select .ui-btn-icon-bottom:after, .ui-select .ui-btn-icon-notext:after{
+    background-color: #e65925;
+}
+.ui-select .ui-icon-carat-d:after{
+    background-size: 60%;
+}
+#tbl-contact label, #tbl-form-tour .form-control{
+    
+    font-weight: normal;
+    font-family: LatoLatin-Regular, sans-serif;
+}
+#tbl-form-tour label, #tbl-form-tour .form-control{
+    
+    font-weight: normal;
+    font-family: LatoLatin-Regular, sans-serif;
+}
+.back-link{
+    min-height: 4rem;
+    display: table;
+    width: 100%;
+    background: #e65925 url(/assets/img/mobile/arrow-white-back-28-49.png) 1rem center no-repeat;
+    padding-left: 3.5rem;
+    background-size: 1.4rem auto;
+
+}
+.back-link .tt-custom{
+    display: table-cell;
+    vertical-align: middle;
+    color: white !important;
+}
+.back-link.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+/* Fix Menu fixed top */
+.btn-header li.navigation{
+    display: none;
+}
+
+
+/* End Fix Menu fixed top  */
+
+/* Update Css 070818 */
+.error-summary{
+    margin-top: 1rem;
+    float: left;
+}
+.error-summary ul{
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding: 0 0 0 2rem;
+}
+.field-form{
+    background-color: #eaeaea;
+    padding: 0 1.5rem;
+}
+.area-form .steps{
+    display: none;
+}
+.area-form .steps.active{
+    display: block;
+}
+.next-steps, button#btn-valider-form{
+    background: #e75925;
+    border-radius: 5rem;
+    color: white;
+    font-size: inherit;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.6rem;
+    margin: 0 1.5rem;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 0 1.5rem !important;
+}
+.back-steps{
+    background: white;
+    border-radius: 5rem;
+    color: #848484;
+    font-size: inherit;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.6rem;
+    margin: 0 1.5rem;
+    border: 1px solid #848484;
+    text-shadow: none;
+}
+button.submited{
+    background: rgb(109, 109, 109) !important;
+    opacity: 0.8 !important;
+}
+#tbl-form-tour .has-error label, #tbl-form-tour .has-error .form-control{
+    border: none;
+}
+#tbl-form-tour label, #tbl-form-tour .form-control{
+    font-size: 1.6rem;
+    background: white;
+    border: 1px solid #9e9e9e;
+    padding-left: 4.5rem;
+}
+#tbl-form-tour textarea{
+    background: white;
+    border: 1px solid #9e9e9e;
+}
+#tbl-form-tour .form-control{
+    padding-left: 2rem;
+}
+
+.tbl-form .ui-input-text{
+    margin: 1.25rem 0;
+    position: relative;
+}
+.tbl-form input[type=text], .tbl-form input[type=tel], .tbl-form input[type=number], select{
+    background: white;
+    border: 1px solid #9e9e9e;
+    height: auto;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.tbl-form .amc-fix-arrow .ui-input-text:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    bottom: 0;
+    right: 1rem;
+    margin: auto 0;
+    background: url(/assets/img/mobile/icon-arrow-cam-down-32-22.png) center center no-repeat;
+    background-size: 1.6rem;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'LatoLatin-Regular', sans-serif;
+  font-size: inherit;
+  color: #949494;
+  opacity: 1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'LatoLatin-Regular', sans-serif;
+  font-size: inherit;
+  color: #949494;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'LatoLatin-Regular', sans-serif;
+  font-size: inherit;
+  color: #949494;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: 'LatoLatin-Regular', sans-serif;
+  font-size: inherit;
+  color: #949494;
+  opacity: 1;
+  
+}
+.tbl-form .ui-checkbox, .ui-radio{
+    margin: 1.25rem 0;
+    
+}
+.amc-tt-latolatin-semibold{
+    font-family: 'LatoLatin-SemiBold', sans-serif;
+}
+.amc-color-e75925{
+    color: #e75925;
+}
+.amc-color-949494{
+    color: #949494;
+}
+.amc-tt-fontsize-28{
+    font-size: 1.6rem;
+   // line-height: 1.8rem;
+}
+.m-0{
+    margin: 0 !important;
+}
+.mt-50{
+    margin-top: 2.5rem !important;
+}
+.mt-25{
+    margin-top: 1.25rem !important;
+}
+.mt-10{
+    margin-top: 0.5rem !important;
+}
+.mb-50{
+    margin-bottom: 2.5rem !important;
+}
+.mb-25{
+    margin-bottom: 1.25rem !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+.pt-50{
+    padding-top: 2.5rem;
+}
+.pb-50{
+    padding-bottom: 2.5rem;
+}
+.pt-25{
+    padding-top: 1.25rem;
+}
+.amc-lineheight-fs32{
+    line-height: 1.4rem;
+}
+
+.tbl-form .ui-btn.ui-checkbox-off:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after{
+    
+    background: white;
+    opacity: 1;
+    margin-left: 8px;
+}
+.tbl-form .ui-btn.ui-radio-off:after, .tbl-form .ui-btn.ui-checkbox-off:after{
+    border: 1px solid #9e9e9e;
+}
+.tbl-form .ui-btn.ui-checkbox-on:after{
+  
+    opacity: 1;
+    margin-left: 8px;
+}
+.tbl-form .ui-radio:last-child{
+/*    margin-bottom: 0;*/
+}
+.tbl-form .ui-select{
+    border: 1px solid #9e9e9e;
+    border-radius: 0.5rem;
+    margin: 1.25rem 0;
+}
+.tbl-form .ui-select .ui-btn{
+    
+    text-align: left;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    background: white;
+    border: none;
+    font-weight: normal;
+}
+.tbl-form .amc-fix-arrow .ui-select .ui-btn:after{
+    background-color: unset;
+    background-image: url(/assets/img/mobile/icon-arrow-cam-down-32-22.png);
+    background-size: 1.6rem;
+}
+.fix-field-margin .ui-input-text{
+    margin-bottom: 0;
+}
+.fix-field-margin .ui-select{
+    margin-bottom: 0;
+}
+.amc-text-warning {
+    background: rgba(0, 0, 0, 0) url("/assets/img//mobile/icon-warning-20-20.png") no-repeat scroll 0 2px / 20px auto;
+    padding-left: 28px;
+    color: #e26640;
+}
+.amc-vouspartez{
+    display: none;
+}
+.form-tour .tbl-form textarea{
+    background: white;
+    border-color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+}
+.text-placeholder-right::-webkit-input-placeholder{
+    text-align: right;
+}
+.text-placeholder-right::-moz-placeholder{
+    text-align: right;
+}
+.text-placeholder-right::-ms-input-placeholder{
+    text-align: right;
+}
+.text-placeholder-right::-moz-placeholder{
+    text-align: right;
+}
+.tbl-form .ui-select .empty span{
+    color: #b1b1b1;
+}
+
+.amc-sujet-pdv{
+    display: none;
+}
+.has-error input, .has-error .ui-select, .has-error textarea{
+    border: 1px solid #e26640 !important;
+    border-radius: 0.5rem;
+}
+
+/* ENd Update Css 070818 */
+
+#contactformmobile-prefix  .ui-radio{
+    display: inline-block;
+    width: 46%;
+}
+#contactformmobile-prefix .ui-radio:first-child{
+    margin-right: 6%;
+}
+#contactformmobile-prefix .ui-radio label{
+    width: 100%;
+}
+.intl-tel-input.allow-dropdown{
+    width: 100%;
+}
+/* End Css Update form */
+.intl-tel-input.allow-dropdown input{
+  padding-left: 100px !important;   
+}
+.intl-tel-input .selected-flag{
+    width: 96px !important;
+}
+.intl-tel-input{
+    display: block !important;
+}
+.ui-radio .ui-btn.ui-radio-on:after{
+    width: 18px;
+    height: 18px;
+}
+.has-error .ui-checkbox, .has-error .ui-radio{
+    border: 1px solid #e26640 !important;
+    border-radius: 0.5rem;
+}
+div#select-country-button{
+    overflow: unset;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+div#select-country-button::after{
+    display: none;
+}
+.fix-text .ui-select{
+    border: 0px;
+}
+div#select-country-button span.crs-country{
+    display: none !important;
+}
+
+div#select-country-button .selectize-dropdown, div#select-country-button .selectize-input, div#select-country-button .selectize-input input{
+    font-size: inherit;
+}
+div#select-country-button .selectize-input{
+    padding: .65em 1.6rem;
+    border: 1px solid #9e9e9e;
+    border-radius: 0.5rem;
+    height: 4.7rem;
+    line-height: 2.5rem;
+}
+.selectize-dropdown .option, .selectize-dropdown .optgroup-header{
+    padding: 0.5rem 1.6rem !important;
+}
+.selectize-input > input{
+    height: 20px !important;
+}
+div#select-country-button .selectize-control.single .selectize-input:after{
+    background-color: unset;
+    background-image: url(/assets/img/mobile/icon-arrow-cam-down-32-22.png);
+    background-size: 1.6rem;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 11px;
+    border: 0px;
+    border-style: none;
+    right: 12px;
+}
+div#select-country-button .selectize-input.not-full{
+    border: 1px solid #e26640 !important;
+}
+div#contactformmobile-calltime .ui-checkbox{
+    display: inline-block;
+    width: 30.3%;
+    float: left;
+    margin: 1.5% 1.5%;
+}
+div#contactformmobile-calltime .ui-checkbox label{
+    display: inline-block;
+    width: 100%;
+    padding-right: 0rem;
+    padding-left: 4rem;
+    font-size: 1.5rem;
+    float: left;
+}
+.text-arnaud{
+    display: table;
+}
+.text-arnaud .rr-2 img{
+    border-radius: 100%;
+    border: 2px solid #cec3a3;
+    float: left;
+    margin-right: 2rem;
+    width: 9.5rem;
+    height: 9.5rem;
+}
+.text-arnaud .rr-2 .text-r {
+    float: left;
+    width: 62%;
+    height: 8.5rem;
+    display: flex;
+    align-items: center;
+}
+.text-arnaud .rr-1{
+    margin-top: 3.2rem;
+}
+.text-arnaud .rr-1 .tt{
+    line-height: 1.2;
+}
+.text-arnaud .rr-2{
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-top: 2.3rem;
+}
+.text-form-rdv p{
+    margin-bottom: 0;
+}
+#contactformmobile-prefix label{
+    padding: 1.1rem;
+    text-align: center;
+}
+#contactformmobile-prefix label::after{
+    display: none;
+}
+#contactformmobile-prefix label.ui-radio-on{
+    background: #e65925;
+    color: white;
+}
+/*td{
+    position: relative;
+}*/
+#tbl-form-tour .help-block{
+/*    position: absolute;
+    bottom: -0.8rem;
+    left: 0;
+    right: 0;*/
+    margin: -1rem 0 0 0;
+    font-size: 1.4rem;
+    color: #e65925;
+    font-family: LatoLatin-Regular;
+}
+.iti.iti--allow-dropdown.iti--separate-dial-code{
+    display: block !important;
+}
+#contactformmobile-calltime{
+    position: relative;
+    z-index: 1;
+}

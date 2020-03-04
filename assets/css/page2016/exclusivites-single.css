@@ -1,0 +1,223 @@
+/* 
+    Created on : 26/9/2018
+    Author     : tuanna
+*/
+.row-content-1 {
+    margin-top: -156px !important;
+}
+.btn-booking-top{
+    text-transform: none !important;
+}
+.host-container{
+    background: #f7f7f7;
+   
+}
+.host-container .host-tt{
+    font: 18px LatoLatin-Bold,sans-serif;
+}
+.host-container .host-content > div{
+    float: left;
+    width: calc(100% - 350px);
+}
+.host-container .host-content > p{
+    float: left;
+    width: 350px;
+    text-align: center;
+    margin: 0;
+
+}
+.host-container .host-content a{
+    font-size: 15.5px;
+    color: #e75925;
+    font-family: LatoLatin-Bold;
+    margin-top: 18px;
+    display: block;
+}
+.host-container .host-content a:hover{
+    opacity: 0.8;
+}
+.content-fluid{
+    background: #f7f7f7;
+}
+.video-fluid{
+    padding-bottom: 60px;
+    background: url(/assets/img/new-home/bg-about-home.jpg) center top no-repeat #fff;
+}
+.video-fluid .video-col p:first-of-type, .video-fluid .video-col > h2{
+    font: 24px LatoLatin-Bold,sans-serif;
+    text-align: center;
+    margin: 35px 0;
+    display: inline-block;
+    width: 100%;
+}
+.video-fluid .video-col p:last-of-type{
+    position: relative;
+        padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0;
+}
+.video-fluid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+}
+.content-fluid .content-col{
+    padding-left: 0px;
+    width: 655px;
+    padding-right: 10px;
+    min-height: 600px;
+}
+.content-fluid .content-col ul{
+    padding-left: 0;
+}
+.content-fluid .content-col ul li{
+    list-style: none;
+    background: url(../../img/page2016/bg-list.png) left 7px no-repeat transparent;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.content-fluid .content-col h2 {
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    color: #1c1c1c;
+    padding-left: 45px;
+/*    background: url(../../img/icon-pen.png) left center no-repeat transparent;
+    min-height: 40px;*/
+    margin-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    margin: 30px 0 30px -45px !important;
+}
+
+.content-fluid .map{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(50%, -30%);
+}
+
+.container-4  .des-button{
+    width: 710px;
+    font-size: 14px;
+    font-style: italic;
+}
+.related-articles .tt{
+    text-transform: none;
+}
+.related-articles .item .tt{
+   font-size: 18px;
+   font-family: 'LatoLatin-Bold', sans-serif;
+    border: none;
+    text-transform: inherit;
+    padding: 0;
+    line-height: 1.2;
+}
+.related-articles .item .summary{
+    margin-top: 0;
+}
+.related-articles{
+    width: 100%;
+}
+.sub-header-fixed .group-icon > div p{
+    font: 14px LatoLatin-Bold,sans-serif;
+}
+.rate-title{
+    font-family: LatoLatin-Regular,sans-serif !important;
+}
+.sub-header-fixed button{
+        padding: 12px 15px 12px !important;   
+        height: auto;
+    }
+.number-rate{
+        position: absolute;
+    right: -8px;
+    top: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #e75925;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: #fff;
+    font: 15.5px LatoLatin-Bold,sans-serif;
+    line-height: 23px;
+}
+.sub-header-fixed img{
+        margin-right: 0;
+    }
+    .sub-header-fixed .posi-link{
+        width: 100%;
+        text-align: center;
+    }
+.related-articles{
+    margin: 0 -10px;
+    width: calc(100% + 20px) !important;
+}
+.related-articles .item{
+    margin: 0 ;
+}
+.related-articles .item{
+    padding: 0 10px;
+}
+.container-6 .tt{
+    font: 24px LatoLatin-Bold,sans-serif;
+}
+.related-articles .item .summary{
+    font-size: 15.5px;
+}
+.row-content-1 .title{
+    text-transform: none;
+}
+.sub-header-fixed .tt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.container-2 .detail .text h3, .container-2 .detail .text h4, .container-2 .detail .text h5 {
+    margin: 10px 0;
+    font-size: 15.5px;
+    font-family: latolatin-bold,sans-serif;
+}
+.map.sticky {
+    position: fixed;
+}
+
+.item a:hover{
+    color: inherit;
+}
+
+@media(max-width: 769px){
+    .host-container .host-content{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: center;      
+    }
+    .host-container .host-content > div {
+        float: left;
+        width: 457px;
+    }
+    .host-container .host-content > p{
+        float: right;
+        width: auto;
+        margin-top: 0;
+        width: 242px;
+    }
+    .content-fluid .content-col{
+        display: inline-block;
+    }
+    .content-fluid .map {
+        position: relative;
+        text-align: center;
+        transform: none;
+        left: auto;
+        top: 0;
+        margin-bottom: 40px;
+    }
+    
+    
+}

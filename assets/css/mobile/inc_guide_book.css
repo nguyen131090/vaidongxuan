@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 20, 2019, 3:50:40 PM
+    Author     : dtnguyen
+*/
+
+.container-button-guide-book{
+    margin: 4rem 0;
+}
+.container-button-guide-book .area-guide-book{
+    padding: 0rem 0 0rem;
+    background: #d9d8d4;
+    position: relative;
+    overflow: hidden;
+}
+.container-button-guide-book .area-guide-book  .area-image-book{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    position: relative;
+}
+.container-button-guide-book .area-guide-book .area-image-book::before{
+       content: '';
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #e6e6e4;
+    /* top: 100%; */
+    z-index: 0;
+    bottom: -50px;
+}
+.container-button-guide-book .area-guide-book .img-book.vietnam.visible{
+     background-image: url(/assets/img/page2016/vietnam_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book.laos.visible{
+     background-image: url(/assets/img/page2016/laos_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book.cambodge.visible{
+     background-image: url(/assets/img/page2016/cambodge_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book.birmanie.visible{
+     background-image: url(/assets/img/page2016/birmanie_m.jpg);
+}
+.container-button-guide-book .area-guide-book .img-book{
+    z-index: 1;
+    position: relative;
+   width: 50%;
+/*   
+    margin: 0 auto;
+    background-size: 100% 100%;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;*/
+}
+
+.container-button-guide-book .area-guide-book .img-book img{
+    width: 100%;
+    position: relative;
+}
+.container-button-guide-book .area-guide-book .img-book::before, container-button-guide-book .area-guide-book .img-book::after
+{
+/*    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 58px;
+    left: 32px;
+    width: 84%;
+    top: 76%;
+    max-width: 289px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: -161px 87px 30px #777;
+    -webkit-transform: rotate(-16deg);
+    -moz-transform: rotate(-16deg);
+    -o-transform: rotate(-16deg);
+    -ms-transform: rotate(-16deg);
+    transform: rotate(16deg);*/
+   
+}
+.container-button-guide-book .area-guide-book .img-book::after
+{
+/* -webkit-transform: rotate(-16deg);
+    -moz-transform: rotate(-16deg);
+    -o-transform: rotate(-16deg);
+    -ms-transform: rotate(-16deg);
+    transform: rotate(16deg);
+  right: 10px;
+  left: auto;*/
+
+        content: '';
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 98px;
+    background: url(/assets/img/page2016/shadow-guide-book.png) right bottom no-repeat;
+    bottom: 0;
+    background-size: 100% 98px;
+}
+
+
+.container-button-guide-book .area-guide-book .right-guide{
+    width: 100%;
+    /* margin-left: 60px; */
+    z-index: 1;
+    padding: 0 4vw 4rem;
+    background: #e6e6e4;
+    position: relative;
+    margin-top: 0rem;
+}
+.container-button-guide-book .area-guide-book .right-guide p:first-of-type{
+    line-height: 1.2;
+    padding: 0 4rem;
+    margin-top: 0;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.container-button-guide-book .area-guide-book .right-guide p:nth-of-type(2){
+    margin-bottom: 1.6rem;
+    padding: 0 2rem;
+}
+.ui-input-text, .ui-input-search{
+    border: none;
+}
+.container-button-guide-book .area-guide-book .right-guide form input{
+    width: 100%;
+    margin: 22px 0 0px;
+    font-family: LatoLatin-Regular,sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 5rem;
+    /* border: none; */
+    margin: 0;
+    background: white;
+    border: 1px solid #999999;
+    border-radius: 0.5rem;
+}
+.container-button-guide-book .area-guide-book .right-guide form input.error{
+    border-color: #e65925;
+}
+.container-button-guide-book .area-guide-book .right-guide form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form input::-moz-placeholder { /* Firefox 19+ */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form input:-ms-input-placeholder { /* IE 10+ */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form input:-moz-placeholder { /* Firefox 18- */
+    color: #b1b1b1;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.container-button-guide-book .area-guide-book .right-guide form .error-email{
+    font-size: 13px;
+    color: #e35429;
+    margin-top: 5px;
+    line-height: 1;
+    display: none;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.container-button-guide-book .area-guide-book .right-guide form .submit-email{
+   
+       display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: LatoLatin-Bold;
+    background: #e65925;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+    border: none;
+}
+.ui-checkbox-off::after{
+    border: 1px solid #999999;
+    background: white;
+}
+.ui-checkbox-on::after{
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23FFFFFF%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E");
+    background-color: #e65925;
+    color: #e65925;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#exampleCheck1{
+    display: none;
+}
+label{
+    font-weight: normal;
+}
+@media only screen and (orientation:landscape){
+    .container-button-guide-book .area-guide-book .img-book{
+/*        height: 57.1rem;
+        background-size: contain;*/
+        width: auto;
+    }
+}

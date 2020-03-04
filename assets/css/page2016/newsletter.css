@@ -1,0 +1,318 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 10:29:54 AM
+    Author     : dtnguyen
+*/
+html, body{
+    height: 100% !important;
+}
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.contain .amc-column-fixpadding{
+    
+    padding: 0 0px;
+}
+.contain .amc-column .rows {
+    clear: left;
+    width: 100%;
+    float: left;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-1 .amc-column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin:  0 0 35px 0;
+}
+.container-2{
+    z-index: 2;
+}
+.has-error input, .has-error select, .has-error textarea{
+     
+     border: 1px solid #e25825;
+}
+input, select{
+    border: 1px solid #d9d9d9;
+    height: 42px;
+    line-height: 22px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+textarea{
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form{
+    width: 880px;
+    margin: 0 auto;
+}
+.form .amc-col{
+    padding: 0px 10px;
+}
+.text .tt{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+}
+table td{
+    padding: 10px 0;
+}
+.input_full{
+    width: 100%;
+}
+.code-anti{
+    vertical-align: top;
+}
+.fix-text-code{
+    margin: 10px 0 0;
+}
+.col-fix-align {
+    text-align: right;
+}
+
+.fix-middle-text {
+    display: inline-block;
+    margin-top: 12px;
+}
+.has-error .text-label {
+    
+}
+
+
+.fix-col-left {
+    display: table;
+    height: 100%;
+}
+.fix-col-left .middle-text {
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+#btn-valider-big{
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    background: #da521f url(/assets/img/page2016/arrow_white.png) 328px center no-repeat;
+    display: inline-block;
+/*    width: 396px;
+    line-height: 59px;
+    height: 57px;
+    float: left;*/
+    text-align: center;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 30px 0 35px;
+    border-radius: 5px;
+    padding-right: 32px;
+    width: 293px;
+    height: 46px;
+    padding: 0 15px !important;
+}
+#btn-valider-big:hover{
+    opacity: 0.8;
+}
+.error-summary ul li{
+     color: #e26640;
+    
+}
+
+.fix-arrow{
+     background: #fff url(/assets/img/page2016/arrow_up_down_cam.png) no-repeat scroll right 15px center;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+     appearance: none !important;
+     -ms-accelerator: none !important;
+     padding-right: 27px;
+}
+
+.fix-tt{
+  margin: 0 0px 0 20px;  
+}
+
+.text{
+    width: 670px;
+    margin: 0 auto;
+    padding: 40px 10px 0;
+}
+.form .extension .amc-col-1 {
+    text-align: center;
+}
+.form .extension .amc-col-1 .tt {
+    color: #e75925;
+    display: inline-block;
+    font-family: "LatoLatin-Bold";
+    line-height: 24px;
+    font-size: 22px;
+}
+.input-fullname {
+    width: 100%;
+}
+/* CUSTOM FORM RADIO */
+input[type="radio"], input[type="checkbox"] {
+    display:none;
+}
+
+input[type="radio"] + span, input[type="checkbox"] + span {
+    display:inline-block;
+    width:15px;
+    height:19px;
+    margin:-3px 0px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+input[type="checkbox"] + span{
+    border-radius: 0px;
+}
+
+input[type="radio"] + span {
+     background: url("/assets/img//page2016/bg_radio_new.png") no-repeat scroll left center;
+     margin-right: 6px;
+}
+input[type="checkbox"] + span{
+    background: url("/assets/img//page2016/bg_checkbox_mauxam.png") no-repeat scroll left center;
+    margin-right: 6px;
+}
+
+input[type="radio"]:checked + span{
+     background: url("/assets/img//page2016/bg_list_active.png") no-repeat scroll left center;
+}
+input[type="checkbox"]:checked + span{
+    background: url("/assets/img//page2016/bg_checkbox_mauxam_active.png") no-repeat scroll left center;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span,
+input[type="checkbox"] + label span,
+input[type="checkbox"]:checked + label span{
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+label{
+    font-family: 'LatoLatin-Regular', sans-serif;
+    display: block;
+    margin: 0 15px 5.5px 0;
+    font-size: 15.5px;
+    font-weight: normal;
+    color: #707070;
+}
+label:hover{
+    color: #010101;
+    cursor: pointer;
+    text-shadow: 0px 0px 0px #010101;
+}
+span.fix-middle-text.text-label {
+    white-space: nowrap;
+}
+.form .help-block {
+    color: #e25825;
+    font-family: "Lato-Regular";
+    font-size: 13px;
+    font-style: italic;
+    margin: 0px 0 0;
+}
+.field-contactform-verificationcode .help-block{
+    position: absolute;
+    left: 8px;
+    top: 40px;
+}
+
+.recaptcha{
+    margin-top: 12px;
+    margin-bottom: -25px; 
+    margin-left: -14px;
+}
+#contactform-prefix label{
+    display: inline-block;
+    margin-bottom: 0;
+}
+#contactform-prefix label{
+    display: inline-block;
+    margin-bottom: 0;
+    border: 1px solid #d9d9d9;
+    padding: 10px 25px 10px 25px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.submited{
+    background: rgb(109, 109, 109) !important;
+    opacity: 0.8 !important;
+}
+@media (max-width: 960px){
+    .res-table-w-250{
+        width: 250px !important;
+    }
+   
+}
+@media (max-width: 1400px) and (min-height: 800px){
+    .footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    } 
+}

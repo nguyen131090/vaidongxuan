@@ -1,0 +1,581 @@
+<?php $this->registerCssFile(DIR . 'assets/css/page2016/rdv.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
+<?php $this->registerCssFile(DIR . 'assets/css/page2016/rdv-surparis.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
+<?php $this->registerCssFile('/assets/css/page2016/all-form.css',['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
+<?php $this->registerCssFile('/assets/css/page2016/responsive.css',['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
+
+<?php $this->registerCssFile(DIR . 'assets/css/page2016/fix-banner-top.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
+<?php $this->registerJsFile(DIR . 'assets/js/fix-banner-top.js', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
+
+<div class="contain container-1">
+    <?php
+        if (!empty($theEntry->photos)) {
+            foreach ($theEntry->photos as $value) {
+                if ($value->type == 'banner') {
+                    echo '<img style="width: 100%;" alt="' . $value->description . '" class="img-lazy" data-src="' . $value->image . '">';
+                }
+            }
+        } else { ?>
+            <img alt="" style="width: 100%;" class="img-lazy" data-src='<?= DIR ?>upload/image/banner_contact.jpg'>
+    <?php } ?>
+<!--    <div class="amc-column row-2 mb-txt-40">
+        <h1 class="title"><?//= $theEntry->title ?></h1>
+    </div>-->
+</div>
+<div class="contain container-2 amc-fix-title-text">
+    <div class="amc-column row-2 pt-txt-40">
+        
+        <h1 class="title amc-fontsize-32 amc-latolatin-bold text-center amc-color-e75925 m-0"><?= $theEntry->title?></h1>
+    </div>
+    <div class="amc-column p-0 d-table">
+        <div class="rows row-1 ">
+            <div id="votre-load" class="text-center">
+                <div class="text mt-0 mb-25">
+                    <?= $theEntry->model->text ?>
+                </div>
+            </div>
+        </div>
+        <div class="rows row-2 col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center mb-txt-40">
+            <div class="d-inline-block">
+                <div class="item item-1">
+                    <p class="tt">Laissez-lui vos coordonnées en remplissant ce formulaire !</p>
+                </div>
+                <div class="item item-2">
+                    <img class="sale-image" alt=""
+                         data-src="<?= DIR ?>assets/img/page2016/arnaud.jpg" style="border-radius: 100%;">
+                </div>
+                <div class="item item-3">
+                    <p class="tony-text">Arnaud vous contactera sous 24h pour fixer un RDV
+                    </p>
+                    <span class="show-form pointer">Demander un devis</span>
+                </div>
+            </div>
+        </div>
+        <?
+          //  include_once '_form_rdv_surparis.php';
+        ?>
+    </div>
+</div>
+<div class="contain container-form">
+<?php
+use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
+use yii\widgets\ActiveForm;
+use yii\widgets\ActiveField;
+use yii\captcha\Captcha;
+
+$form = ActiveForm::begin([
+        'id'=>'contact-form',
+        'action'=>'',
+        'fieldConfig'=>[
+                'options'=>[
+                        'tag'=>'span',
+                ],
+                'template'=>'{input}{error}',
+        ],
+      'enableClientValidation'=>TRUE,
+]);
+?>
+    
+    
+    <div class="amc-bg-color-f7f7f7 area-5 pb-40">
+        <table id="" class="form">
+            <tr>
+
+                <td colspan="2" class="info-error">
+                    
+                    <div class="float-left w-100">
+                        <?=$form->errorSummary($model);?>
+                    </div>    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="float-left pr-20">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-5">Civilité <span class="amc-color-e75925">*</span></p>
+
+                        <div class="float-left p-0">
+                             <?=$form->field($model, 'prefix', ['inputOptions'=>['class'=>'amc-iput-focus input-width-116 input-prefix']])->radioList(
+                                    ['Madame' => 'Madame', 'Monsieur' => 'Monsieur']
+                            )?>
+                                
+                        </div> 
+                    </div>
+                   
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="float-left pl-0 pr-5">
+                        <p class="amc-text-question amc-latolatin-semibold mt-25 mb-10">Prénom <span class="amc-color-e75925">*</span></p>
+
+                        <div class="float-left p-0" style="">
+                            <?=$form->field($model, 'fname', ['inputOptions'=>['class'=>'input-width-340','placeholder'=>'']]) ?>
+                        </div>
+                    </div>
+                    
+                     <div class="float-left pl-20">
+                        <p class="amc-text-question amc-latolatin-semibold mt-25 mb-10">Nom <span class="amc-color-e75925">*</span></p>
+
+                        <div class="float-left p-0" style="">
+                            <?=$form->field($model, 'lname', ['inputOptions'=>['class'=>'input-width-340','placeholder'=>'']]) ?>
+                                
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    
+                    <div class="float-left pr-5">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-10">Email <span class="amc-color-e75925">*</span></p>
+
+                        <div class="float-left p-0" style="">
+                           <?=$form->field($model, 'email', ['inputOptions'=>['class'=>'email input-width-340 disablecopypage','placeholder'=>'email@domain.com']]) ?>
+                                
+                        </div>
+                    </div>
+                    <div class="float-left pl-20">
+                        
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    
+                    <div class="float-left pr-5">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-10">Lieu de RDV souhaité sur Paris <span class="amc-color-e75925">*</span></p>
+
+                        <div class="float-left amc-arrow p-0" style="width: 280px;">
+                        <?php
+                            $code_country = isset($_SERVER['HTTP_CF_IPCOUNTRY']) ? $_SERVER['HTTP_CF_IPCOUNTRY'] : 'FR';
+                            ?>
+                            <?=
+                            $form->field(
+                                $model,
+                                'period',
+                                [
+                                    'inputOptions' => ['style' => 'width: 280px', 'class' => 'amc-iput-focus not-blank', 'data-value' => 'shortcode', 'data-default-value' => $code_country, 'data-arrondissement-id' => 'contactform-arrondissement'],
+                                ]
+                            )
+                                ->dropDownList($listData, ['prompt' => '- Sélectionez -']); ?>
+                        </div>
+                    </div>
+                   
+                </td>
+            </tr>
+            <tr class="rdv">
+                <td colspan="2">
+                    <div class="float-left w-100">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-10">Votre numéro de téléphone <span class="amc-color-e75925">*</span></p>
+                        
+                        <div class="float-left amc-arrow p-0 pr-5" style="display: none;">
+                            <?=$form->field($model, 'countryCallingCode', ['inputOptions' => ['class' => 'input-width-186 amc-iput-focus']])
+                            ->dropDownList(ArrayHelper::map($allDialCodes, 'code', 'xcode'), [
+                                'prompt' => '- Indicatif de pays -',
+                            ]) ?>
+                        </div>  
+                        <div class="area_dial_code_country" style="display: none;">
+                        <?=$form->field($model, 'dialcodeCountry', ['inputOptions'=>['class'=>'input_dial_code_country hidden']]);?>
+                        </div>   
+                        <div class="float-left p-0 pl-0">
+                            <?=$form->field($model, 'phone', ['inputOptions'=>['style' => 'width: 280px', 'class'=>'dial-code-country input-width-265 not-blank', 'placeholder'=>'201-555-0123']]) ?>
+                        </div>  
+                        
+                    </div>    
+                </td>
+            </tr>
+            <tr class="rdv">
+                <td colspan="2">
+                    <div class="float-left w-100">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-10">Date de RDV souhaitée <span class="amc-color-e75925">*</span></p>
+                        
+                        <div class="float-left amc-arrow p-0">
+                                <?=$form->field($model, 'callDate', ['inputOptions'=>['style' => 'width: 280px', 'class'=>'input-width-272 amc-iput-focus datepicker noWeekends','placeholder' =>'Choisissez la date']]) ?>
+                                <!-- entre-->
+                                <?//=$form->field($model, 'callTime')
+                                //	->dropDownList(Yii::$app->params['formRdvTimeList'], [
+                                        //	'prompt'=>'- Heure -',
+                                //	]) ?>
+
+                                <!--(heure GMT)-->
+                                <div style="padding-top:5px; display: none;"> NOTE: Les horaires disponibles pour demander un RDV téléphonique chez Amica Travel sont entre 2:00 AM et 7:00 PM heure GMT (ou entre
+                                        <?=date_format(date_timezone_set(date_create('02:00:00'), timezone_open('Europe/Paris')), 'h A')?>
+                                        et
+                                        <?=date_format(date_timezone_set(date_create('19:00:00'), timezone_open('Europe/Paris')), 'h A')?> heure locale français) tous les jours (sauf Dimanche)</div>
+                        </div>  
+                    </div>    
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td colspan="2">
+                    <div class="float-left w-100">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-10">Votre message <span class="amc-color-e75925">*</span></p>
+                        <?=$form->field($model, 'message', [
+                            'inputOptions'=>['class'=>'input_full', 'rows'=>4,'style'=>'height: 140px;'],
+                            ])->textArea()?>
+                    </div>  
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="float-left w-100">
+                        <p class="amc-text-question amc-latolatin-semibold mt-txt-40 mb-10">Si vous êtes recommandé(e) par un ancien client d'Amica, merci de préciser son nom et prénom</p>
+                         <?=$form->field($model, 'reference', [
+                            'inputOptions'=>['class'=>'input_full', 'rows'=>2,'style'=>'height: 42px; width: 704px; padding: 5px 10px;'],
+                            ])->textArea()?>
+                    </div>  
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="float-left w-100 mt-txt-40">
+                         <?=$form->field($model, 'newsletter')->checkbox(
+                                  ['label'=>'Oui, j\'aimerais recevoir par e-mail des infos (reportages, promotions, conseils de voyages...) de la part de Amica Travel. (2 fois par mois)']
+                       ) ?>
+                    </div>  
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+<!--                    <p class="mb-0" style="margin-top: 25px;"><span class="amc-color-e75925">*</span> Champs obligatoires</p>-->
+                    <div class="float-left w-100 text-center" style="">
+
+                        <a id="btn-valider-big" class="btn-amica-basic btn-amica-basic-2 mt-txt-40 mb-0" href="javascript:void(0)">Envoyer la demande                                       
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            
+        </table>    
+    </div>
+         <p class="mb-0 text-center text-champ" style="margin-top: 25px;"><span class="amc-color-e75925">*</span> Champs obligatoires</p>
+        <p class="text-private mt-txt-25">En validant ce formulaire, vous acceptez notre <a href="/politique-de-confidentialite" target="_blank">politique de confidentialité et de collecte.</a></p>        
+                  
+<?php ActiveForm::end();?>
+   
+</div>   
+
+<?
+$this->registerCssFile('https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
+//$this->registerCssFile('/assets/css/page2016/devis.css',['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]);
+
+
+$this->registerJsFile('/assets/js/jquery.crs.min.js?v=001',['depends'=>'app\assets\AppAsset','position'=>$this::POS_END]);
+$this->registerJsFile('https://code.jquery.com/ui/1.12.1/jquery-ui.js',['depends'=>'app\assets\AppAsset','position'=>$this::POS_END]);
+
+$this->registerCss(" #tzSelectDiv {margin-bottom:0px;}
+    #tzTable {width:100%;}
+    #tzTable div, #tzTable th {
+    border:1px solid #fff; padding:5px 3px;
+    width: 43px;
+    height: 32px;
+    float: left;
+    margin: 10px 13px;
+}
+div.time {text-align:center;}
+div.time.ok {background-color:#da521f; cursor:pointer; color: #fff;}
+div.time.nok {background-color:#eee; color:#ccc;}
+div.time.selected {background-color:#b5b5b0
+   ; color:#fff;}
+   div.date {font-weight:bold; text-align: center; background-color:#ccc;}
+    #contactform-calltime{display: none;}
+   .field-contactform-callback{
+    display: inline-block;
+}
+#devis-form{
+margin-top: 40px;
+}    
+.form .extension .amc-col .tt{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.form .extension .amc-col-1{
+    text-align: center;
+}
+.form .extension .amc-col-1 img{
+    margin: 10px 0;
+}
+.form .extension .amc-col-1 .tt{
+    color: #e75925;
+    display: inline-block;
+    font-family: 'LatoLatin-Bold';
+    line-height: 24px;
+}
+.form .extension .amc-col-2 {
+    padding-left: 30px;
+}
+.form .extension .amc-col-2 .tt{
+    width: 150px;
+    display: inline-block;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
+span.fix-middle-text.text-label {
+    white-space: nowrap;
+}    
+tr.rdv{
+//background: #ebdcf3 !important;
+}
+
+");
+
+$dir_uri = DIR.URI;
+$js_rdv3 =<<<JS
+
+$('#contactform-prefix label').click(function(){
+    $('#contactform-prefix label').removeClass('active');
+    $(this).addClass('active');    
+});         
+   
+$(window).on("load resize",function(e){
+        var sw = $(window).width();
+        
+        var wimage = $('.fix-img-bottom-left').width();
+        var wimageright = $('.fix-img-middle-right').width();
+        var dd = (sw - 900)/2;
+        if(wimage > dd){
+            
+            $('.fix-img-bottom-left').css({'left': '-'+(wimage - dd)+'px'});
+        }
+        if(wimageright > dd){
+            
+            $('.fix-img-middle-right').css({'right': '-'+(wimageright - dd)+'px'});
+        }
+        
+});   
+        
+$(window).bind('load', function(){
+    $('select[name="ContactForm[region]"] option[value=""]').text('Sélectionner');
+
+    $('.required').each(function(){
+        var clas = $(this).attr('class');
+        $(this).parent().parent().children('.fix-error-label').addClass(clas);
+    });  
+        
+    $("select").change(function () {
+        if($(this).val() == "" || $(this).val() == "0") $(this).addClass("empty");
+        else $(this).removeClass("empty")
+    });
+    $("select").change();     
+        
+    var count_click = 0;    
+        
+    if(/^((?!chrome|android).)*safari/i.test(navigator.userAgent)){     
+        
+        $("select.amc-iput-focus").parent()
+        .mouseup(function() {
+                  $(this).removeClass('amc-effect-arrow');
+                  $(this).children('.amc-iput-focus').focus();
+        })
+        .mousedown(function() {
+         $(this).addClass('amc-effect-arrow');
+          $(this).children('.amc-iput-focus').focus();
+        });
+
+    }else{
+        $("select.amc-iput-focus").parent().click(function() {
+            count_click += 1;
+            if (count_click%2 == 0) {
+                $(this).removeClass('amc-effect-arrow');
+                $(this).children('.amc-iput-focus').focus();
+            }else{
+                $(this).addClass('amc-effect-arrow');
+                $(this).children('.amc-iput-focus').focus();
+            }
+
+            //$(this).addClass('amc-effect-arrow');
+            //$(this).children('.amc-iput-focus').focus();
+
+        });
+    }
+        
+     $("input.amc-iput-focus").parent().click(function() {
+            
+
+            $(this).addClass('amc-effect-arrow');
+            $(this).children('.amc-iput-focus').focus();
+
+        });   
+
+    $('.amc-iput-focus').blur(function(){
+        count_click = 0;
+        $('.amc-effect-arrow').removeClass('amc-effect-arrow');
+    });    
+
+    $('.amc-iput-focus').each(function(){
+        var w = $(this).outerWidth();
+        
+        $(this).css({'background-position' : (w-27) +'px center'});
+    });    
+   
+});  
+
+$("input[type=radio], input[type=checkbox], input[type=text], select").after('<span class="amc-arrow-fix"></span>');      
+$(function(){
+	$('input[type="submit"]').hide();
+	$('#btn-valider-big').removeClass('hidden').bind('click', function(){
+        $('form#contact-form').submit();  
+//        $('html, body').animate({
+//            scrollTop: $('form table').offset().top - 250
+//        }, 300);
+        return false;
+    });
+    $(".datepicker").parent().click(function() {
+        $(this).children('input').focus();
+    });
+
+    $("form#contact-form").on("beforeSubmit", function (event) {
+        $('#btn-valider-big').prepend('<span class="spinner"></span>');
+        $('#btn-valider-big').addClass('ok-valid');     
+    });     
+    
+            
+        
+    $('.times-to-call .time').click(function(){
+        if($(this).hasClass('selected'))
+            $(this).removeClass('selected');    
+        else 
+            $(this).addClass('selected');
+        var time = '';
+        $('.times-to-call .time.selected').each(function(){
+            if(time){
+               time += ', '+$(this).text();
+           }
+           else{
+               time += $(this).text();
+           }
+       })
+       $('#contactform-calltime').val(time);
+       $('#contactform-calltime').change();
+
+    })
+
+    $('#prevWeek').click(function(){
+        return false;
+    });
+
+            // JS EXTENSION BTN
+
+    $('.entry a.btn-extension').click(function(){
+
+                //$('.program a.active').removeClass('active');
+                //$(this).addClass('active');
+
+               // $(this).addClass('active').siblings().removeClass('active');;
+        $(this).toggleClass("active");
+        var name = $(this).attr("name");
+        var radio =  $('#contactform-extension').find('input[name="DevisForm[extension][]"][value="'+ name +'"]');
+        if(radio.is(':checked')){
+            radio.prop('checked', false);
+        }
+        else{
+           radio.prop('checked', true);
+       }
+
+
+    });
+
+
+    $('#contactform-extension input[name="DevisForm[extension][]"]').change(function(){
+        $('.entry a.btn-extension').removeClass('active');
+        var value = $(this).val().replace(' ','-').toLowerCase();
+        $('#popup_content .'+value+' .entry a.btn-extension').toggleClass('active');
+
+    }); 
+
+
+});       
+
+
+//    $('.input_xxlarge').bind("cut copy paste",function(e) {
+//         e.preventDefault();
+//         });
+
+
+
+$('.datepicker').datepicker({
+	//beforeShowDay: $(this).hasClass('noWeekends') ? $.datepicker.noWeekends : null,
+	// beforeShowDay: function(date){
+    //	$(this).hasClass('noWeekends') ? $.datepicker.noWeekends : null;
+    //    var string = jQuery.datepicker.formatDate('dd-mm-yy', date);
+    //    return [ array.indexOf(string) == -1 ]
+   // },
+    beforeShowDay: $.datepicker.noWeekends,
+    changeYear: true,
+    changeMonth: true,
+    yearRange: '-0y-0m_:+5y',
+    monthNamesShort: ['janvier','fèvrier','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'],
+    dayNamesMin: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
+    closeText: 'fermer',
+    minDate: '+1 d',
+    currentText: 'aujourd\'hui',
+    showOtherMonths: true,
+    showButtonPanel: true,
+    firstDay: 1,
+    duration: 0,
+    dateFormat: 'dd-mm-yy',
+
+});              
+
+JS;
+$this->registerJs($js_rdv3,  yii\web\View::POS_END);
+?>
+
+<?
+$this->registerCssFile('/assets/css/page2016/intlTelInput.min.css',['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]);
+$this->registerJsFile('/assets/js/intlTelInput.js',['depends'=>'app\assets\AppAsset','position'=>$this::POS_END]);
+
+$js =<<<JS
+           
+//var input = document.querySelectorAll(".dial-code-country");
+       // console.log(input);
+ $('.dial-code-country').each(function(){ 
+        
+    var target = $(this);    
+     //   console.log(target.context);
+   
+  window.intlTelInput(target.context, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["vn"],
+      // formatOnDisplay: false,
+       geoIpLookup: function(callback) {
+         $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+           var countryCode = (resp && resp.country) ? resp.country : "";
+           callback(countryCode.toLowerCase());
+         });
+       },
+      // hiddenInput: "full_number",
+       initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+       separateDialCode: true,
+     // utilsScript: "build/js/utils.js",
+    });   
+});              
+//  var iti = intlTelInput(input); 
+//  iti.destroy();    
+//  var countryData = iti.getSelectedCountryData();
+//console.log(countryData);    
+
+$(window).bind('load',function(){
+    var dialcode = $('#country-listbox li[aria-selected="true"]').data('dial-code');
+        $('.input_dial_code_country').val(dialcode);
+       // console.log(dialcode);
+});        
+$('#country-listbox li').click(function(){
+    var dia = $(this).data('dial-code');
+         $('.input_dial_code_country').val(dia);
+      //  console.log(dia);
+});   
+      
+JS;
+$this->registerJs($js,  \yii\web\View::POS_END);
+?>         

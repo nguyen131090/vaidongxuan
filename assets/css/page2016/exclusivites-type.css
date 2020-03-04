@@ -1,0 +1,79 @@
+.highlights > .col{
+    border-bottom: 3px solid #e75925;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    font: 15.5px LatoLatin-Regular, sans-serif;
+}
+.highlights > .col-1{
+    max-width: 40px;
+    background: url(/assets/img/tour/arrow-fm.png) center center no-repeat transparent;
+}
+.highlights .icon-hl{
+    margin-right: 15px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.highlights .icon-hl span{
+    background: url(/assets/img/tour/icons-highlight.png) left top no-repeat transparent;
+    width: 44px;
+    height: 35px;
+    display: inline-block;
+}
+.highlights .icon-hl-2 span{
+    background-position: -55px top;
+}
+.highlights .icon-hl-3 span{
+    background-position: -100px top;
+}
+.formules-slider .item{
+    height: auto;
+    background: none !important;
+}
+.content-fluid .tt{
+    margin-left: 0;
+}
+.content-fluid .text{
+    padding-top: 35px;
+    width: auto;
+}
+.content-fluid .icons{
+    width: 100%;
+    padding-left: 0;
+}
+.content-fluid .icons .icon-sum{
+    font-family: LatoLatin-Regular, sans-serif;
+    margin-bottom: 0;
+}
+.custom-bxslider .item{
+    max-width: none;
+}
+.custom-bxslider .item .topopup.img:hover:before, .secret-bxslider .item .topopup.img:hover:before{
+    width: 100%;
+}
+.area-slider-swiper.formules-slider-container  .swiper-button-next, .area-slider-swiper.formules-slider-container  .swiper-button-prev{
+    top: 74.5px;
+}
+.host{
+        margin-top: 32px;
+}
+.devis-btn-block .text{
+    max-width: 300px;
+}
+.des-button {
+    width: 710px;
+    font-size: 14px;
+    font-style: italic;
+}
+@media(max-width: 960px){
+    .host .text{
+        padding-left: 0 !important;
+    }
+    .devis-btn-block .text{
+        max-width: 377px;
+    }
+    img.banner{
+        width: auto;
+    }
+
+}

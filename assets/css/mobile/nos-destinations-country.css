@@ -1,0 +1,805 @@
+.row-content .title-row, .country-tours > h2{
+    font-size: 2rem;
+    font-family: LatoLatin-Bold,sans-serif;
+    color: #000;
+    
+    text-align: left;
+    margin-top: 4rem;
+}
+.row-content .title-row, .country-tours .text-sumary > h2{
+    font-size: 2rem;
+    font-family: LatoLatin-Bold,sans-serif;
+    color: #000;
+    
+    text-align: left;
+    margin-top: 4rem;
+}
+
+.row-content h1.title-row{
+    font-size: 2.25rem;
+    margin-top: 2.5rem;
+}
+.row-content .text-row, .country-tours > p{
+    font-size: 1.6rem;
+    font-family: LatoLatin-Regular, sans-serif;
+    display: inline-block;
+}
+
+
+.ui-icon-search:after {
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encod….5%2C3.5C9.149%2C7.572%2C7.582%2C9.14%2C5.649%2C9.14z%22%2F%3E%3C%2Fsvg%3E);
+}
+.ui-btn-icon-left:after {
+    left: .5625em;
+}
+.ui-btn-icon-notext:after, .ui-btn-icon-left:after, .ui-btn-icon-right:after {
+    top: 50%;
+    margin-top: -11px;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #666;
+    background-color: rgba(0,0,0,.3);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+.contain .column, #wrapper .column {
+    width: 100% !important;
+    /*padding: 0 4vmin;*/
+    font-size: 1.6rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    line-height: 2rem;
+}
+.container-2 .row-title .title, .column .title {
+    margin: 2rem 0 1rem;
+    font-size: 2.25rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    color: #e65925;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    display: inline-block;
+}
+.column .title{
+	color: #000;
+}
+
+
+div[data-role="page"] .ui-header{
+    border: none;
+}
+
+.filters-page .ui-content h3{
+	text-transform: uppercase;
+	font: 2rem LatoLatin-Bold;
+}
+.filters-page .ui-content  ul li{
+	display: inline-block;
+    width: 47.5%;
+    float: left;
+    background: #fff;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font: 1.5rem LatoLatin-Regular,sans-serif;
+    margin-right: 5%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.filters-page .ui-content  ul li:nth-of-type(2n){
+	margin-right: 0;
+}
+.filters-page .ui-content  ul li.selected{
+	background: #e65925;
+	color: #fff;
+}
+.filters-page .ui-content .submit {
+    float: right;
+    height: 50px;
+    background: #e65925;
+    border-radius: .5rem;
+    font: 1.6rem LatoLatin-Bold,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+    color: #fff;
+}
+/*.menu-slider {
+        width: 100%;
+        height: 40px;
+        margin: 2rem auto 0;
+        overflow: visible;
+        padding: 2rem 0;
+    }
+.menu-slider .swiper-wrapper{
+    height: auto;
+}
+.menu-slider.swiper-container-horizontal .swiper-scrollbar{
+    width: 108vw;
+    margin-left: -4vw;
+    margin-right: -4vw;
+    left: 0;
+}
+.menu-slider .swiper-scrollbar-drag{
+    left: 4vw;
+}
+.menu-slider .swiper-slide {
+        text-align: left;
+        width: auto;
+        background: #fff;
+         Center slide text vertically 
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+    }
+
+.menu-slider .swiper-slide a{
+	font: 1.6rem LatoLatin-Bold,sans-serif;
+}
+.menu-slider .swiper-slide.active a{
+	color: #e65925;
+}*/
+.tour-slider.swiper-container-horizontal>.swiper-scrollbar{
+	    bottom: 50%;
+}
+
+.tour-slider .swiper-slide .text-on-img h3, .secrets-slider .swiper-slide h3 {
+    margin: 2rem 0 10px;
+    font-size: 1.6rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.swiper-scrollbar-drag{
+	background-color: #e65925;
+}
+.swiper-slide{
+	overflow: hidden;
+}
+.pourquoi .item-detail{
+	margin: 1.5rem 0;
+	display: flex;
+	align-items: center;
+	font-family: LatoLatin-Bold;
+}
+.pourquoi img, .item-preparer img {
+    background-color: #e6a85e;
+    width: 12.5vmin;
+    margin-right: 2rem;
+}
+.pourquoi .btn-pourquoi{
+	text-align: center;
+}
+.pourquoi .btn-pourquoi> a {
+    margin: 0 auto;
+    width: 227px;
+    height: 40px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e65925;
+    line-height: 24px;
+
+}
+.secrets .title{
+	margin-top: 5rem;
+    text-align: center;
+    display: block;
+}
+.secrets-slider.swiper-container-horizontal>.swiper-scrollbar{
+	    bottom: 67.5%;
+}
+.item-preparer .img{
+	display: flex;
+	align-items: center;
+}
+.item-preparer h3{
+	display: inline-block;
+	width: 80%;
+    font: 1.6rem LatoLatin-Regular,sans-serif;
+}
+.preparer-voyage .btn-preparer > div >span {
+    font: 35px GrandHotel-Regular,sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 38px 0 1px;
+    display: inline-block;
+}
+.preparer-voyage #search_destination {
+    width: 100%;
+    height: 32px;
+    background: url(/assets/img/page2016/search-icon.png) right top no-repeat #e65925;
+    opacity: 1;
+}
+.btn.filters{
+    display: inline-block;
+    float: right;
+    margin-top: 0.6rem;
+    font: 7vw LatoLatin, sans-serif;
+        padding-right: 0;
+}
+.btn.filters:before{
+    font-family: 'Glyphicons Halflings';
+}
+
+/*new style for mobile*/
+.swiper-button-prev {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    left: -4vw;
+    transform: rotate(180deg);
+    margin-top: -2.15rem;
+}
+.swiper-button-next {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    right: -4vw;
+    margin-top: -2.15rem;
+}
+.country-tours .swiper-container{
+    overflow: visible;
+}
+.country-tours .swiper-container .text-on-img{
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0));
+}
+.country-tours .swiper-container .text-on-img h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.pourquoi .detail{
+    background: #f4f4f4;
+        padding: 1rem 3rem;
+    border-radius: 5px;
+}
+.pourquoi .devis-btn{
+    background: #e65925;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1.6rem LatoLatin-Bold, sans-serif;
+    color: #fff; 
+    width: 100%;
+    height: 5rem;
+    border-radius: 2.5rem;
+    margin: 2rem 0 1rem;
+        flex-direction: column;
+}
+.pourquoi .devis-btn p{
+    font: 1.4rem LatoLatin-Regular,sans-serif;
+    display: block;
+    margin: 0;
+}
+.secrets .text-row p{
+    text-align: left !important;
+}
+.secrets-slider .swiper-slide {
+    text-align: left;
+    width: auto;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    -webkit-justify-content: left;
+    justify-content: left;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    -webkit-align-items: left;
+    align-items: left;
+    width: 80%;
+}
+.preparer-voyage .item-preparer{
+    border: 1px solid #e6a85e;
+    border-radius: 5px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: 2rem 0;
+}
+.preparer-voyage .infos-btn{
+    width: 100%;
+    height: 5rem;
+    border-radius: 2.5rem;
+    border: 1px solid #e97754;
+    color: #e97754;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0;
+    font: 1.6rem LatoLatin-Bold,sans-serif;
+}
+.preparer-voyage .infos-btn.birmanie{
+    margin-bottom: 4rem;
+}
+
+.banner{
+    position: relative;
+    margin: -0.3rem -4vw 0;
+    min-height: 20rem;
+}
+.banner .text-on-banner{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0));
+    padding-bottom: 2rem;
+}
+.banner .text-on-banner h1{
+    color: #fff;
+    font-size: 2.25rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0rem;
+}
+.banner .text-on-banner a{
+    height: 5rem;
+    display: flex;
+    width: 90vw;
+    border-radius: 2.5rem;
+    background: #e65925;
+    color: #fff;
+    font: 1.6rem LatoLatin-Bold,sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+/*.menu-slider.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+    padding: 0 4vmin;
+
+    padding-left: 4vmin;
+    
+}
+.menu-slider .swiper-scrollbar-drag{
+        left: 0;
+    }*/
+/*style for country*/
+.pourquoi.laos img, .preparer-voyage.laos .item-preparer img {
+    background-color: #e65925;
+}
+.preparer-voyage.laos .item-preparer{
+    border-color: #e65925;
+}
+.pourquoi.cambodge img, .preparer-voyage.cambodge .item-preparer img {
+    background-color: #ca8b09;
+}
+.preparer-voyage.cambodge .item-preparer{
+    border-color: #ca8b09;
+}
+.preparer-voyage.birmanie .item-preparer img {
+    background-color: #d64c48;
+}
+.pourquoi.birmanie img{
+    background-color: transparent;
+    width: 15vmin;
+}
+.preparer-voyage.birmanie .item-preparer{
+    border-color: #d64c48;
+}
+.text-row img{
+    width: 100% !important;
+        height: auto !important;
+}
+
+.secrets-slider, .tour-slider{
+    margin-top: 2rem;
+}
+
+.full-text{
+    display: none;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+
+
+.menu-right{
+/*    border-radius: 0.5rem; */
+    margin: 2.5rem 0;
+    text-align: left;
+}
+/*.menu-right.vietnam{
+    border: 1px solid #e6a85e;
+}
+.menu-right.cambodge{
+    border: 1px solid #ca8309;
+}
+.menu-right.laos{
+    border: 1px solid #e75925;
+}
+.menu-right.birmanie{
+    border: 1px solid #d44c47;
+}*/
+.menu-right > ul{
+    margin: 0;
+    list-style: none;
+    padding: 0 20px;
+    border: 1px solid #e6a85e;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.menu-right.vietnam > ul{
+    border: 1px solid #e6a85e;
+}
+.menu-right.cambodge > ul{
+    border: 1px solid #ca8309;
+}
+.menu-right.laos > ul{
+    border: 1px solid #e75925;
+}
+.menu-right.birmanie > ul{
+    border: 1px solid #d44c47;
+}
+.menu-right a {
+    font-size: 1.6rem;
+    display: block;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.menu-right > ul > li{
+	position: relative;
+       
+}
+.menu-right.vietnam > ul > li{
+    border-bottom: 1px solid #e6a85e;
+}
+.menu-right.cambodge > ul > li{
+    border-bottom: 1px solid #ca8309;
+}
+.menu-right.laos > ul > li{
+    border-bottom: 1px solid #e75925;
+}
+.menu-right.birmanie > ul > li{
+    border-bottom: 1px solid #d44c47;
+}
+.menu-right > ul > li > a {
+    
+    color: #242424;
+    display: inline-block;
+    padding: 0px 35px 0px 0;
+    background: none;
+    position: relative;
+    width: 100%;
+    margin: 9px 0 9px;
+    
+}
+
+.menu-right > ul > li.last{
+    border-bottom: none; 
+}
+.menu-right > ul > li.parent > a::before{
+	display: none;
+}
+
+.menu-right > ul > li > .arrow-down-up{
+    display: none;
+    background: transparent url("/assets/img//drop-down.png") no-repeat scroll center center;
+    cursor: pointer;
+   
+    height: 38px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 35px;
+    overflow: hidden;
+}
+.menu-right > ul > li.parent > .arrow-down-up{
+	 display: inline-block;
+}
+.menu-right > ul > li > .arrow-down-up.active{
+	 transform: rotate(180deg);
+}
+
+.menu-right .items.active {
+    display: block;
+    margin: 1rem 0 2.5rem;
+}
+.menu-right .items {
+    display: none;
+    margin-top: 0.5rem;
+    padding-left: 3rem;
+}
+.menu-right ul.items {
+    list-style: none;
+    padding: 0 0 0 1.5rem;
+}
+.menu-right ul.items li{
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    background: url(/assets/img//page2016/bg-list.png) 0 0.7rem no-repeat;
+}
+.menu-right ul.items li.name-group {
+    background: none;
+    padding: 0;
+    font-family: LatoLatin-Bold;
+    margin-top: 2rem;
+}
+.menu-right ul.items li.name-group:first-child {
+    margin-top: 0;
+}
+
+.menu-right > ul > li.parent > a::before {
+    background: rgba(0, 0, 0, 0) url("/assets/img//drop-down.png") no-repeat scroll 0 0;
+    content: "";
+    height: 7px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 11px;
+    display: none;
+}
+.menu-right li.active > a {
+    color: #e75925;
+}
+.menu-right li > a:hover {
+     color: #e75925;
+}
+/*style for testi*/
+.testi-slider{
+    position: relative;
+}
+.testi-slider .swiper-slide img{
+    
+    border-radius: 100%;
+    margin-right:1.5rem; 
+    width: 4.6rem;
+    height: 4.6rem;
+}
+.testi-slider .swiper-slide{
+    background: #f7f7f7;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 2.5rem 2rem 5rem;
+    height: auto;
+}
+.testi-slider .img-text{
+    display: flex;
+    align-items: center;
+    font: 1.4rem LatoLatin-Regular,sans-serif;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+.testi-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background: #e35429;
+    box-shadow: none;
+}
+.testi-home .testi-slider .swiper-pagination{
+    bottom: 2.5rem;
+    z-index: 1;
+    width: 100% !important;
+    overflow: unset;
+}
+.testi-home .btn-testi-home{
+    margin: 2.5rem 0;
+}
+.testi-home{
+    
+    padding-bottom: 0;
+}
+.testi-home .tt{
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: inherit;
+    margin-top: 2.5rem;
+}
+.testi-home .info-testi{
+    font-size: 1.4rem;
+    font-family: inherit;
+}
+.testi-home .info-testi span{
+    display: block;
+    line-height: 1.8rem;
+}
+.testi-home .info-testi .tt-info{
+    color: #6b6b6b;
+}
+.testi-slider .swiper-pagination {
+    z-index: 1;
+    bottom: 2rem !important;
+}
+.area-logo-recom{
+    background: #f7f7f7;
+    padding: 2rem 1.5rem 2.5rem;
+}
+.area-logo-recom .tt-custom{
+    font-size: 1.4rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.area-logo-recom .logo{
+    display: flex;
+    align-items: center;
+    
+}
+.area-logo-recom .logo img{
+    margin-right: 9%;
+}
+/* Submenu page info-pratic */
+    .responsive-submenu .text-def-select{
+        cursor: pointer;
+        display: block;
+        font-family: inherit;
+        font-size: 15.5px;
+        line-height: 5.35rem;
+        padding: 0 15px;
+        background: url(/assets/img/mobile/arrow-back-down-48-28.png) right 15px center no-repeat;
+        position: relative;
+        background-size: 2.4rem auto;
+        border: 1px solid #e6a85e;
+        border-radius: 5px;
+    }
+    .responsive-submenu .text-def-select:before {
+        content: "";
+        border-right: 1px solid #e6a85e;
+        position: absolute;
+        height: 90%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 51px;
+    }
+    .responsive-submenu.vietnam .text-def-select:before{
+        border-right: 1px solid #e6a85e;
+    }
+    .responsive-submenu.cambodge .text-def-select:before{
+        border-right: 1px solid #ca8309;
+    }
+    .responsive-submenu.laos .text-def-select:before{
+        border-right: 1px solid #e75925;
+    }
+    .responsive-submenu.birmanie .text-def-select:before{
+        border-right: 1px solid #d44c47;
+    }
+    .responsive-submenu .text-def-select.active{
+        border-bottom: 1px solid #e6a85e;
+        background: url(/assets/img/mobile/arrow-back-up-48-28.png) right 15px center no-repeat;
+        color: #a5a5a5;
+        background-size: 2.4rem auto;
+    }
+    .responsive-submenu.vietnam .text-def-select{
+        border: 1px solid #e6a85e;
+    }
+    .responsive-submenu.cambodge .text-def-select{
+        border: 1px solid #ca8309;
+    }
+    .responsive-submenu.laos .text-def-select{
+        border: 1px solid #e75925;
+    }
+    .responsive-submenu.birmanie .text-def-select{
+        border: 1px solid #d44c47;
+    }
+    
+    .menu-right > ul > li > .arrow-down-up{
+        background: transparent url("/assets/img//drop-down.png") no-repeat scroll right center;
+        background-size: 10px;
+    }
+    .menu-right > ul > li > .arrow-down-up.active{
+        background-position: left center;
+    }
+    .responsive-submenu ul{
+        display: none;
+    }
+    .responsive-submenu ul.active{
+        display: block;
+    }
+    
+    .responsive-entry-body .group-on-top .item{
+        width: 31.9%;
+    }
+    .responsive-entry-body .group-on-top .item img{
+        width: 100%;
+    }
+    .responsive-entry-body .group-on-top .item-2{
+        margin: 0 2.12%;
+    }
+/* End Submenu page info-pratic */
+
+.leaflet-control-attribution a{ display: none; }
+.leaflet-popup-content-wrapper{
+    box-shadow: none;
+    border-radius: 5px;
+}
+.leaflet-popup-content{
+    margin: 2px 20px;
+}
+.leaflet-container a{
+    color: #000;
+}
+.area-map-leaflet{
+    height: 32rem;
+    margin: -1rem -4vw 2.2rem;
+}
+#map{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (orientation:landscape){
+    .pourquoi .detail{
+        width: 96vw;
+        display: inline-block;
+        padding: 1rem;
+    }
+    .pourquoi .item-detail {
+        float: left;
+        width: 31%;
+    }
+    .pourquoi img {
+        margin-right: 1rem;
+    }
+    .pourquoi .item-detail:nth-of-type(2){
+        width: 42%;
+    }
+    .pourquoi .item-detail:nth-of-type(3){
+        width: 27%;
+    }
+    .preparer-voyage .item-preparer {
+        margin: 2rem 0;
+        width: 31%;
+        float: left;
+        margin-right: 3.2vw;
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    .preparer-voyage .item-preparer.last{
+        margin-right: 0;
+    }
+    .item-preparer img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .item-preparer .img{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .item-preparer h3 {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+}

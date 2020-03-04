@@ -1,0 +1,295 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 3:52:20 PM
+    Author     : dtnguyen
+
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+
+.content h4 {
+    background: transparent url("/assets/img//page2016/icon-video.png") no-repeat scroll left top;
+    padding: 10px 40px;
+    display: inline-block;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 1100px;
+}
+.container-1 .amc-column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 37px;
+}
+.container-1 .amc-column .title span{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-2.loaded{
+    background: url(/assets/img/page2016/bg_special_2.jpg) center center no-repeat transparent;
+    background-size: cover cover;
+}
+.container-2 .amc-column{
+    text-align: center;
+   
+}
+.rows{
+    padding: 10px 0;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.container-2 .row-2 ul{
+    list-style-image: url(/assets/img/page2016/bg-list.png); 
+}
+.container-2 .title-18{
+    margin: 0;
+}
+.container-2 .title-18 h2{
+    margin: 0 0 35px;
+    font-size: 24px;
+    text-transform: inherit;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-2 .title-18 h2 span{
+    font-size: 24px !important;
+}
+.container-2 .title-22{
+    
+    margin: 35px 0 0px;
+    clear: left;
+/*    background: url(/assets/img/page2016/bg_border.png) center top no-repeat transparent;*/
+/*    padding: 30px 0 0 0;*/
+}
+.container-2 .title-22 h2{
+    font-size: 24px;
+    text-transform: inherit;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 35px;
+}
+.container-2 .title-22 h2 span{
+    font-size: 24px !important;
+}
+.container-2 hr{
+   
+   display: none;
+}
+.container-2 .row-2 .amc-col{
+    float: left;
+    width: 250px;
+    margin: 20px 0;
+}
+.container-2 .row-2 .amc-col-2{
+    margin: 20px 95px;
+}
+.container-2 .row-2 .amc-col .stt{
+    display: inline-block;
+    border: 2px solid #da521f;
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.rows .amc-col-tt{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 20px 0;
+}
+.container-2 .row-2 .area-video .text-video{
+    padding-left: 50px;
+    background: url(/assets/img/page2016/icon-video.png) 0 0 no-repeat transparent;
+     margin: 20px 0 0;
+    padding-left: 50px;
+    line-height: 35px;
+    display: inline-block;
+}
+.container-2 .row-2 .area-video .text-video span{
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-2 .amc-col{
+    float: left;
+    width: 250px;
+    margin: 22px 30px 25px;
+    border: none;
+}
+.container-2 .amc-col td{
+    border: 0px;
+}
+.container-2 .amc-col .tt-18 p{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 15px 0 20px;
+    
+}
+.contain p img{
+    float: left;
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.container-2 .amc-col .fix strong{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #da521f;
+    border-radius: 100%;
+    margin: 5px 0;
+    line-height: 29px;
+}
+.container-2 .row-5 .title-tt{
+    color: #e75925;
+}
+.container-2 .amc-col-11,
+.container-2 .amc-col-22{
+    float: left;
+    width: 300px;
+    margin: 0px 80px;
+}
+.container-2 .amc-col-11 .tt-18 p,
+.container-2 .amc-col-22 .tt-18 p{
+    margin: 20px 0 16px;
+}
+
+.container-2 .row-5 {
+    background: none;
+}
+
+.container-3{
+    
+    text-align: center;
+    margin-top: 45px;
+}
+
+.container-3 .rows{
+      background: #ececec none repeat scroll 0 0;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center
+}
+
+.container-3 .tt{
+     display: inline-block;
+    
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0 35px;
+}
+
+.container-3 a{
+    border: 1px solid #da521f;
+    color: #da521f;
+    display: inline-block;
+    
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 14.2px;
+    line-height: 22px;
+    margin: 0 35px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    
+}
+
+.embeddedContent.oembed-provider-.oembed-provider-youtube{
+    clear: both;
+}
+.text-video > p {
+    margin: 15px 0 0;
+}
+.container-2 .amc-col:nth-of-type(1) .tt-18 p{
+    height: 50px;
+}
+.container-2 .amc-col:nth-of-type(2) .tt-18 p{
+    height: 50px;
+}
+.container-2 .amc-col:nth-of-type(3) .tt-18 p{
+    height: 50px;
+}
+.container-2 .amc-col:nth-of-type(4) .tt-18 p{
+     margin: 0 0 18px;
+}
+.container-2 .amc-col:nth-of-type(5) .tt-18 p{
+    margin: 0 0 18px;
+}
+.container-2 .amc-col:nth-of-type(6) .tt-18 p{
+    margin: 0 0 18px;
+}
+.content #video{
+    margin-top: 0;
+}
+
+.fix-img-middle-right{
+    display: none;
+}
+
+@media (max-width: 960px){
+    .container-2 .amc-col{
+        width: 213px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .container-2 .amc-col-11, .container-2 .amc-col-22{
+        width: 320px !important;
+    }
+}

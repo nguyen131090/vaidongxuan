@@ -1,0 +1,189 @@
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2rem;
+    padding: 0 0.5rem;
+}
+.container-filter .custom-btn-filter{
+    display: inline-block;
+    width: 100%;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.container-filter .tt-custom-btn-filter{
+    
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+    display: block;
+}
+.container-filter .custom-btn-filter.btn-filter-fixed-bottom .tt-custom-btn-filter{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    bottom: 0;
+    width: 100%;
+}
+.area-filter .tt-custom-btn-filter{
+    display: inline-block;
+   
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+
+.container-3 .row-1 .tt-custom{
+    margin-bottom: 2rem;
+}
+
+.container-3 .row-2 table.col {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin: 0 0 0.8rem;
+}
+.container-3 .row-2 img {
+    width: 85% !important;
+    height: auto !important;
+    border-radius: 100%;
+    border: 1px solid #e2dccc;
+}
+.container-3 table.col.col-2 {
+    margin: 0 0.5% 0.8rem;
+}
+
+.container-5 img{
+    width: 100%;
+}
+
+
+/* Slide tour exclusive */
+.exclusive-slider .secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .exclusive-slider .secrets-slider .item-slide{
+     position: relative;
+ }
+ .exclusive-slider .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .exclusive-slider .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.exclusive-slider .swiper-slide img{
+    width: 100%;
+   
+}
+.exclusive-slider.module .swiper-slide img{
+    min-height: auto;
+    border-radius: 100%;
+}
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+/* End css slide tour exclusive */
+
+/* Css Gallery Image */
+.galeries-slider{
+    position: relative;
+}
+.galeries-slider .swiper-button-prev {
+    background: url(/assets/img/mobile/arrow-white-back-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: transparent;
+    width: 4.2rem;
+    height: 4.3rem;
+    left: 0vw;
+}
+.galeries-slider .swiper-button-next {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: transparent;
+    width: 4.2rem;
+    height: 4.3rem;
+    right: 0vw;
+}
+.galeries-slider .swiper-slide .text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+/* End Css Gallery Image */
+
+.container-7 .exclusive-slider-suggest .swiper-slide img{
+    border-radius: 100%;
+}
+.exclusive-slider-suggest .swiper-slide .tt-custom {
+    margin: 2rem 0 0 0;
+}
+.amc-btn-link{
+    display: block;
+    text-align: center;
+    border-radius: 3rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+
+/* End Fix Css xoay ngang cho Iphone 4 */
+
+/* Fix Css Xoay Ngang Iphone 5 tro len */
+
+
+@media (min-width: 568px) and (orientation:landscape){
+    
+}
+
+/* End  Fix Css Xoay Ngang Iphone 5 tro len */
+
+@media (min-width: 667px) and (orientation:landscape){
+    
+}

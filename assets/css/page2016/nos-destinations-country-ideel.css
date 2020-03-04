@@ -1,0 +1,1012 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2017, 2:35:38 PM
+    Author     : dtnguyen
+*/
+.space{
+    display: block;
+
+    width: 100%;
+    clear: both;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.space-65{
+    height: 65px;
+
+}
+.space-40{
+    height: 38px;
+}
+.space-50{
+    height: 50px;
+}
+.space-25{
+    height: 25px;
+}
+
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contain .amc-column-fixpadding{
+    padding: 0;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.container-1 .row-2 .tt-s{
+    font-size: 22px;
+    color: white;
+    margin: -20px 0 30px;
+}
+.container-1 .amc-column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin:0;
+}
+
+
+.menu-tab .amc-column{
+	background: url('/assets/img//new-pays/bg-menu-tab.png') center -1px no-repeat transparent;
+	height: 105px;
+	padding-top: 19px;
+        background-size: 940px auto;
+        text-align: center;
+}
+.menu-tab .amc-column ul{
+	margin: 0 auto;
+	padding: 0;
+    display: inline-block;
+        
+}
+.menu-tab .amc-column ul li{
+	list-style: none;
+	padding: 10px 19.5px;
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid #a59a7f;
+	box-sizing: border-box;
+        float: left;
+}
+.menu-tab .amc-column ul li:last-of-type{
+	border: none;
+}
+.menu-tab .amc-column ul li a{
+	font: 15.5px LatoLatin-Regular,sans-serif;
+	color: #292929;
+}
+.menu-tab .amc-column ul li:hover a, .menu-tab .amc-column ul li.active a{
+	color: #e65925;
+}
+.menu-tab .amc-column ul li:hover:after, .menu-tab .amc-column ul li.active:after{
+	content: "";
+	width: 75%;
+	height: 3px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: #e65925;
+}
+.container-3 .text-summary{
+    width: 650px;
+    margin: 40px auto 0;
+}
+.container-3 .text-summary p{
+    margin: 0;
+}
+
+.container-4 .row-1 {
+    margin-top: 30px;
+    position: relative;
+    z-index: 0;
+}
+.container-4 .row-1 .amc-col{
+    float: left;
+}
+.container-4 .row-1 .amc-col-1{
+    width: 695px;
+    
+}
+.container-4 .row-1 .amc-col-2{
+    width: 260px;
+}
+.container-4 .item{
+    margin: 0 10px 0px;
+    width: 329px;
+    float: left;
+    background-color: #FFF;
+}
+.container-4 .item.it-r{
+    float: right;
+}
+
+.container-4 .item .tt{
+    font-size: 18px;
+    margin: 0;
+    padding: 25px 0 0;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-4 .item .sub-tt{
+/*    border-bottom: 1px solid #cbc0a2;*/
+    font-size: 13.5px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
+.container-4 .item a:hover{
+    color: #e75925;
+}
+.container-4 .item .summary{
+    margin: 15px 0 10px;
+}
+.container-4 .item .summary p{
+    margin: 0;
+}
+/*VOYAGE TYPE START - TONY*/
+.container-4 .item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.container-4 .item ul li{
+    float: left;
+    font-size: 12.5px;
+    height: 35px;
+}
+.container-4 .item .posi{
+    float: left;
+    width: 33%;
+    display: flex;
+}
+
+.container-4 .item .posi > .posi-title{
+    margin: 0;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 1.18;
+}
+
+.container-4 .item .posi > .posi-title > img {
+    float: left;
+    margin-right: 7px;
+    min-width: 20px;
+}
+.container-4 .item .posi .posi-title > .posi-title-2 {
+    padding-top: 5px;
+}
+
+.container-4 .item .posi-exclusite{
+    float: left;
+    width: 39%;
+    display: flex;
+}
+
+.container-4 .item .posi-exclusite > .posi-title{
+    margin: 0;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.container-4 .item .posi-exclusite > .posi-title > img {
+    float: left;
+    padding-right: 7px;
+    min-height: 25px;
+}
+.container-4 .item .posi-exclusite .posi-title > .posi-title-2 {
+    padding-top: 5px;
+}
+
+.container-4 .item .calendar{
+    width: 27%;
+    display: flex;
+}
+.container-4 .item .calendar > .calendar-title{
+    margin: 0;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+.container-4 .item .calendar .calendar-title > img {
+    float: left;
+    padding-right: 7px;
+    height: 20px;
+}
+.limitWidth-41 {
+    width: 40%;
+}
+.limitWidth-51 {
+    width: 51%;
+}
+.limitWidth-55 {
+    width: 55%;
+}
+.container-4 .item .type-de-voyage{
+    float: right;
+    display: inline;
+    padding-top: 0px;
+}
+.container-4 .item .type-de-voyage > img{
+    float: left;
+    padding-right: 7px;
+}
+.container-4 .item .type-de-voyage-2{
+    padding: 10px 0 0 40px;
+}
+.container-4 .item .type-de-voyage > .type-de-voyage-title{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+}
+.container-4 .item .type-de-voyage > .type-de-voyage-title-2{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container-4 .item .type-de-voyage .type-de-voyage-title img{
+    min-width: 26px;
+}
+/*VOYAGE TYPE END - TONY*/
+.container-4 .search-form{
+    margin: 0 10px;
+    background: #3e3e3e;
+    padding: 30px 20px;
+}
+.container-4 .search-form .cs-select{
+    color:white;
+    font-size: 13.5px;
+    font-family: inherit;
+    margin-bottom: 20px;
+    
+}
+.container-4 .search-form .cs-select .cs-placeholder{
+    display: block;
+    padding: 0 25px 0 10px;
+    background: url(/assets/img/page2016/arrow_dropdown_white.png) 95% center no-repeat;
+    cursor: pointer;
+     border: 1px solid #8b8b8b;
+    border-radius: 3px;
+    line-height: 31px;
+}
+.container-4 .search-form .cs-select.active .cs-placeholder{
+    border-bottom: 1px solid #8b8b8b;
+    border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+}
+.container-4 .search-form .cs-select .cs-options{
+    display: none;
+     border: 1px solid #8b8b8b;
+     border-top: 0px;
+     border-bottom-left-radius: 3px;
+     border-bottom-right-radius: 3px;
+     padding: 3px 0;
+}
+.container-4 .search-form .cs-select .cs-options ul{
+    list-style: none;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+.container-4 .search-form .cs-select .cs-options ul li{
+    padding: 3px 0 3px 25px;
+    background: url(/assets/img/page2016/bg_list.png) 0px 5px no-repeat;
+    margin: 0px 0;
+    cursor: pointer;
+}
+.container-4 .search-form .cs-select .cs-options ul li:hover{
+    color: #e1653f;
+}
+.container-4 .search-form .cs-select .cs-options ul li.active{
+    background: url(/assets/img/page2016/bg_list_active.png) 0px 5px no-repeat;
+}
+.container-4 .search-form .cs-select.submit{
+    text-transform: uppercase;
+    text-align: center;
+    background: #da521f;
+    border: 0px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-family: "LatoLatin-Bold", sans-serif;
+    border-radius: 3px;
+    line-height: 33px;
+    margin-bottom: 0;
+}
+.container-4 .search-form .cs-select.submit:hover{
+    opacity: 0.8;
+}
+.container-4 .search-form .cs-select .list-option ul{
+    
+    list-style-image: url(/assets/img/page2016/bg_list_form.png);
+      margin: 0 0 0 2px;
+    padding: 0 0 0 10px;
+}
+.container-4 .search-form .cs-select .list-option ul li{
+    
+    color: #d1d1d1;
+   
+    line-height: 19px;
+    font-size: 12px;
+    padding: 0px 20px 0 5px;
+    margin: 3px 6px 3px 0;
+    cursor: auto;
+    position: relative;
+    text-align: left;
+}
+.container-4 .search-form .cs-select .list-option ul li span{
+    
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background: url(/assets/img/page2016/icon_x.png) center center no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+}
+
+
+.container-4 .see-more{
+    clear: left;
+    width: 100%;
+    text-align: center;
+     float: left;
+     margin: 40px 0 0px;
+}
+.container-4 .see-more-fix{
+    background: rgba(0, 0, 0, 0) url("/assets/img//page2016/bg_border.png") no-repeat scroll center center;
+    height: 1px;
+}
+.container-4 .see-more .btn-submit{
+    font-size: 16px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    border: 1px solid #e1653f;
+    color: #e1653f;
+    padding: 0 10px;
+    text-transform: inherit;
+    line-height: 31px;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.container-4 .see-more .btn-submit span{
+    display: inline-block;
+    text-indent: -9999px;
+    border-radius: 100%;
+    
+    width: 25px;
+    height: 25px;
+    background: url(/assets/img/page2016/arrow_dropdown_white.png) center center no-repeat #da521f;
+    margin: 5px 0px 0 10px;
+}
+.container-4 .see-more .btn-submit:hover span{
+     background: url(/assets/img/page2016/arrow_down_cam.png) center center no-repeat white;
+}
+.container-4 .rows .title-tt {
+    font-size: 22px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.container-4 .row-1 {
+    float: left;
+    padding: 0px 0 0px;
+}
+
+.container-4 .row-2{
+    text-align: center;
+    padding: 20px 0;
+}
+.container-4 .row-2 .item{
+    width: 182px;
+    margin: 0 5px;
+    float: left;
+}
+.container-4 .row-2 .rr{
+    padding: 20px 0;
+    clear: left;
+    float: left;
+}
+.container-4 .row-2 .item img{
+    border-radius: 100%;
+}
+.container-4 .row-2 .item .tt-1{
+    font-size: 14.5px;
+    margin: 15px 0 0;
+}
+.container-4 .row-2 .item .tt-2{
+    font-size: 16px;
+    margin: -3px 0 0;
+    text-transform: uppercase;
+}
+.clear-fix {
+    display: table;
+    width: 100%;
+}
+.pagination-prog, .pagination-des, .pagination-excl{
+    display: inline-block;
+    float: right;
+    margin-bottom: 25px;
+}
+a.pdf-link {
+    background: rgba(0, 0, 0, 0) url("/assets/img//page2016/download_cam.png") no-repeat scroll 0 0;
+    color: #e75925;
+    display: inline-block;
+    font-family: "LatoLatin-Medium",sans-serif;
+    font-size: 12.8px;
+    line-height: 25px;
+    margin: 15px 0 0;
+    padding-left: 30px;
+}
+.container-4 .row-1 .amc-col-2 .area-2{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container-5 .r6{
+    clear: left;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.container-5 h3, .container-5 .module-name{
+    clear: left;
+    font-size: 24px;
+    margin: 0px 0 25px;
+    text-transform: inherit;
+    text-align: center;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    line-height: 1.2;
+}
+.container-5 .amc-col{
+    float: left; 
+    position: relative;
+}
+.container-5 .col-left{
+    width: 280px;
+    text-align: left;
+    margin-right: 30px;
+    float: left;
+}
+.container-5 .col-right{
+    float: right;
+}
+.container-5 .col-left .tt{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-transform: inherit;
+    line-height: 1.2;
+}
+.container-5 .item .logo{
+    left: -1px;
+    position: absolute;
+    right: -6px;
+    top: 0;
+}
+.carousel-indicators{
+     bottom: 13px;
+    left: unset;
+    margin: 0;
+    padding: 0 20px 0 0;
+    right: 0;
+    text-align: right;
+   
+}
+
+.carousel-indicators > li{
+     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 21px;
+    width: 21px;
+}
+.carousel-indicators > li.active:before{
+    content:'';
+    width: 13px;
+    height: 13px;
+    background: white;
+    margin: 3px auto auto;
+    display: block;
+    border-radius: 100%;
+    
+}
+.carousel-indicators li::before{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.carousel-indicators > li.active{
+  background: unset;
+  margin: 0 1px;
+  width: 21px;
+    height: 21px;
+}
+.container-5 .bx-pager{
+    text-align: right;
+    bottom: 10px;
+    padding-top: 0;
+    padding-right: 20px;
+}   
+
+.bxslider-image > li .bg-image{
+    background: url("/assets/img//page2016/bg-top-image-slide.png") no-repeat scroll -1px 0px, rgba(0, 0, 0, 0) url("/assets/img//page2016/bg-bot-image-slide.png") no-repeat scroll -1px  bottom;
+    z-index: 9999;
+    width: 100%;
+    height: 260px;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    position: absolute;
+}
+.container-5 .bx-pager-item {
+    width: 21px;
+    height: 21px;
+    background: url(/assets/img/page2016/button-slide.png)  no-repeat left top transparent;
+    margin-right: 5px;
+    border-radius: 10.5px;
+}
+.container-5 .bx-pager-item a{
+    overflow: hidden;
+    text-indent: 9999px;
+    background: transparent;
+    margin: 4px;
+    height: 12px;
+    
+    width: 13px;
+}
+
+.fix-back-button{
+    margin: 45px 0 25px;
+}
+.fix-border{
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 65px 0 55px;
+}
+.fix-border .line{
+    border-top: 1px solid #cbc0a2;
+    height: 1px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+}
+p.amc-border{
+    border-bottom: 1px solid #cbc0a2;
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+    clear: left;
+}
+
+/* Fix Css Filter */
+.responsive-search-form-ngang{
+    background: #3e3e3e;
+    z-index: 2;
+}
+.responsive-search-form-ngang .tt-search-form{
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 18px;
+    
+    margin: 20px 0 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.responsive-search-form-ngang .search-form {
+    clear: left;
+    float: left;
+    margin: 0 0 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.responsive-search-form-ngang .search-form form{
+    width: 650px;
+    margin: 0 auto;
+}
+.responsive-search-form-ngang .search-form .cs-select {
+    cursor: pointer;
+    float: left;
+    line-height: 31px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+}
+
+.responsive-search-form-ngang .search-form .cs-placeholder.active {
+    background: transparent url("/assets/img//page2016/arrow_dropdown_white.png") no-repeat scroll 95% center;
+    color: white;
+    display: block;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 14.2px;
+    padding: 0 25px 0 15px;
+    text-align: left;
+    border: 1px solid #8b8b8b;
+    border-radius: 3px;
+}
+.responsive-search-form-ngang .search-form .cs-select.active {
+    background: #3e3e3e none repeat scroll 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder.active{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select.destination {
+   
+    margin-right: 20px;
+    
+}
+.responsive-search-form-ngang .search-form .cs-select.une-envie {
+    
+    margin-right: 20px;
+    
+}
+.responsive-search-form-ngang .search-form .cs-select.type-de-voyage {
+    
+    margin-right: 20px;
+    
+}
+
+.responsive-search-form-ngang .search-form .submit {
+    float: left;
+    color: #da521f;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Medium', sans-serif;
+    width: 200px;
+    border:1px solid #da521f;
+}
+.responsive-search-form-ngang .search-form .submit:hover {
+   color: white;
+   background: #da521f;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options {
+    background: #3e3e3e none repeat scroll 0 0;
+    display: none;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+      border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #8b8b8b;
+    border-top: 0px;
+    z-index: 2;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options.cs-options-active{
+    display: block;
+} 
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li {
+    background: transparent url("/assets/img//page2016/bg_list.png") no-repeat scroll 5px 7px;
+    color: white;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 13.5px;
+    line-height: 22px;
+    padding: 3px 0 3px 30px;
+    text-align: left;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li:hover{
+    color: #e75925;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active {
+    background: transparent url("/assets/img//page2016/bg_list_active.png") no-repeat scroll 5px 7px;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .list-option ul{
+    margin: 3px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.responsive-search-form-ngang .search-form .cs-select .list-option ul li{
+    float: left;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #8b8b8b;
+    line-height: 19px;
+    font-size: 12px;
+    padding: 3px 30px 3px 15px;
+    margin: 3px 6px 3px 0;
+    cursor: auto;
+    position: relative;
+    text-align: left;
+}
+.responsive-search-form-ngang .search-form .cs-select .list-option ul li span{
+    
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background: url(/assets/img/page2016/icon_x.png) center center no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 6px;
+}
+
+
+.responsive-search-form-ngang{
+    background: #e8e8e8;
+    padding: 0px 0 20px;
+    margin-bottom: 35px !important;
+}
+.responsive-search-form-ngang .search-form{
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+}
+.responsive-search-form-ngang .search-form .cs-select{
+    width: 360px;
+}
+.responsive-search-form-ngang .search-form .cs-select.destination{
+    width: 240px;
+    
+}
+.responsive-search-form-ngang .search-form .cs-placeholder {
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    color: #212121;
+    display: block;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 14px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f5f5f5;
+}
+.responsive-search-form-ngang .search-form .cs-placeholder .icon-left{
+    display: inline-block;
+    width: 47px;
+    height: 40px;
+    
+    margin: -1px 13px 0 -1px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    float: left;
+}
+.responsive-search-form-ngang .search-form .destination .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-destination.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .une-envie .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-duree.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .type-de-voyage .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-type.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .cs-placeholder .icon-right{
+    float: right;
+    display: inline-block;
+     height: 38px;
+    width: 31px;
+    background: transparent url(/assets/img/page2016/arrow-filter-down.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .submit{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    background: #da521f;
+    border-radius: 3px;
+}
+.responsive-search-form-ngang .search-form form{
+    width:auto;
+}
+.responsive-search-form-ngang .search-form .cs-select.une-envie{
+    width: 290px;
+}
+.responsive-search-form-ngang .search-form .cs-select.type-de-voyage{
+    
+}
+.form-search .cs-select .cs-options{
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select.active{
+    background: none;
+}
+.responsive-search-form-ngang .search-form .cs-select.search-length .cs-placeholder .input-text{
+/*    float: left;
+    width: 198px;
+    height: 38px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;*/
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-placeholder .input-text{
+    
+}
+.responsive-search-form-ngang .search-form .cs-select.destination .cs-placeholder .input-text{
+    width: 147px;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder .icon-right{
+    background: transparent url(/assets/img/page2016/arrow-filter-up.png) center center no-repeat;
+    border-left: 1px solid #bebebe;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder{
+    border-radius: 0px;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder .icon-left{
+    border-radius: 0px;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options{
+    background: #e7e7e7;
+    color: #f5f5f5; 
+    border-radius: 0px;
+    border-top: none;
+    padding: 10px 0 !important;
+    border-color: #bebebe;
+    cursor: default;
+}
+.form-search .cs-select .cs-options > ul{
+    border-top: none;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li{
+    background: none;
+    padding: 0;
+    margin: 5px 0;
+    float: left; 
+    cursor: pointer;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li .icon-check{
+    float: left;
+    display: inline-block;
+    background: transparent url(/assets/img/page2016/bg-filter-list.jpg) center center no-repeat;
+    height: 24px;
+    width: 44px;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li .text-option{
+    display: inline-block;
+    float: left;
+    border-radius: 3px;
+  
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+    font-size: 14px;
+  
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active{
+    background: none;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active .icon-check{
+    background: transparent url(/assets/img/page2016/bg-filter-list-active.jpg) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active .text-option{
+    color: #d4532c;
+  
+}
+.responsive-search-form-ngang .search-form .cs-select .list-option{
+    display: none;
+}
+.responsive-search-form-ngang .search-form .submit:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 960px){
+    .responsive-search-form-ngang .search-form .cs-select.destination{
+/*        display: block !important;*/
+        width: 142px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select.search-length{
+        width: 185px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select.search-region{
+        width: 113px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select{
+        width: 220px !important;
+    }
+    .responsive-search-form-ngang .search-form .submit{
+        width: 100% !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select {
+        margin-right: 13px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select.search-region{
+        margin-right: 0 !important;
+    }
+
+
+    .responsive-search-form-ngang .search-form .search-excl-form .cs-select {
+        width: 150px !important;
+    }
+    .responsive-search-form-ngang .search-form .search-excl-form .cs-select.destination{
+/*        display: block !important;*/
+        width: 220px !important;
+    }
+    .responsive-search-form-ngang .search-form .search-excl-form .cs-select.type-de-voyage {
+        width: 303px !important;
+    }
+    
+    .responsive-search-form-ngang .search-form .search-excl-form .submit{
+        margin-top: 25px !important;
+        width: 100% !important;
+    }
+}

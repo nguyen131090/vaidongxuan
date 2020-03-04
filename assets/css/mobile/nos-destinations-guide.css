@@ -1,0 +1,466 @@
+
+.tour-slider.swiper-container-horizontal>.swiper-scrollbar{
+	    bottom: 50%;
+}
+
+.tour-slider .swiper-slide .text-on-img h3, .secrets-slider .swiper-slide .tt-custom {
+    margin: 0rem 0 0.5rem;
+    
+    
+}
+
+.swiper-slide{
+	overflow: hidden;
+}
+/*.swiper-container-horizontal>.swiper-scrollbar{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}*/
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 2.5rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    margin: 0 auto;
+    border-radius: 30rem;
+    background: #e65925;
+    width: 92%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: center;
+}
+.text-sumary .tt-custom{
+    text-align: left !important;
+}
+.text-sumary p{
+    text-align: left !important;
+    
+}
+/* End Css Banner Filter */
+
+
+
+/* Slide tour exclusive */
+.exclusive-slider .secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .exclusive-slider .secrets-slider .item-slide{
+     position: relative;
+ }
+ .exclusive-slider .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .exclusive-slider .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.exclusive-slider .swiper-slide img{
+    width: 100%;
+    min-height: 11.4rem;
+}
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+/* End css slide tour exclusive */
+
+/* Css all item no on_top */
+
+.all-item-no-on-top .all-aticle {
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.all-item-no-on-top .all-aticle li {
+    float: left;
+    width: 100%;
+    display: table;
+    margin: 0;
+    padding: 1rem 0 1rem 2rem;
+    border-radius: 0.5rem;
+    
+}
+.vietnam.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #e6a85e;
+}
+.laos.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #e65925;
+}
+.cambodge.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #ca8b09;
+}
+.birmanie.all-item-no-on-top .all-aticle li {
+    border: 0.1rem solid #d64c48;
+}
+.all-item-no-on-top .all-aticle li a {
+    display: table-cell;
+    height: 3.4rem;
+    text-align: left;
+    position: relative;
+    padding-left: 4.8rem;
+    vertical-align: middle;
+}
+.all-item-no-on-top .all-aticle li .icon.vietnam {
+    background-color: #e6a85e;
+}
+.all-item-no-on-top .all-aticle li .icon.laos {
+    background-color: #e65925;
+}
+.all-item-no-on-top .all-aticle li .icon.cambodge {
+    background-color: #ca8b09;
+}
+.all-item-no-on-top .all-aticle li .icon.birmanie {
+    background-color: #d64c48;
+}
+.all-item-no-on-top .all-aticle li .icon {
+    width: 3.4rem;
+    height: 3.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.see-more{
+    float: left;
+    width: 100%;
+}
+.btn-see-more{
+    display: block;
+    text-align: center;
+    border-radius: 3rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+/* End css all item no on_top */
+
+/* Css Tour Voyage */
+.secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .secrets-slider .item-slide{
+     position: relative;
+ }
+ .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+     padding: 0 1rem;
+ }
+.swiper-slide img{
+    width: 100%;
+}
+.item-tour-voyage {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.item-tour-voyage .swiper-button-prev {
+    background: url(/assets/img/mobile/arrow-white-back-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    left: -4vw;
+}
+.item-tour-voyage .swiper-button-next {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    height: 4.3rem;
+    right: -4vw;
+}
+/* End Css Tour Voyage */
+
+/* Css All Article */
+
+.all-article .item{
+    float: left;
+    width: 100%;
+}
+.all-article .item .item-right{
+    float: right;
+    width: 100%;
+}
+.all-article .item img{
+    display: block;
+    float: left;
+    width: 5.55rem;
+    height: 5.55rem;
+    margin-right: 1.1rem;
+    border-radius: 100%;
+}
+.all-article .item .area-text-control{
+    float: right;
+    margin: 0;
+    border-radius: 0.5rem;
+    height: 5.35rem;
+    line-height: 5.35rem;
+    padding-left: 1.4rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.vietnam.all-article .item .area-text-control{
+    border: 0.1rem solid #e6a85e;
+}
+.laos.all-article .item .area-text-control{
+    border: 0.1rem solid #e65925;
+}
+.cambodge.all-article .item .area-text-control{
+    border: 0.1rem solid #ca8b09;
+}
+.birmanie.all-article .item .area-text-control{
+    border: 0.1rem solid #d64c48;
+}
+
+.all-article .item .area-text-control .text{
+    display: flex;
+    width: 100%;
+    
+}
+.all-article .item .area-text-control .text a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.all-article .item .area-text-control .arrow-down-up{
+    text-indent: -9999px;
+    background: url(/assets/img/mobile/arrow-back-down-48-28.png) center center no-repeat;
+    display: inline-block;
+    width: 6rem;
+    height: 100%;
+    background-size: 2.4rem auto;
+    float: right;
+    position: relative;
+}
+.all-article .item .area-text-control .arrow-down-up:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 90%;
+    border-right: 1px solid #e6a85e;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.vietnam.all-article .item .area-text-control .arrow-down-up:before{
+    border-right: 1px solid #e6a85e;
+}
+.laos.all-article .item .area-text-control .arrow-down-up:before{
+    border-right: 0.1rem solid #e65925;
+}
+.cambodge.all-article .item .area-text-control .arrow-down-up:before{
+    border-right: 0.1rem solid #ca8b09;
+}
+.birmanie.all-article .item .area-text-control .arrow-down-up:before{
+    border-right: 0.1rem solid #d64c48;
+}
+.all-article .item .area-text-control .arrow-down-up.active{
+    background: url(/assets/img/mobile/arrow-back-up-48-28.png) center center no-repeat;
+    background-size: 2.4rem auto
+}
+
+.all-article .item .sub-article{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 1.5rem 2rem 3rem;
+    list-style: none;
+    /* background: #e7e7e7; */
+    display: none;
+    border: 0.1rem solid #e6a85e;
+    margin-top: 0.3rem;
+    border-radius: 0.5rem;
+}
+.all-article .item .sub-article.active{
+    display: block;
+}
+.all-article .item .sub-article li{
+/*    border-bottom: 0.1rem solid #a1a1a1;*/
+/*    float: left;
+    width: 100%;*/
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    background: url("../../img/page2016/bg-list.png") 0 center no-repeat;
+}
+.all-article .item .sub-article li.name-group{
+    background: none;
+    padding-left: 0;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin-top: 2rem;
+  
+}
+.all-article .item .sub-article li.name-group:first-child{
+    margin-top: 1rem;
+}
+.all-article .item .sub-article li a{
+/*    float: left;
+    display: block;*/
+    width: 100%;
+    padding: 0rem 0;
+}
+.all-article .item .sub-article li:last-of-type{
+    border-bottom: none;
+}
+
+
+.full-text{
+    display: none;
+}
+
+
+/* End Css All Article */
+.item-slide-1.swiper-slide-active{
+  
+}
+.exclusive-slider .swiper-wrapper{
+}
+.area-text h2{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.area-text .amc-btn-control-text{
+    color: #e65925;
+    cursor: pointer;
+}
+.area-text .fullstring-text{
+    display: none;
+}
+.area-text .last-character {
+    display: none;
+}
+.bg-f7f7f7{
+    background: #f7f7f7;
+}
+.bg-white{
+    background: white;
+}
+.tours-slider .text{
+    padding: 0 2rem 2.2rem;
+}
+.container-tours .amc-column{
+    padding: 2.5rem 0 3rem;
+}
+.blogs-slider .text {
+    padding: 0 2rem;
+    margin-bottom: 2.2rem;
+}
+.container-blogs .item .img{
+    position: relative;
+}
+
+.container-blogs .item .img p {
+    margin: 0;
+    color: #fff;
+    font: 13.5px LatoLatin-Regular,sans-serif;
+    padding: 4px 8px;
+    position: absolute;
+    right: 14px;
+    bottom: 12px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+
+@media only screen and (orientation:landscape){
+    .exclusive-slider .swiper-slide{
+        width: 40%;
+    }
+    .all-item-no-on-top .all-aticle li{
+        width: 31%;
+        display: inline-block;
+    }
+    .space.space-horizontal{
+        float: left;
+        width: 3.5%;
+    }
+    .all-item-no-on-top .all-aticle li{
+        padding: 0;
+    }
+    .all-item-no-on-top .all-aticle li a{
+        padding: 0 0 1.5rem;
+        text-align: center;
+        height: auto;
+        display: block;
+    }
+    .all-item-no-on-top .all-aticle li .icon{
+        position: inherit;
+        left: auto;
+        top: auto;
+        margin: 1.5rem 0;
+    }
+    .all-item-no-on-top .all-aticle li a .text{
+        display: block;
+        padding: 0 8%;
+        
+    }
+    .all-article .item .item-right{
+        width: 84%;
+    }
+    .hide-xoayngang{
+        display: none;
+    }
+}

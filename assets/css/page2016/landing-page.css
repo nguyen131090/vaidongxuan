@@ -1,0 +1,782 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2020, 10:20:17 AM
+    Author     : dtnguyen
+*/
+.btn-contactez-nous{
+    right: 0;
+    left: 100%;
+    transform: rotate(90deg);
+}
+.area-info .info-1 .col-ft-2 .tt .i-2, .area-info .info-1 .col-ft-1 .tt .i-2 {
+    color: #da521f;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.area-info .t-title-2{
+    line-height: 15px;
+}
+.fullstring-text {
+    display: none;
+}
+.amc-btn-control-text {
+    color: #e65925;
+    display: block;
+    margin: 20px 0 35px;
+    cursor: pointer;
+}
+
+.contain.container-1{
+    height: 553px !important;
+}
+.ld-baner-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(/assets/img/landing-page/img-overlay.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+.ld-btn-custom:hover{
+    color: white !important;
+}
+.ld-btn-logo{
+    width: 940px;
+    margin: 0px auto;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+.ld-area-text-button{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 85px;
+    height: 100%;
+}
+.ld-area-text-button h1{
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.ld-area-text-button p span{
+    font-size: 22px;
+    font-family: 'Lato-Medium', sans-serif;
+    color: #8b8b8b;
+    display: block;
+}
+
+.ld-container-2 .ld-column{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.ld-entry-content .ld-content{
+    text-align: center;
+    width: 770px;
+    margin: 0 auto;
+}
+.ld-entry-content h2{
+    font-size: 24px;
+    font-family: 'Lato-Bold', sans-serif;
+    color: #141414;
+    margin: 0 0 35px;
+}
+
+
+
+.about-container.lazy-background.visible {
+    background: url(/assets/img/new-home/bg-about-home.jpg) center top no-repeat transparent;
+}
+.about-container .row-video .tt {
+    font-size: 24px;
+    font-family: 'LatoLatin-Light', sans-serif;
+    text-transform: inherit;
+    margin-bottom: 30px;
+}
+.about-container .row-video .tt strong {
+    font-family: LatoLatin-Bold,sans-serif;
+}
+.about-container .row-video .summary {
+    width: 680px;
+    margin: 0 auto;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ld-container-5 .list-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.ld-container-5 .list-icon .item{
+    display: flex;
+    align-items: center;
+    
+}
+.ld-container-5 .list-icon .item .img{
+    margin-right: 18px;
+}
+.ld-container-5 .list-icon .item .img img{
+    width: 45px;
+}
+.ld-container-5 .list-icon .item p{
+    margin: 0;
+}
+.ld-container-5 .list-icon .item .one{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.ld-container-5 .list-icon .item .one{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+
+.ld-container-6 .amc-column{
+    display: flex;
+    
+}
+.ld-container-6 .it-left{
+    margin-right: 40px;
+}
+.ld-container-6 .it-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    text-align: center;
+}
+.ld-container-6 .it-right p:nth-of-type(1){
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+
+.fluid-testi .bx-wrapper .bx-controls-direction a, .fluid-testi .swiper-button-next-testi {
+    width: 51px;
+    height: 51px;
+    top: 50%;
+    transform: translateY(-25.5px);
+    border-radius: 100%;
+    right: -20.5px;
+    margin: 0;
+    background: url(/assets/img/tour/arrow-f7.png) center center no-repeat #fff;
+    z-index: 1;
+}
+.fluid-testi .bx-wrapper .bx-controls-direction .bx-prev, .fluid-testi .swiper-button-prev-testi {
+    background: url(/assets/img/tour/arrow-f7.png) center center no-repeat #fff;
+    transform: rotate(180deg) translateY(25.5px);
+    right: auto;
+    left: -20.5px;
+    z-index: 1;
+    border-radius: 100%;
+    width: 51px;
+    height: 51px;
+    top: 50%;
+    margin: 0;
+}
+
+
+.fluid-testi .testi-bxslider .summary {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px!important;
+}
+.fluid-testi .testi-bxslider .text {
+    color: #6b6b6b;
+}
+.fluid-testi .testi-bxslider .text p {
+    font-size: 13.5px;
+}
+.fluid-testi .testi-bxslider .text .client {
+    font-size: 15.5px;
+    color: #000;
+}
+
+
+.logo-pages {
+    font-family: LatoLatin-Bold,sans-serif;
+    background: #f7f7f7;
+    min-height: 95px;
+    padding: 10px;
+    text-align: center;
+}
+.logo-pages .logos {
+    padding: 0 20px;
+    margin-left: 7px;
+}
+.logo-pages .logos span {
+    margin: 0 48px;
+}
+
+
+.bg-f7 {
+    background-color: #f7f7f7;
+}
+
+.custom-bxslider .item {
+    width: 300px;
+    background: #fff !important;
+    max-width: 300px;
+    border-radius: 0 0 5px 5px;
+    min-height: 400px;
+    /* height: 417px; */
+}
+.custom-bxslider .item .text .tt {
+    font-size: 18px;
+    font-family: LatoLatin-Bold,sans-serif;
+    line-height: 1.2;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.custom-bxslider .item .img {
+    position: relative;
+    cursor: pointer;
+    min-height: 200px;
+    width: 100%;
+}
+.custom-bxslider .item .topopup.img:hover:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 8;
+}
+.custom-bxslider .item .topopup.img:not(.actived):hover:after {
+    content: 'Personnaliser';
+    font: 16px LatoLatin-Bold,sans-serif;
+    width: 160px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+}
+
+
+
+.container-button-contact .devis-btn-block .text {
+    font-size: 25px;
+    font-family:  grand hotel,sans-serif;
+}
+.container-button-contact .devis-btn-block .text span{
+    font-size: 20px;
+    display: block;
+}
+.container-button-contact .devis-btn-block {
+    background: #f2f2f2;
+}
+.container-button-contact button{
+    width: 210px;
+}
+
+
+.swiper-wrapper.custom-bxslider.fix-block{
+    display: block;
+}
+.custom-bxslider .clear-fix{
+    float: left;
+    clear: left;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.custom-bxslider .clear-fix:last-child{
+   margin-bottom: 0;
+}
+
+/* Fix Css Filter */
+.responsive-search-form-ngang{
+    background: #f7f7f7;
+    z-index: 2;
+}
+.responsive-search-form-ngang .tt-search-form{
+    font-family: "Lato-Bold",sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+   
+}
+.responsive-search-form-ngang .search-form {
+    clear: left;
+    float: left;
+    margin: 0 0 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.responsive-search-form-ngang .search-form form{
+    width: 650px;
+    margin: 0 auto;
+}
+.responsive-search-form-ngang .search-form .cs-select {
+    cursor: pointer;
+    float: left;
+    line-height: 31px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+}
+
+.responsive-search-form-ngang .search-form .cs-placeholder.active {
+    background: transparent url("/assets/img//page2016/arrow_dropdown_white.png") no-repeat scroll 95% center;
+    color: white;
+    display: block;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 14.2px;
+    padding: 0 25px 0 15px;
+    text-align: left;
+    border: 1px solid #8b8b8b;
+    border-radius: 3px;
+}
+.responsive-search-form-ngang .search-form .cs-select.active {
+    background: #3e3e3e none repeat scroll 0 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder.active{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select.destination {
+   
+    margin-right: 20px;
+    
+}
+.responsive-search-form-ngang .search-form .cs-select.une-envie {
+    
+    margin-right: 20px;
+    
+}
+.responsive-search-form-ngang .search-form .cs-select.type-de-voyage {
+    
+    margin-right: 20px;
+    
+}
+
+.responsive-search-form-ngang .search-form .submit {
+    float: left;
+    color: #da521f;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Medium', sans-serif;
+    width: 200px;
+    border:1px solid #da521f;
+}
+.responsive-search-form-ngang .search-form .submit:hover {
+   color: white;
+   
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options {
+    background: #3e3e3e none repeat scroll 0 0;
+    display: none;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+      border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #8b8b8b;
+    border-top: 0px;
+    z-index: 2;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options.cs-options-active{
+    display: block;
+} 
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li {
+    background: transparent url("/assets/img//page2016/bg_list.png") no-repeat scroll 5px 7px;
+    color: white;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 13.5px;
+    line-height: 22px;
+    padding: 3px 0 3px 30px;
+    text-align: left;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li:hover{
+    color: #e75925;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active {
+    background: transparent url("/assets/img//page2016/bg_list_active.png") no-repeat scroll 5px 7px;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .list-option ul{
+    margin: 3px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.responsive-search-form-ngang .search-form .cs-select .list-option ul li{
+    float: left;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #8b8b8b;
+    line-height: 19px;
+    font-size: 12px;
+    padding: 3px 30px 3px 15px;
+    margin: 3px 6px 3px 0;
+    cursor: auto;
+    position: relative;
+    text-align: left;
+}
+.responsive-search-form-ngang .search-form .cs-select .list-option ul li span{
+    
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background: url(/assets/img/page2016/icon_x.png) center center no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 6px;
+}
+
+
+.responsive-search-form-ngang{
+    background: #e8e8e8;
+    padding: 0px 0 25px;
+   
+}
+.responsive-search-form-ngang .search-form{
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+}
+.responsive-search-form-ngang .search-form .cs-select{
+    width: 254px;
+}
+.responsive-search-form-ngang .search-form .cs-select.destination{
+    width: 240px;
+    
+}
+.responsive-search-form-ngang .search-form .cs-placeholder {
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    color: #212121;
+    display: block;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 14px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f5f5f5;
+}
+.responsive-search-form-ngang .search-form .cs-placeholder .icon-left{
+    display: inline-block;
+    width: 47px;
+    height: 40px;
+    
+    margin: -1px 13px 0 -1px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    float: left;
+}
+.responsive-search-form-ngang .search-form .destination .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-destination.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .une-envie .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-duree.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .type-de-voyage .cs-placeholder .icon-left{
+    background: #545454 url(/assets/img/page2016/icon-filter-type.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .cs-placeholder .icon-right{
+    float: right;
+    display: inline-block;
+     height: 38px;
+    width: 31px;
+    background: transparent url(/assets/img/page2016/arrow-filter-down.png) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .submit{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+   
+    border-radius: 3px;
+}
+.responsive-search-form-ngang .search-form form{
+    width:auto;
+}
+.responsive-search-form-ngang .search-form .cs-select.une-envie{
+    width: 180px;
+}
+.responsive-search-form-ngang .search-form .cs-select.type-de-voyage{
+    
+}
+.form-search .cs-select .cs-options{
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+.responsive-search-form-ngang .search-form .cs-select.active{
+    background: none;
+}
+.responsive-search-form-ngang .search-form .cs-select.search-length .cs-placeholder .input-text{
+/*    float: left;
+    width: 198px;
+    height: 38px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;*/
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-placeholder .input-text{
+    
+}
+.responsive-search-form-ngang .search-form .cs-select.destination .cs-placeholder .input-text{
+    width: 147px;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder .icon-right{
+    background: transparent url(/assets/img/page2016/arrow-filter-up.png) center center no-repeat;
+    border-left: 1px solid #bebebe;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder{
+    border-radius: 0px;
+}
+.responsive-search-form-ngang .search-form .cs-select.active .cs-placeholder .icon-left{
+    border-radius: 0px;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options{
+    background: #e7e7e7;
+    color: #f5f5f5; 
+    border-radius: 0px;
+    border-top: none;
+    padding: 10px 0 !important;
+    border-color: #bebebe;
+    cursor: default;
+}
+.form-search .cs-select .cs-options > ul{
+    border-top: none;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li{
+    background: none;
+    padding: 0;
+    margin: 5px 0;
+    float: left; 
+    cursor: pointer;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li .icon-check{
+    float: left;
+    display: inline-block;
+    background: transparent url(/assets/img/page2016/bg-filter-list.jpg) center center no-repeat;
+    height: 24px;
+    width: 44px;
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li .text-option{
+    display: inline-block;
+    float: left;
+    border-radius: 3px;
+  
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+    font-size: 14px;
+  
+}
+
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active{
+    background: none;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active .icon-check{
+    background: transparent url(/assets/img/page2016/bg-filter-list-active.jpg) center center no-repeat;
+}
+.responsive-search-form-ngang .search-form .cs-select .cs-options ul li.active .text-option{
+    color: #d4532c;
+  
+}
+.responsive-search-form-ngang .search-form .cs-select .list-option{
+    display: none;
+}
+.responsive-search-form-ngang .search-form .submit:hover{
+    opacity: 0.8;
+}
+
+.ld-container-9 p{
+    font-size: 14px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+.area-info .info-2 .info-office span span:hover{
+    color: black;
+}
+.area-text .last-character {
+    display: none;
+}
+.fix-img-bottom-left{
+    z-index: 99;
+}
+
+@media (max-width: 1000px){
+    body .contain.container-1 {
+        height: 553px !important;
+    }
+}
+
+@media (max-width: 960px){
+    .responsive-search-form-ngang .search-form .cs-select.destination{
+/*        display: block !important;*/
+        width: 142px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select.search-length{
+        width: 180px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select.search-region{
+        width: 180px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select{
+        width: 313px !important;
+    }
+    .responsive-search-form-ngang .search-form .submit{
+        width: 100% !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select {
+        margin-right: 13px !important;
+    }
+    .responsive-search-form-ngang .search-form .cs-select.search-region{
+        margin-right: 0 !important;
+    }
+
+
+    .responsive-search-form-ngang .search-form .search-excl-form .cs-select {
+        width: 150px !important;
+    }
+    .responsive-search-form-ngang .search-form .search-excl-form .cs-select.destination{
+/*        display: block !important;*/
+        width: 220px !important;
+    }
+    .responsive-search-form-ngang .search-form .search-excl-form .cs-select.type-de-voyage {
+        width: 303px !important;
+    }
+    
+    .responsive-search-form-ngang .search-form .search-excl-form .submit{
+        margin-top: 25px !important;
+        width: 100% !important;
+    }
+    
+    
+    .text-sologan{
+        display: none !important;
+    }
+    
+    body .contain.container-1{
+        margin-top: 74px !important;
+        background-position: right -160px center;
+    }
+    .ld-baner-overlay{
+        display: none;
+    }
+    .ld-btn-logo {
+        top: -74px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+    }
+    .ld-area-text-button{
+        align-items: flex-end;
+    }
+    .ld-text-button{
+        margin-bottom: 50px;
+    }
+    .ld-area-text-button p{
+        color: white;
+    }
+    .ld-area-text-button p span{
+        color: white;
+    }
+    
+    .ld-entry-content .ld-content{
+        width: 100%;
+    }
+    
+    .ld-container-5 .list-icon .item{
+        display: block;
+        text-align: center;
+    }
+    .ld-container-5 .list-icon .item .img{
+        margin-right: 0;
+    }
+    .ld-container-5 .list-icon .item .one{
+        margin-top: 10px;
+    }
+    .ld-container-5 .list-icon .item .two{
+        margin-top: 6px;
+    }
+    
+    .ld-container-6 .amc-column{
+        display: block;
+    }
+    .ld-container-6 .it-left{
+        margin: 0;
+    }
+    .ld-container-6 .it-left img{
+        width: 100%;
+    }
+    .ld-container-6 .it-right .text {
+        padding: 0 100px;
+        margin-top: 35px;
+    }
+    .ld-container-7 .it-left{
+        padding: 0 !important;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .logo-pages .logos {
+        margin-left: 0;
+    }
+    .logo-pages .logos span {
+        margin: 0 10px;
+    }
+    .getajax .ld-btn-custom{
+        margin-top: 35px !important;
+    }
+    .ld-area-text-button h1{
+        color: white;
+    }
+}
+

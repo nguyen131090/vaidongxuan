@@ -1,0 +1,374 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 3:52:20 PM
+    Author     : dtnguyen
+
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.contain .rows{
+    float: left;
+    clear: left;
+    width: 100%;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1100px;
+}
+.container-1 .amc-column h2{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.container-1 .amc-column h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: LatoLatin-Bold,sans-serif;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+.rows{
+    clear: left;
+}
+.rows .tt{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 15px 0;
+}
+.rows .col{
+    float: left;
+    
+}
+
+
+.container-2 .row-1 .text-desc{
+    margin: 55px auto 0px;
+    width: 555px;
+    text-align: center;
+}
+.container-2 .row-1 .item{
+    float: left;
+    width: 280px;
+    margin: 5px 15px 20px;
+    text-align: center;
+}
+.container-2 .row-1 .item .tt{
+    font-size: 24px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    text-transform: inherit;
+}
+.container-2 .row-1 .item-2 .tt,
+.container-2 .row-1 .item-3 .tt{
+    color: #000000;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-2 .row-1 .img{
+    clear: left;
+    text-align: center;
+    margin: 0px 0 40px;
+    float: left;
+    width: 100%;
+}
+.container-2 .row-1 .img img{
+    display: inline-block;
+}
+.container-2 .row-1{
+/*    background: url(/assets/img/page2016/bg_border.png) center bottom no-repeat;
+    margin-bottom: 30px;*/
+}
+.container-2 .row-2{
+   // margin: 30px 0;
+}
+.container-2 .row-2 .text{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.container-2 .row-2 .text .tt{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 15px 0;
+    text-transform: inherit;
+}
+.container-2 .row-2 .r{
+    clear: left;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+}
+.container-2 .row-2 .r .t-top{
+    margin-bottom: 40px;
+}
+.container-2 .row-2 .r .t-top .numb{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    border: 2px solid #da521f;
+    line-height: 34px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.container-2 .row-2 .r .t-top .fix-color{
+    color: #e75925;
+}
+.container-2 .row-2 .r .item{
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+.container-2 .row-2 .r .item:last-child{
+    margin-right: 0;
+}
+.container-2 .row-2 .r .item .t{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 20px 0 0;
+    font-size: 15.5px;
+}
+.container-2 .row-2 .r-3 table{
+   // border: 1px solid black;
+    border-collapse: unset;
+    border-spacing: 0px 10px;
+}
+.container-2 .row-2 .r-3 .item th,
+.container-2 .row-2 .r-3 .item td
+{
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    
+}
+.container-2 .row-2 .r-3 .item th{
+    color: white;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    background-color: #da521f;
+    padding: 5px 0;
+    height: 56px;
+}
+.container-2 .row-3{
+/*   background: url(/assets/img/page2016/bg_border.png) top center no-repeat;*/
+    text-align: center;
+    margin: 00px 0 35px;
+    padding-top: 0px;
+}
+.container-2 .row-3 .text{
+    width: 650px;
+    margin: 0 auto;
+}
+.container-2 .row-3 .text .tt{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 32px;
+    text-transform: inherit;
+}
+.container-2 .row-3 .text .btn-link{
+    display: inline-block;
+    border: 1px solid #999999;
+    padding: 20px 20px 20px 60px;
+    background: url(/assets/img/page2016/icon-pdf.png) 20px center no-repeat;
+    color: #e75925;
+    width: 325px;
+    margin: 25px 0 0;
+}
+.container-2 .row-4{
+    background: url(/assets/img/page2016/bg_border.png) top center no-repeat;
+    margin: 5px 0 0;
+}
+.container-2 .row-4 p{
+    width: 650px;
+    
+    text-align: center;
+    margin: 0px auto;
+}
+.container-2 .row-4 p span{
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    display: inline-block;
+    width: 400px;
+    float: left;
+    padding-top: 12px;
+    text-transform: inherit;
+}
+
+.container-2 .row-4 .btn-link-contact{
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 90px;
+    background: url(/assets/img/page2016/icon-note.png) 00px center no-repeat;
+    background-size: 76px;
+    line-height: 75px;
+    font-size: 18px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.container-2 .row-4 .btn-link-contact:hover{
+    color: #e75925;
+}
+
+.container-3{
+    
+    text-align: center;
+    
+    margin: 60px 0 0;
+}
+.container-3.loaded{
+    background: transparent url("/assets/img//page2016/bg_special_1.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+.container-3 .rows{
+    background: #ececec none repeat scroll 0 0;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.container-3 p{
+    line-height: 50px;
+    margin: 15px 0;
+}
+.container-3 .tt{
+     display: inline-block;
+    
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0 35px;
+    text-transform: none;
+}
+
+.container-3 a{
+    border: 1px solid #da521f;
+    color: #da521f;
+    display: inline-block;
+    
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 14.2px;
+    line-height: 22px;
+    margin: 0 35px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    
+}
+
+
+.quels{
+   width: 100%;
+   height: 288px;
+   position: relative; 
+   background:  url(/assets/img/page2016/img_club_ami.png) no-repeat center center transparent;
+}
+.quels .text{
+    color: white;
+    margin-left: 180px;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: inherit;
+    width: 205px;
+    text-shadow:  0px 0px 0.3px #fff;
+}
+.quels .text h2{
+    font-size: 24px;
+    text-transform: inherit;
+}
+.quels .text h3{
+    font: 22px/22px LatoLatin-Regular, sans-serif;
+    margin: 0;
+}
+.quels .text h3 > span{
+    font: 22px/22px LatoLatin-Bold, sans-serif;
+    margin: 0 0 15px;
+    display: block;
+}
+.quels .text .tt{
+    font: 18px/18px LatoLatin-Bold, sans-serif;
+    margin: 15px 0 0 ;
+    text-transform: inherit;
+}
+.quels .text p{
+    font: 15.5px LatoLatin-Regular, sans-serif;
+    text-transform: none;
+    margin: 0 0 15px;
+}
+ 
+.container-2 .row-2 .r.r-3 {
+    margin-top: 10px;
+}
+@media (max-width: 960px){
+    .container-2 .row-1 .item{
+        width: 203px;
+    }
+    .quels{
+        background-size: 100%;
+    }
+    .quels .text{
+        margin-left: 80px;
+    }
+    .container-2 .row-2 .r .item{
+        width: 160px;
+    }
+    .container-2 .row-2 .r-3 .item th{
+        text-transform: inherit;
+        height: 59px;
+    }
+}

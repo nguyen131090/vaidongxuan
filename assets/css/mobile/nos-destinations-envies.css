@@ -1,0 +1,332 @@
+
+
+.tour-slider.swiper-container-horizontal>.swiper-scrollbar{
+	    bottom: 50%;
+}
+
+.tour-slider .swiper-slide .text-on-img h3, .secrets-slider .swiper-slide h3 {
+    margin: 2rem 0 10px;
+    font: 2rem LatoLatin-Bold,sans-serif;
+    text-transform: uppercase;
+
+}
+
+.swiper-scrollbar-drag{
+	background-color: #e65925;
+}
+.swiper-slide{
+	overflow: hidden;
+}
+/*.swiper-container-horizontal>.swiper-scrollbar{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}*/
+
+/* Css Banner Filter */
+.area-filter{
+    position: relative;
+}
+.area-filter .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 8rem;
+    padding: 0 2rem;
+}
+.area-filter .tt-custom-btn-filter{
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    bottom: 2rem;
+   // top: 15.35rem;
+    height: 4.7rem;
+    transition: top 0.5s ease-out;
+}
+.area-filter .tt-custom-btn-filter.active{
+    background: #e7e7e7;
+    border-top-left-radius: 2.3rem;
+    border-top-right-radius: 2.3rem;
+    position: fixed;
+    top: 1rem;
+    z-index: 99999;
+    transition: top 0.25s ease-out;
+}
+.area-filter .tt-custom-btn-filter .options{
+    border-radius: 30rem;
+    background: #e65925;
+    width: 100%;
+    height: 4.7rem;
+    line-height: 4.7rem;
+    text-align: left;
+    padding: 0 2.5rem;
+     margin: 0 auto;
+     
+}
+.area-filter .tt-custom-btn-filter .tt-list-active-custom{
+    display: block;
+    line-height: 4.7rem;
+    padding: 0;
+    width: 100%;
+    background: url(/assets/img/mobile/arrow-white-down-26-17.png) right center no-repeat;
+    background-size: 1.3rem auto;
+}
+.area-filter .tt-custom-btn-filter .tt-list-active-custom.active{
+    background: url(/assets/img/mobile/arrow-white-up-26-17.png) right center no-repeat;
+    background-size: 1.3rem auto;
+}
+.area-filter .tt-custom-btn-filter .options{
+    position: relative;
+}
+.area-filter .tt-custom-btn-filter .options .list-options{
+    position: absolute;
+    margin: 0;
+    padding: 0 2rem;
+    display: none;
+    list-style: none;
+    background: #e7e7e7;
+    left: 0;
+    right: 0;
+    top: 4.7rem;
+    z-index: 1;
+    -webkit-overflow-scrolling: touch;
+}
+.area-filter .tt-custom-btn-filter .options .list-options.active{
+    display: block;
+}
+.area-filter .tt-custom-btn-filter .options .list-options li{
+    border-bottom: 0.1rem solid #a1a1a1;
+}
+.area-filter .tt-custom-btn-filter .options .list-options li:last-of-type{
+    border-bottom: none;
+}
+
+.area-filter .tt-custom-btn-filter .tt-custom{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+.area-filter .tt-custom-btn-filter .options .list-options li .tt-list-custom{
+    display: block;
+    padding: 2rem 0;
+}
+.text-sumary p{
+    text-align: left !important;
+}
+/* End Css Banner Filter */
+
+/* Css Item Tour Voyage */
+.all-tour .item{
+    position: relative;
+}
+.all-tour .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    padding: 0 1.25rem;
+}
+.all-tour .item a{
+    position: relative;
+    display: block;
+}
+.all-tour .item a .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+}
+.all-tour .item .title .tt-custom{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 6.2rem;*/
+    
+    line-height: 6.5vmin;
+   
+
+}
+.all-tour .item .title .tt-custom-sub-tt{
+/*    position: absolute;
+    left: 1.25rem;
+    bottom: 2rem;*/
+    line-height: 5.5vmin;
+    
+}
+.summary{
+    float: left;
+    width: 100%;
+}
+
+
+.btn-see-more{
+    display: block;
+    text-align: center;
+    border-radius: 3rem;
+    border: 0.1rem solid #e65925;
+    line-height: 4.7rem;
+    height: 4.7rem;
+}
+/* End Css Item Tour Voyage */
+
+.no-scroll-page{
+    max-width:100%;
+     max-height:100%;    
+    overflow: hidden !important;
+    height: 100% !important;
+    
+}
+
+.fix-popup.active{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+    background: rgba(255,255,255,0.7);
+}
+
+/* Fix Css xoay ngang cho Iphone 4 */
+
+@media only screen and (orientation:landscape){
+    
+    .contain{
+        padding: 0 1.5rem;
+    }
+    
+    .all-tour .item{
+        float: left;
+        width: 48%;
+    }
+    .space.space-horizontal{
+        float: left;
+        width: 4%;
+    }
+}
+
+/* End Fix Css xoay ngang cho Iphone 4 */
+
+/* Fix Css Xoay Ngang Iphone 5 tro len */
+
+
+@media (min-width: 568px) and (orientation:landscape){
+    .all-tour .item .col-left{
+        width: 48%;
+    }
+    .all-tour .item .col-right{
+        width: 49.5%;
+    }
+    .all-tour .item .col-right .summary p{
+        line-height: 6vmin;
+    }
+    .list-info li.country{
+        margin-right: 0.7rem;
+        padding-left: 2.3rem;
+        background-size: 2.2rem auto;
+    }
+    .list-info li.time{
+        background-size: 1.55rem auto;
+        padding-left: 1.7rem;
+    }
+    .list-info li.loaitour{
+        width: 40%;
+    }
+    .list-info li.loaitour .icon{
+        background-size: 90% auto;
+        background-position: 0 center;
+        margin-right: 0;
+    }
+/*    .all-tour .item .col-left a.fix-xoay-ngang{
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        min-height: 11rem;
+        max-height: 22rem;
+    }*/
+}
+
+/* End  Fix Css Xoay Ngang Iphone 5 tro len */
+
+/* SEO CONTENT */
+
+#text-content{
+        padding-top: 1rem;
+    text-align: left;
+    position: relative;
+}
+/*
+#text-content::before {
+    content: "";
+    background: url(/assets/img/page2016/lotus.png) no-repeat center center;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+}*/
+
+#text-content.iti{
+    width: 100%;
+    display: inline-block;
+}
+
+#text-content.iti.sa:before{
+    top: 150px;
+}
+
+#text-content.iti.sa{
+    padding: 0 0 40px 0;
+}
+
+#text-content span.tt-seo{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Grand Hotel',sans-serif;
+    clear: both;
+    line-height: 26px;
+    display: block;
+    margin: 0;
+    padding: 3rem 0 4rem;
+    background: #EEE;
+}
+#text-content a{
+    color: #e65925;
+}
+#text-content span.tt-seo.croisiere{
+    margin: 50px 0 40px 0;
+}
+#text-content span.tt-seo.balneaire-mer-cocotiers{
+    margin: 45px 0 40px 0;
+}
+
+#text-content div.text-sumary{
+    background-color: #EEE;
+    padding: 145px 4vw 25px 4vw;
+    color: #343A40;
+    background: #EEE url(/assets/img/page2016/lotus.png) no-repeat center 0;
+    margin-bottom: 4rem;
+}
+
+#text-content div h2{
+    margin: 0 0 25px;
+    font-size: 1.6rem;
+    text-align: left;
+    color: #000;
+    font-family: 'LatoLatin-SemiBold',sans-serif;
+    line-height: 1.3;
+}
+
+#text-content div p{
+    margin: 0 0 25px 0;
+    font-size: 1.4rem;
+}
+
+#text-content div p:last-child{ margin: 0; }
+
+@media (min-width: 667px) and (orientation:landscape){
+    .list-info li.country{
+        margin-right: 1.5rem;
+       
+    }
+}

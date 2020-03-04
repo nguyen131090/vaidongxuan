@@ -1,0 +1,227 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2016, 10:29:54 AM
+    Author     : dtnguyen
+*/
+.text-sologan{
+    background: rgba(0,0,0, 0.6);
+    position: relative;
+    z-index: 1;
+}
+.area-btn-list-menu{
+    background: rgba(255,255,255, 0.8);
+    z-index: 1;
+}
+.contain{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: auto;
+    font-size: 15.5px;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.contain .amc-column{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.container-1 .row-1{
+     background: rgba(0,0,0, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+}
+.container-1 .breadcrumb{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 23px;
+    background: none;
+}
+
+.container-1 .breadcrumb a, .container-1 .breadcrumb span{
+    font-size: 13px;
+    color: white;
+    font-family: inherit;
+}
+.container-1 .breadcrumb a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}
+.container-1 .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container-1 .row-2 .tt-s{
+    font-size: 22px;
+    color: white;
+    margin: -20px 0 30px;
+}
+.container-1 .amc-column .title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+.container-2 .amc-column{
+    text-align: center;
+    
+    margin: 0px auto 0;
+}
+.container-2 .row-1{
+   clear: left;
+   margin: 60px 0 40px;
+   padding: 0 135px;
+}
+
+
+.container-2 .tt-2{
+    line-height: 22px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 45px 0 20px;
+}
+.container-2 h2{
+    
+    font-size: 24px;
+    
+    font-family: 'LatoLatin-Regular', sans-serif;
+    margin: 20px 0 20px;
+}
+.container-2 .item{
+    float: left;
+    width: 430px;
+    margin: 20px 0;
+    height: 254px;
+}
+.container-2 .item:nth-of-type(2n+1){
+    margin-right: 40px;
+}
+.container-2 .item:nth-of-type(2n){
+    margin-left: 40px;
+}
+.container-2 .item .col-left,.container-2 .item .col-right{
+    float: left;
+}
+.container-2 .item .col-left{
+    width: 254px;
+}
+.container-2 .item .col-right{
+    width: 176px;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    height: 100%;
+}
+.container-2 .item .title-item{
+    font-size: 24px;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    margin: 0 0 10px;
+}
+.container-2 .item p{
+    line-height: 22px;
+    margin: 0;
+    
+}
+.container-2 .item .f-text{
+    position: absolute;
+    bottom: 40px;
+}
+
+.container-2 .item .col-right a{
+    font-size: 14.2px;
+    font-family: 'LatoLatin-Italic', sans-serif;
+    color: #e75925;
+    display: block;
+    height: 22px;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.container-2 .item a.down-pdf{
+    padding-left: 30px;
+    background: url(/assets/img/page2016/down.png) left bottom no-repeat;
+}
+.container-2 .item a.view-video{
+    padding-left: 30px;
+    background: url(/assets/img/page2016/icon_video.png) left bottom no-repeat;
+}
+.container-3{
+    
+    text-align: center;
+    
+    margin: 45px 0 0;
+}
+.container-3.loaded{
+    background: transparent url("/assets/img//page2016/bg_special_1.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+.container-3 .rows{
+    background: #ececec none repeat scroll 0 0;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.container-3 p{
+    line-height: 50px;
+    margin: 15px 0;
+}
+.container-3 .tt{
+     display: inline-block;
+    
+    font-family: "Grand Hotel",sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0 35px;
+    
+}
+
+.container-3 a{
+    border: 1px solid #da521f;
+    color: #da521f;
+    display: inline-block;
+    
+    font-family: "LatoLatin-Bold",sans-serif;
+    font-size: 14.2px;
+    line-height: 22px;
+    margin: 0 35px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+@media (max-width: 960px){
+    .container-2 .item{
+        width: 330px;
+        height: 165px;
+    }
+    .container-2 .item:nth-of-type(2n+1){
+        margin-right: 20px;
+    }
+    .container-2 .item:nth-of-type(2n){
+        margin-left: 20px;
+    }
+    .container-2 .item .col-left, .container-2 .item .col-right{
+        width: 165px;
+    }
+}

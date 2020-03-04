@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 7, 2017, 7:25:03 PM
+    Author     : dtnguyen
+*/
+
+.pay-home .item-pay{
+    
+    position: relative;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.pay-home .item-pay img{
+    width: 100vw;
+    margin: 0 0 0 -4vw;
+}
+.pay-home .item-pay a{
+    display: block;
+}
+.pay-home .item-pay .tt-custom{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: 6vmin;
+}
+.pay-home > p, .secret-home > p{
+    margin-bottom: 2rem;
+}
+.contain{
+    padding: 0 4vw;
+    font-size: 1.6rem;
+}
+/*.contain.no-padding{
+    padding: 0;
+}*/
+
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+.secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .secrets-slider .item-slide{
+     position: relative;
+ }
+ .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .secrets-slider .item-slide .tt-custom{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.swiper-slide img{
+    width: 100%;
+}
+.item-tour-voyage{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.item-tour-voyage .swiper-button-next{
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+   // background-size: 4.375vw 7.65625vw;
+    background-color: rgba(230,89,37,0.7);
+    width: 4.2rem;
+    //width: 13.125vw;
+    height: 4.3rem;
+   // height: 13.4375vw;
+    right: -4vw;
+}
+.item-tour-voyage .swiper-button-prev{
+    background: url(/assets/img/mobile/arrow-white-back-28-49.png) center center no-repeat;
+    //background-size: 4.375vw 7.65625vw;
+    background-size: 1.4rem 2.45rem;
+    background-color: rgba(230,89,37,0.7);
+     width: 4.2rem;
+    //width: 13.125vw;
+    height: 4.3rem;
+    //height: 13.4375vw;
+    left: -4vw;
+}
+
+.btn-button.tt-custom{
+    text-align: center;
+    height: 4.25rem;
+    border-radius: 3rem;
+    background: #e65925;
+    line-height: 4.25rem;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.exclusive-slider .swiper-slide{
+    width: 75%;
+}
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+
+.img-responsive{
+    max-width: 100%;
+    width: 100%;
+}
+.area-button-link{
+    position: relative;
+    clear: both;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.area-button-link a{
+    display: block;
+    min-height: 13.5rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+/*.background-fill{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}*/
+.area-button-link .tt-custom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.5rem;
+    padding: 0 0 0 1.5rem;
+}
+.btn-video-ytb{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.btn-video-ytb iframe{
+    width: 90.625vw !important;
+    max-width: 100% !important;
+    height: 62.5vw !important;
+}
+.video-history{
+    background: #ededed;
+    margin: 0 -4vw;
+    padding: 0 4vw;
+    clear: both;
+}
+.fill-background{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+@media only screen and (orientation:landscape){
+    .area-button-link{
+        width: 49%;
+        float: left;
+        clear: none;
+    }
+    .btn-video-ytb img{
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .space-xoayngang{
+        float: left;
+        width: 2%;
+        clear: none;
+    }
+    .exclusive-slider .swiper-slide{
+        width: 40%;
+    }
+}

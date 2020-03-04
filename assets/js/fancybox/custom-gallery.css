@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2016, 9:48:57 AM
+    Author     : dtnguyen
+*/
+#fancybox-buttons ul {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    width: 120px;
+}
+#fancybox-buttons a.btnNext {
+    border-right: none;
+}
+#fancybox-buttons ul li:nth-of-type(4) {
+    display: none;
+}
+#fancybox-buttons ul li:nth-of-type(5) {
+    display: none;
+}
+
+.mythumbswrap {
+    background: none;
+    bottom: 0;
+    display: block;
+    height: 20px;
+    width: auto;
+    z-index: 10000;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+     -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+.mythumbswrap.transit{
+    height: 100px;
+    -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+.mythumbswrap:hover{
+    height: 100px;
+    -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+
+.mytitle-wrap {
+    background: none;
+    
+    display: block;
+    height: 80px;
+   
+    width: auto;
+    z-index: 10000;
+    position: fixed;
+    
+    overflow: hidden;
+     -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+.mytitle-wrap.mytitle-wrap-animation {
+    height: 160px;
+     -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+.mybutton {
+    background: none;
+    
+    display: block;
+    height: 30px;
+    width: auto;
+    z-index: 10000;
+    position: fixed;
+    bottom: 50px;
+    overflow: hidden;
+     -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+.mybutton .top {
+    top: 0px !important;
+}
+.mybutton.mybutton-animation {
+    height: 110px;
+     -webkit-transition: height 500ms linear;
+   -moz-transition: height 500ms linear;
+   -o-transition: height 500ms linear;
+   -ms-transition: height 500ms linear;
+   transition: height 500ms linear;
+}
+.fancybox-title-float-wrap{
+    height: 80px;
+    
+    text-align: left;
+    margin: 0;
+    left: 0;
+}
+.fancybox-title-float-wrap .child{
+   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    bottom: 0;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+.fancybox-close{
+    background: transparent url("../../img/page2016/icon_cancel.png") no-repeat scroll right top;
+    right: 0;
+    top: -30px;
+}
+.fancybox-title{
+    visibility: visible;
+}
+.fancybox-skin .fancybox-title.fancybox-title-float-wrap{
+    display: none;
+}

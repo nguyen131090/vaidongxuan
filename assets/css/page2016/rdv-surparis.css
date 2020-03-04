@@ -1,0 +1,67 @@
+.form .amc-col {
+    padding: 0 10px;
+}
+.container-2 .row-2 .item {
+    float: left;
+}
+
+.container-2 .row-2 .item-1 {
+    width: 290px;
+    margin-left: 15px;
+}
+
+.container-2 .row-2 .item-1 .tt {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    line-height: 25px;
+    margin: 30px 0 0 0;
+    color: #da521f;
+}
+
+.container-2 .row-2 .item-2 {
+    margin: 0 20px;
+    padding: 10px 0 0 0;
+}
+
+.container-2 .row-2 .item-3 {
+    width: 250px;
+    text-align: center;
+}
+
+.container-2 .row-2 .item-3 .show-form {
+    padding: 0 50px 0 15px;
+    display: inline-block;
+    background: url(/assets/img/page2016/arrow_dropdown_white.png) 91% center no-repeat #da521f;
+    color: white;
+    font-size: 14.2px;
+    text-transform: uppercase;
+    line-height: 38px;
+    display: none;
+}
+
+.container-2 .row-2 .item-3 .text {
+    margin: 30px 0 0 0;
+}
+
+.container-2 .row-2 .item-1 .tt {
+    text-align: center;
+}
+
+.d-inline-block {
+    display: inline-block;
+    width: 750px;
+}
+
+.sale-image {
+    border-radius: 100%;
+    border: 2px solid #cec3a3;
+}
+.container-2 .row-2 .item-3 .tony-text{
+    margin: 30px 0 0 0;
+}
+
+.amica-votre-message {
+    height: 60px;
+    line-height: 60px;
+}

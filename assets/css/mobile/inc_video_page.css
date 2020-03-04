@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2019, 2:01:05 PM
+    Author     : dtnguyen
+*/
+
+.video-container h2{
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-align: left !important;
+    margin-top: 0;
+}
+.video-container h2 strong{
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+.video-container p:first-of-type{
+    text-align: left !important;
+}
+.video-container p:last-of-type{
+    margin: 0;
+}
+.video-container iframe{
+    min-height: 22rem;
+    margin-top: 0.5rem;
+}

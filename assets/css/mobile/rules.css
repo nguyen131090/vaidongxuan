@@ -1,0 +1,41 @@
+.mt-50{
+	margin-top: 2.5rem !important;
+}
+.mt-txt-50{
+	margin-top: 2rem  !important;
+}
+.mb-50{
+	margin-bottom: 2.5rem !important;
+}
+.mb-txt-50{
+	margin-bottom: 2rem !important;
+}
+.mt-80{
+	margin-top: 4rem !important;
+}
+.mt-txt-80{
+	margin-top: 3.5rem !important;
+}
+.mb-80{
+	margin-bottom: 4rem !important;
+}
+.mb-txt-80{
+	margin-bottom: 3.5rem !important;
+}
+.mt-0{
+	margin-top: 0 !important;
+}
+.mb-0{
+	margin-bottom: 0 !important;
+}
+
+.my-0{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+.mb-10{
+	margin-bottom: 0.5rem !important;
+}
+.opc-0{
+    opacity: 0 !important;
+}

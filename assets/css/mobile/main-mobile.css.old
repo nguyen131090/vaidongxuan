@@ -1,0 +1,747 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 5, 2017, 10:02:18 AM
+    Author     : dtnguyen
+*/
+
+html{
+    font-size: 62.5%;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+    color: inherit;
+}
+
+.breadcrumb{
+    display: none !important;
+}
+#wrapper .container-1{
+    margin-top: 0px !important;
+}
+/* hieu ung Fade IN, Fade Out Mycarousel*/
+
+.carousel-fade .carousel-inner .item {
+   -webkit-transition-property: opacity visibility;
+  transition-property: opacity visibility;
+  -moz-transition-property: opacity visibility;
+   -o-transition-property: opacity visibility;
+   -ms-transition-property: opacity visibility;
+  
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+  visibility: hidden;
+  /*
+  -webkit-transition: opacity 1000ms, visibility 1000ms;
+  transition: opacity 1000ms, visibility 1000ms;
+  -moz-transition:  opacity 1000ms, visibility 1000ms;
+   -o-transition:  opacity 1000ms, visibility 1000ms;
+   -ms-transition:  opacity 1000ms, visibility 1000ms;
+   */
+   -webkit-transition: opacity 600ms linear, visibility 600ms linear;
+   -moz-transition: opacity 600ms linear, visibility 600ms linear;
+   -o-transition: opacity 600ms linear, visibility 600ms linear;
+   -ms-transition: opacity 600ms linear, visibility 600ms linear;
+   transition: opacity 600ms linear, visibility 600ms linear;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+  visibility: visible;
+  /*
+ -webkit-transition: opacity 1000ms, visibility 1000ms;
+  transition: opacity 1000ms, visibility 1000ms;
+  -moz-transition:  opacity 1000ms, visibility 1000ms;
+   -o-transition:  opacity 1000ms, visibility 1000ms;
+   -ms-transition:  opacity 1000ms, visibility 1000ms;
+   */
+   -webkit-transition: opacity 1000ms linear, visibility 1000ms linear;
+   -moz-transition: opacity 1000ms linear, visibility 1000ms linear;
+   -o-transition: opacity 1000ms linear, visibility 1000ms linear;
+   -ms-transition: opacity 1000ms linear, visibility 1000ms linear;
+   transition: opacity 1000ms linear, visibility 1000ms linear;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+    opacity: 0;
+   
+   
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-control{
+    background-image: none !important;
+}
+/* END hieu ung Fade IN, Fade Out Mycarousel */
+
+/* CSS Banner */
+.carousel-control .icon-prev, .carousel-control .icon-next{
+    width: 2.05rem;
+    height: 3.85rem;
+    
+}
+.carousel-control .icon-prev{
+    background: url(/assets/img/mobile/arrow_back_white_41_77.png) center center no-repeat;
+    background-size: 100%;
+}
+.carousel-control .icon-next{
+    background: url(/assets/img/mobile/arrow_next_white_41_77.png) center center no-repeat;
+    background-size: 100%;
+}
+.carousel-control .icon-prev:before, .carousel-control .icon-next:before{
+    content: '';
+}
+.carousel-caption a{
+    display: inline-block;
+    height: 4.1rem;
+    font-size: 1.25rem;
+    font-family: inherit;
+    color: white;
+    text-transform: uppercase;
+    background-color: #e65925;
+    line-height: 4.1rem;
+    padding: 0 2rem;
+    text-shadow: none;
+}
+.carousel-caption h2{
+    font-size: 2.5rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+}
+.carousel-caption h2 > em{
+    font-size: 4.25rem;
+    font-family: "Grand Hotel",sans-serif;
+    font-style: normal;
+    line-height: 4rem;
+}
+/* CSS End Banner */
+
+/* CSS Header */
+.navbar-fixed-top{
+    height: 4.25rem;
+    min-height: 4.25rem;
+    background-color: #e65925;
+    border:0px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.navbar-fixed-top.enable-search{
+    background-color: #8f8f8f;
+}
+.navbar-fixed-top.enable-btn-hum{
+    background-color: #8f8f8f;
+}
+.btn-header{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-header li{
+    float: left;
+    width: 33.33%;
+    height: 4.25rem;
+    line-height: 4.25rem;
+}
+.btn-header li.search{
+    
+}
+.btn-header li.search a{
+    display: inline-block;
+    text-indent: -9999px;
+    background: url(/assets/img/mobile/icon_search_67_66.png) 0 0 no-repeat;
+    background-size: 100%;
+    width: 3.4rem;
+    height: 3.3rem;
+    margin: 0.475rem 0 0.475rem 1.25rem;
+}
+.btn-header li.search a.search-active{
+    background: #e65925 url(/assets/img/mobile/icon_close_67_66.png) center center no-repeat;
+    background-size: 3.4rem;
+    margin: 0;
+    padding: 0.475rem 1.25rem 0.475rem 1.25rem;
+    display: inline-block;
+    width: 5.9rem;
+    height: 4.25rem;
+}
+
+
+.btn-header li.logo{
+    text-align: center;
+}
+.btn-header li.logo a img{
+    width: 7.45rem;
+    height: 2.95rem;
+}
+.btn-header li.navigation a{
+    display: inline-block;
+    text-indent: -9999px;
+    background: url(/assets/img/mobile/icon_hum_49_38.png) 0 0 no-repeat;
+    background-size: 100%;
+    width: 2.45rem;
+    height: 1.9rem;
+    float: right;
+    margin: 1.175rem 1.25rem 1.175rem 0;
+}
+.btn-header li.navigation a.btn-hum-active{
+     background: #e65925 url(/assets/img/mobile/icon_close_67_66.png) center center no-repeat;
+    background-size: 3.4rem;
+    margin: 0;
+    padding: 0.475rem 1.25rem 0.475rem 1.25rem;
+    display: inline-block;
+    width: 5.9rem;
+    height: 4.25rem;
+}
+/* CSS End-Header */
+/* CSS Bottom */
+.navbar-fixed-bottom{
+    background: url(/assets/img/mobile/bg_bottom.jpg) 0 0 repeat-x;
+    border: 0px;
+    min-height: unset;
+}
+.btn-bottom{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-bottom li{
+    float: left;
+    width: 33.33%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-right: 1px solid #e6cbc1;
+    margin: 0.625rem 0;
+    text-align: center;
+}
+.btn-bottom li.rdv{
+    border-right: none;
+}
+.btn-bottom li.contact a{
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-bottom li.contact a img{
+/*    width: 9.1rem;*/
+    width: 86%;
+   
+}
+.btn-bottom li.devis a img{
+/*    width: 8.9rem;*/
+    width: 84%;
+    
+}
+.btn-bottom li.rdv a img{
+  /*  width: 8.15rem; */
+    width: 76%;
+    
+}
+.btn-bottom li a{
+    display: block;
+}
+/*.btn-bottom li a{
+    text-transform: uppercase;
+    font-family: 'LatoLatin-Bold', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    display: inline-block;
+}
+.btn-bottom li.contact a{
+    background: url(/assets/img/mobile/icon_mail_48_30.png) 0 center no-repeat;
+    background-size: 2.4rem 1.5rem;
+}
+.btn-bottom li.devis a{
+    background: url(/assets/img/mobile/icon_devis_36_47.png) 0 center no-repeat;
+    background-size: 1.8rem 2.35rem;
+}
+.btn-bottom li.rdv a{
+    background: url(/assets/img/mobile/icon_phone_40_50.png) 0 center no-repeat;
+    background-size: 2rem 2.5rem;
+}*/
+/* CSS End-Bottom */
+
+/* CSS Footer */
+#wrapper{
+  /*  padding-top: 4.25rem; */
+    float: left;
+    width: 100%;
+    padding-bottom: 4.75rem;
+}
+#wrapper.wrapper-mobile{
+    padding-bottom: 0;
+}
+.row-footer{
+    background-color: #665945;
+    padding: 4rem 0rem 0;
+    float: left;
+    width: 100%;
+}
+.row-footer .column{
+    padding: 0 2.2rem !important;
+}
+.row-footer .tt{
+    font-family: inherit;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.row-footer .tt a{
+    text-decoration: none;
+    color: white;
+}
+.row-footer .copyright{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    color: white;
+    margin: 0rem 0 2.5rem;
+    clear: both;
+    padding-top: 1rem;
+}
+.row-footer .group-social{
+    margin: 0 -1rem 1rem -1rem;
+    padding: 0;
+    list-style: none;
+    float: left;
+    width: 106%;
+    
+}
+.row-footer .group-social li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    
+}
+.row-footer .group-social li a{
+    display: inline-block;
+    width: 4.15rem;
+    height: 4.15rem;
+    text-indent: -9999px;
+}
+.row-footer .group-social li.facebook a{
+    background: url(/assets/img/mobile/icon_fb_83_83.png) center center no-repeat;
+    background-size: 100%;
+}
+.row-footer .group-social li.twitter a{
+    background: url(/assets/img/mobile/icon_tw_83_83.png) center center no-repeat;
+    background-size: 100%;
+}
+.row-footer .group-social li.instagram a{
+    background: url(/assets/img/mobile/icon_insta_83_83.png) center center no-repeat;
+    background-size: 100%;
+}
+.row-footer .group-social li.youtube a{
+    background: url(/assets/img/mobile/icon_you_83_83.png) center center no-repeat;
+    background-size: 100%;
+}
+.row-footer .group-social li.pinterest{
+    margin-right: 0;
+}
+.row-footer .group-social li.pinterest a{
+    background: url(/assets/img/mobile/icon_pin_83_83.png) center center no-repeat;
+    background-size: 100%;
+}
+.row-footer input.email{
+    color: #8c8b8b;
+    font-family: "LatoLatin-Regular",sans-serif;
+    font-size: 1.6rem;
+    height: 4.6rem;
+    padding-left: 1rem;
+    width: 100%;
+    border: 0;
+    
+}
+.row-footer .submit-email{
+    font-size: 1.6rem;
+    font-family: inherit;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4.6rem;
+    height: 4.5rem;
+    width: 100%;
+    color: white;
+    margin: 2.5rem 0 1rem;
+}
+
+.add-offices{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.add-offices li{
+   
+    font-family: inherit;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 0rem 0 2rem;
+    display: block;
+}
+.add-offices li .info-office{
+    display: none;
+    font-size: 1.6rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    padding: 0 0 1.5rem 0;
+    border-bottom: 1px solid white;
+    color: white;
+    text-transform: initial;
+    margin: 1rem 0 1.5rem;
+}
+.add-offices li .info-office p{
+    margin: 0;
+}
+.add-offices li.active .info-office{
+    display: block;
+}
+.add-offices li.active{
+    color: #e0683c;
+}
+.add-offices li:last-child{
+    margin: 0 0 0.5rem;
+}
+.fix-space{
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+/* CSS End-Footer */
+
+/* CSS Menu */
+.navbar-collapse{
+    padding: 0;
+    position: relative
+}
+.text-copyright{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    height: 4rem;
+    line-height: 4rem;
+}
+.text-copyright.fix-copyright{
+    position: initial;
+}
+.mn-humburger{
+    background: #cbc0a2;
+    background: #cbc0a2 url(/assets/img/mobile/bg_hum_192_394.jpg) 0 bottom no-repeat;
+    background-size: 9.6rem;
+}
+.mn-humburger .nav-parent{
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5rem;
+    
+}
+.mn-humburger > ul >li{
+    border-bottom: 1px solid #404040;
+     padding: 1rem 0;
+}
+.mn-humburger > ul >li:last-child{
+    border-bottom: none;
+}
+.mn-humburger > ul >li > a{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #121212;
+    font-family: inherit;
+    display: inline-block;
+   
+   
+}
+.mn-humburger > ul >li.active > a{
+    color: #e65925;
+}
+.mn-humburger > ul >li > .plus{
+    display: inline-block;
+    width: 2.7rem;
+    height: 2.8rem;
+    background: url(/assets/img/mobile/icon_plus_54_56.png) right center no-repeat;
+    float: right;
+    text-indent: -9999px;
+    background-size: 100%;
+}
+.mn-humburger > ul >li > .plus.active{
+    background: url(/assets/img/mobile/icon_tru_54_56.png) right center no-repeat;
+    background-size: 100%;
+}
+.mn-humburger > ul >li > .nav-sub {
+    margin: 2rem 0;
+    list-style: none;
+    display: none;
+    padding: 0;
+}
+.mn-humburger > ul >li > .nav-sub li a{
+    font-size: 1.75rem;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    color: #0a0a0a;
+    display: block;
+    margin: 0.5rem 0;
+    background: url(/assets/img/mobile/bg_list.png) 1rem 1rem no-repeat;
+    background-size: 0.9rem;
+    padding-left: 3rem;
+}
+.mn-humburger > ul >li > .nav-sub li a.active{
+    background: url(/assets/img/mobile/bg_list_active.png) 1rem center no-repeat;
+    background-size: 0.9rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #e65925;
+}
+
+.mn-humburger .mn-bottom > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0.6rem 0;
+}
+.mn-humburger .mn-bottom > ul > li > a{
+    display: inline-block;
+    padding: 0 0 0 6rem;
+    font-size: 1.75rem;
+    font-family: inherit;
+    color: #171717;
+}
+.mn-humburger .mn-bottom > ul > li{
+    margin: 1rem 0 1rem 3rem;
+}
+.mn-humburger .mn-bottom > ul > li.formulaire > a{
+    background: url(/assets/img/mobile/icon_for_56_73.png) 1.5rem center no-repeat;
+    background-size: 2.8rem;
+    line-height: 4rem;
+}
+.mn-humburger .mn-bottom > ul > li.info-mail > a{
+    background: url(/assets/img/mobile/icon_info_86_35.png) 0 center no-repeat;
+    background-size: 4.3rem;
+    line-height: 3rem;
+}
+.mn-search{
+    background: #cbc0a2 url(/assets/img/mobile/bg_search_383_450.jpg) right bottom no-repeat;
+    background-size: 19.15rem;
+    border: 0px;
+}
+.mn-search .tt{
+    text-transform: uppercase;
+    color: #e65925;
+    font-family: inherit;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 2rem 0 0.8rem;
+}
+.click-action{
+    display: none;
+    margin: 3.5rem 0;
+}
+.form-search .list-option{
+    display: none;
+}
+.form-search .cs-placeholder{
+    display: block;
+    height: 4.55rem;
+    line-height: 4.55rem;
+    padding: 0 0 0 1.5rem;
+    
+    font-family: 'LatoLatin-Regular', sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    background: #665945 url(/assets/img/mobile/icon_arrow_down_white_54_56.png) 95% center no-repeat;
+    background-size: 2.7rem;
+}
+.form-search .cs-placeholder.active{
+    background: #665945 url(/assets/img/mobile/icon_arrow_up_cam_54_56.png) 95% center no-repeat;
+    background-size: 2.7rem;
+}
+.cs-options{
+    display: none;
+}
+.cs-options ul{
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+}
+.cs-options ul li{
+    font-size: 1.75rem;
+    color: #665945;
+    font-family: 'LatoLatin-Regular', sans-serif;
+    margin: 0.5rem 0;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    background: url(/assets/img/mobile/bg_list.png) 1rem 1.3rem no-repeat;
+    background-size: 0.9rem;
+    padding-left: 3rem;
+    display: block;
+    line-height: 2.2rem;
+    
+}
+.cs-options ul li.active{
+    background-image: url(/assets/img/mobile/bg_list.png), url(/assets/img/mobile/icon_close_51_51.png);
+    background-position: 1rem 1.3rem, 95% 0.5rem;
+    background-size: 0.9rem, 2.55rem;
+    background-repeat: no-repeat;
+    color: #0a0a0a;
+}
+.cs-select{
+    margin: 2rem 0;
+}
+.cs-select.submit{
+    display: block;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    color: white;
+    font-size: 1.6rem;
+    font-family: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    background: #e65925;
+}
+/* CSS End-Menu */
+
+/* CSS Pagination */
+#wrapper .pagination-excl, #wrapper .pagination-prog{
+    display: block;
+     float: none; 
+    width: 28rem;
+    text-align: center;
+    
+    margin: 0rem auto;
+}
+#wrapper .pagination{
+    display: inline-block;
+    padding-left: 0;
+    margin: 2rem 0;
+    border-radius: 4px;
+    float: left; 
+}
+#wrapper .view-all-link{
+    float: left;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+#wrapper .pagination > li > a, .pagination > li > span{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+     border: 0px solid #ddd; 
+    font-size: 2rem;
+    font-family: 'LatoLatin-Bold', sans-serif;
+}
+#wrapper .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    z-index: 2;
+    color: red;
+    cursor: default;
+     background-color: none; 
+    border-color: #337ab7;
+}
+/* END CSS Pagination */
+
+/*Fix CSS Responsive*/
+.container-2.loaded .column{
+    background: none !important;
+}
+.container-2.loaded .column .row-1{
+    background: #ccc;
+}
+.contain .bx-wrapper .bx-viewport{
+    background: none;
+    border: 0px;
+    box-shadow: none;
+    left: 0;
+}
+.fancybox-outer .fancybox-inner{
+    height: auto !important;
+}
+.fancybox-outer .fancybox-inner #maps-popup img{
+    width: 100% !important;
+}
+.fancybox-inner #wowslider-container1 .ws_images, .fancybox-inner #wowslider-container1 .ws_shadow{
+    margin-bottom: 0 !important;
+}
+#devisform-mealsincluded{
+    width: 100%;
+}
+.f-t-3{
+    margin-left: 0 !important;
+}
+.col-fix-align{
+    text-align: left !important;
+}
+.fix-col-left{
+    min-height: auto !important;
+}
+/* END */
+
+
+#back-to-top.show {
+    bottom: 60px;
+    color: black;
+    display: block;
+    height: 50px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 50px;
+    z-index: 9999;
+}
+html.overlay-lock, body.overlay-lock{
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+}
+.back-button-center, .back-button{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+.back-button-center .line, .back-button .line{
+    border-top: 1px solid #ccc;
+    margin: 1rem 0;
+}
+.bottom-copyright{
+        background: #575757;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font: 1.5rem LatoLatin-Regular,sans-serif;
+    font-style: normal;
+    text-shadow: none;
+    padding: 0.6rem 0px 0.5rem;
+}
+

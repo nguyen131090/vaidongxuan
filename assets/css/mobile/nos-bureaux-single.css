@@ -1,0 +1,113 @@
+/* Css Gallery Image */
+.galeries-slider{
+    position: relative;
+}
+.galeries-slider .swiper-button-prev {
+    background: url(/assets/img/mobile/arrow-white-back-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: transparent;
+    width: 4.2rem;
+    height: 4.3rem;
+    left: 0vw;
+}
+.galeries-slider .swiper-button-next {
+    background: url(/assets/img/mobile/arrow-white-next-28-49.png) center center no-repeat;
+    background-size: 1.4rem 2.45rem;
+    background-color: transparent;
+    width: 4.2rem;
+    height: 4.3rem;
+    right: 0vw;
+}
+.galeries-slider .swiper-slide .text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    padding: 0 2rem;
+}
+/* End Css Gallery Image */
+
+/* Slide tour exclusive */
+.exclusive-slider .secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .exclusive-slider .secrets-slider .item-slide{
+     position: relative;
+ }
+ .exclusive-slider .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .exclusive-slider .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.exclusive-slider .swiper-slide img{
+    width: 100%;
+    min-height: 11.4rem;
+}
+.exclusive-slider .swiper-slide{
+    width: 75%;
+}
+.exclusive-slider.module .swiper-slide{
+    width: 26%;
+}
+.exclusive-slider.module .swiper-slide img{
+    min-height: auto;
+    border-radius: 100%;
+}
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+/* End css slide tour exclusive */
+.contain-background-ededed{
+    background-color: #ededed;
+}
+.container-2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container-2 ul li{
+    display: table;
+    min-height: 3rem;
+}
+.container-2 ul li span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.container-2 ul li.address{
+    background: url(/assets/img/mobile/icon-posi-cam-48-42.png) 1rem center no-repeat;
+    background-size: 2.4rem;
+    padding-left: 4.4rem;
+}
+.container-2 ul li.tel{
+    background: url(/assets/img/mobile/icon-tel-cam-36-43.png) 1rem center no-repeat;
+    background-size: 1.8rem;
+    padding-left: 3.8rem;
+}
+.container-2 ul li.cal{
+    background: url(/assets/img/mobile/icon-cal-cam-50-42.png) 1rem center no-repeat;
+    background-size: 2.5rem;
+    padding-left: 4.5rem;
+}

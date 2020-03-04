@@ -1,0 +1,120 @@
+.entry-content img{
+    width: 100% !important;
+    height: auto !important;
+}
+p > em > strong {
+    
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    display: inline-block;
+    font-weight: normal;
+    width: 100%;
+    
+}
+.entry-content img {
+    width: auto !important;
+    height: auto !important;
+    margin: 1rem 0 -0.25rem 0;
+    max-width: 100%;
+}
+.fix-space-caption{
+    display: block;
+    height: 0.75rem;
+}
+
+/* Slide tour exclusive */
+.exclusive-slider .secrets-slider .swiper-slide{
+        
+        text-align: left;
+        width: auto;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        -webkit-justify-content: left;
+        justify-content: left;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        -webkit-align-items: left;
+        align-items: left;
+        width: 80%;
+ }
+ .exclusive-slider .secrets-slider .item-slide{
+     position: relative;
+ }
+ .exclusive-slider .secrets-slider .item-slide a{
+     display: block;
+     width: 100%;
+ }
+ .exclusive-slider .secrets-slider .item-slide .text{
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 2rem;
+     text-align: center;
+ }
+.exclusive-slider .swiper-slide img{
+    width: 100%;
+   
+}
+.exclusive-slider .swiper-slide{
+    width: 75%;
+}
+.exclusive-slider.module .swiper-slide{
+    width: 26%;
+}
+.exclusive-slider.module .swiper-slide img{
+    min-height: auto;
+    border-radius: 100%;
+}
+.exclusive-slider .swiper-slide .tt-custom{
+    margin: 2rem 0 0 0;
+}
+/* End css slide tour exclusive */
+
+.container-1 .entry-content ul{
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+.container-1 .entry-content ul li{
+    list-style: none;
+    padding: 0.25rem 0;
+}
+.container-1 .entry-content ul li::before {
+    content: "• ";
+    color: #e65925;
+    display: inline-block;
+    
+    margin-right: 1rem;
+}
+.container-1 .tt-custom{
+    margin: 3rem 0 1.5rem;
+}
+/* Fix Css xoay ngang cho Iphone 4 */
+
+@media only screen and (orientation:landscape){
+    
+    .exclusive-slider .swiper-slide{
+        width: 45%;
+    }
+}
+
+/* End Fix Css xoay ngang cho Iphone 4 */
+
+/* Fix Css Xoay Ngang Iphone 5 tro len */
+
+
+@media (min-width: 568px) and (orientation:landscape){
+    
+}
+
+/* End  Fix Css Xoay Ngang Iphone 5 tro len */
+
+@media (min-width: 667px) and (orientation:landscape){
+    
+}

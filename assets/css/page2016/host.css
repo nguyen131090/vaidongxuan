@@ -1,0 +1,90 @@
+.story{
+	width: calc((100% - 960px)/2 + 550px);
+    background: #f7f7f7;
+}
+.story .text{
+	width: 540px; 
+	padding: 50px 0 50px 40px;
+}
+.story-fluid .img{
+	width: 370px;
+	margin-right: 35px;
+	text-align: center;
+}
+.w-540{
+	width: 540px;
+}
+.container-1:after{
+	width: 100%;
+	height: 70px;
+	display: inline-block;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(/assets/img/blur-banner.png) center bottom -50px no-repeat transparent;
+}
+.row-content-1 .img{
+	/*min-width: 370px;*/
+    margin-right: 33px;
+}
+.color-6b{
+	color: #6b6b6b;
+}
+.row-content-1 {
+    margin-top: -177px;
+    background: none;
+}
+.row-content-1 .amc-column{
+	background: #fff;
+}
+
+.content{
+	width: auto;
+}
+.video-fluid{
+    padding-bottom: 55px;
+    background: url(/assets/img/new-home/bg-about-home.jpg) center top no-repeat #fff;
+}
+.video-fluid .video-col > h2{
+    font: 24px LatoLatin-Bold,sans-serif;
+    text-align: center;
+    margin: 35px 0;
+    display: inline-block;
+    width: 100%;
+}
+.video-fluid .video-col p:last-of-type{
+    position: relative;
+        padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0;
+}
+.video-fluid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100%;
+}
+
+.w-720{
+	max-width: 720px;
+}
+@media(max-width: 959px){
+	.story-fluid .img{
+		margin-right: 10px;
+	}
+	.story {
+	    width: calc((100% - 700px)/2 + 460px);
+	}
+	.story .text{
+		text-align: justify;
+		padding: 40px 20px 40px 40px;
+		width: 460px;
+	}
+	.intro{
+		padding-top: 0 !important;
+	}
+}
