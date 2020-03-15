@@ -1,5 +1,4 @@
 <?php
-
 namespace app\controllers;
 
 use Yii;
@@ -94,20 +93,20 @@ class AmicaFrController extends Controller {
             $this->layout = 'mobile';
         }
         if(IS_MOBILE || IS_TABLET){
-            $arr_country = ['vietnam','laos','cambodge','birmanie'];
-            $getAjaxFilter = $this->getAjaxFilter(['country'=>in_array(SEG1, $arr_country) ? SEG1 : '', 'type'=>'']);
-            $this->arr_option_filter_voyage_mobile = [
-                    'title_filter' => $this->pageT,
-                    'namefilter' => 'filter_voyage',
-                    'uri' =>URI,
-                   // 'totalCount' => count(\app\modules\programmes\api\Catalog::items(['pagination' => ['pageSize' => 0]])),
-                    'totalCount' => $getAjaxFilter['totalCount'],
-                    //'totalCount_exclusives' => 0,
-                    'country' => in_array(SEG1, $arr_country) ? SEG1 : 'all',
-                    'type' => 'all',
-                    'length' => 'all',
-                    'numberFilter' => $getAjaxFilter,
-                ];
+//            $arr_country = ['vietnam','laos','cambodge','birmanie'];
+//            $getAjaxFilter = $this->getAjaxFilter(['country'=>in_array(SEG1, $arr_country) ? SEG1 : '', 'type'=>'']);
+//            $this->arr_option_filter_voyage_mobile = [
+//                    'title_filter' => $this->pageT,
+//                    'namefilter' => 'filter_voyage',
+//                    'uri' =>URI,
+//                   // 'totalCount' => count(\app\modules\programmes\api\Catalog::items(['pagination' => ['pageSize' => 0]])),
+//                    'totalCount' => $getAjaxFilter['totalCount'],
+//                    //'totalCount_exclusives' => 0,
+//                    'country' => in_array(SEG1, $arr_country) ? SEG1 : 'all',
+//                    'type' => 'all',
+//                    'length' => 'all',
+//                    'numberFilter' => $getAjaxFilter,
+//                ];
         }
     }
 	
@@ -197,6 +196,7 @@ class AmicaFrController extends Controller {
     public function getIdeesmenu() {
         $theIdees = \app\modules\programmes\models\Category::find()
                     ->where(['depth'=>0])
+                    ->andWhere(['status' => 1])
                    ->with(['photos']) 
                     ->orderBy('order_num desc')
                     ->all();
@@ -444,9 +444,14 @@ public function actionPageDetail(){
     ]);
 }
 public function actionGioiThieu(){
+    $theEntry = \app\modules\whoarewe\api\Catalog::cat(URI);
+    
+        $this->entry = $theEntry;
+         if (!$theEntry) throw new HttpException(404, 'Page ne pas trouvé!');
+        $this->getSeo($theEntry->model->seo);
     
     return $this->render(IS_MOBILE ? '//page2016/mobile/gioi-thieu' : '//page2016/gioi-thieu',[
-        
+        'theEntry' => $theEntry,
     ]);
 }
 
@@ -2933,7 +2938,7 @@ public function actionGioiThieu(){
     // Xu ly thong so cua bo loc - FILTERS
         
     public function getNumberFilterCountry($input){
-        $countCountry = ArrayHelper::getColumn(ArrayHelper::map(ArrayHelper::map($input, 'slug', 'model'), 'item_id', 'data'), 'countries');
+		$countCountry = ArrayHelper::getColumn(ArrayHelper::map(ArrayHelper::map($input, 'slug', 'model'), 'item_id', 'data'), 'countries');
              
             $vietnam = 0;
             $laos = 0;
@@ -6893,7 +6898,6 @@ TXT;
         
         $key= 'data-cache-menu-021';
         $cache = Yii::$app->cache;
-
         // try retrieving $data from cache
         $cache->delete($key);
         $data = $cache->get($key);

@@ -643,6 +643,24 @@ img.focus-center {
     font-family: 'LatoLatin-Regular', sans-serif;
 }
 
+.dtn-info{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    color: white;
+    text-align: center;
+}
+.dtn-info p{
+    font-family: 'LatoLatin-Bold', sans-serif;
+    text-shadow: 2px 2px 1px #000;
+    margin: 0 0 5px 0;
+}
+.slider-banner-home .swiper-pagination{
+    bottom: 1rem !important;
+}
+
 @media only screen and (orientation:landscape){
     .bottom-home .item{
         width: 23vw;

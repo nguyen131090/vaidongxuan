@@ -150,18 +150,18 @@ AppAsset::register($this);
     <!-- Page hiding snippet (recommended) -->
     <style>.async-hide { opacity: 0 !important} </style>
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TCX7426');</script>
+})(window,document,'script','dataLayer','GTM-TCX7426');</script>-->
 <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCX7426" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!--    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCX7426" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
     <!-- End Google Tag Manager (noscript) -->
     <?php $this->beginBody() ?>
     <div data-role="page" id="page1" data-theme="a">
@@ -173,18 +173,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <ul class="btn-header">
-                            <li class="logo"><a class="" href="<?=DIR?>" data-ajax="false"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/mobile/logo-amica.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
+                            <li class="logo"><a class="" href="<?=DIR?>" data-ajax="false"><img alt="vaidondxuan" data-src="<?= DIR ?>assets/img/dtn/dtn-logo.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
                             
                             <li class="navigation"> 
                                 <a href="<?=DIR ?>#page2" aria-label="Menu" data-transition="slide" data-direction=""  class="btn-hum" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="icon_menu">
                                    
                                 </a>
                             </li>
-                            <li class="search">
+<!--                            <li class="search">
                                 <a href="#infomation" aria-label="Information" data-transition="slidedown" data-direction="" class="btn-testi" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="icon_infobox">
-<!--                                    <img src="<?=DIR ?>assets/img/mobile/rdv-icon-header.png">-->
+                                    <img src="<?=DIR ?>assets/img/mobile/rdv-icon-header.png">
                                 </a>
-                            </li>
+                            </li>-->
                             
                            <!--  <a class="btn-search" href="#search-page" data-transition="slide"><img src="<?=DIR ?>assets/img/mobile/search-icon.png"></a></li> -->
                         </ul>
@@ -210,56 +210,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
 <!-- end test lazy image -->
 <div class="rows row-footer" data-role="none">
-    <div class="newsletter">
-        <p class="tt-1 tt-fontsize-40 tt-latolatin-bold">Restez en contact avec l'indochine</p>
-        <form id="newsletter-form" data-role="none">
-            <label class="tt-2 tt-fontsize-32 tt-latolatin-regular" for="frmemail">Nouveautés, offres spéciales, vie de l’équipe... tissons un lien !</label>
-            <input class="email" value="" id="frmemail" placeholder="Votre adresse mail" name="frmemail" type="text" data-role="none" data-analytics="on" data-analytics-category="footer" data-analytics-action="newsletter" data-analytics-label="input_email">
-            <span class="error-email" aria-live="polite"></span>
-            
-            <button type="submit" class="submit-email"  data-role="none" data-analytics="on" data-analytics-category="footer" data-analytics-action="newsletter" data-analytics-label="cta_inscription" >Inscription</button>
-        </form>
-    </div>
-     <ul class="group-social">
-            <li class="facebook"><a href="https://www.facebook.com/amicatravel/" aria-label="Facebook"><img alt="" data-src="/assets/img/mobile/fb-icons.png" data-analytics="on" data-analytics-category="footer" data-analytics-action="social" data-analytics-label="icon_fb"></a></li>
-            <li class="twitter"><a href="https://twitter.com/AmicaTravel" aria-label="Twitter"><img alt="" data-src="/assets/img/mobile/tw-icon.png" data-analytics="on" data-analytics-category="footer" data-analytics-action="social" data-analytics-label="icon_tw"></a></li>
-            <li class="instagram"><a href="https://www.instagram.com/amicatravel/" aria-label="Instagram"><img alt="" data-src="/assets/img/mobile/insta-icon.png" data-analytics="on" data-analytics-category="footer" data-analytics-action="social" data-analytics-label="icon_ig"></a></li>
-            <li class="youtube"><a href="https://www.youtube.com/c/AmicaTravelAgency" aria-label="Pinterest"><img alt="" data-src="/assets/img/mobile/youtube-icon.png" data-analytics="on" data-analytics-category="footer" data-analytics-action="social" data-analytics-label="icon_yt"></a></li>
-            <li class="pinterest"><a href="https://www.pinterest.com/amicatravel/" aria-label="Pinterest"><img alt="" data-src="/assets/img/mobile/pin-icon.png" data-analytics="on" data-analytics-category="footer" data-analytics-action="social" data-analytics-label="icon_pt"></a></li>
-    </ul>
-    <a href="<?=DIR.URI ?>#bureaux" class="link-bureaux" data-transition="slide" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="cta_bureaux">Nos bureaux</a>
+    
+    <div class="contain amc-column">
+        <div class="row mt-40 mb-40">
+            <div class="col-sm-12">
+                <p class="tt-1 tt-fontsize-40 tt-latolatin-bold">Thông tin liên hệ</p>
+                <p>Dư Huấn</p>
+                <p>MST : 0100143770</p>
+                <p>Bán buôn - bán lẻ các loại vải</p>
+                <p>Quầy 119 - B2 Tầng 2 Bắc Qua - chợ Đồng Xuân</p>
+                <p class="tt-title">Địa chỉ Nhà</p>
+                <p>Số 5 Ngõ 139 đường La Nội - Hà Đông - Hà Nội</p>
+                <p>SĐT Cô Huấn: <a class="a-hover" href="tel:0909 415 375">0909 415 375</a></p>
 
-    <div class="footer-links">
-        <? if(SEG1 == ''){ ?>
-        <a class="item" href="<?=DIR?>actualites" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_actualites">Actualités</a>
-        <a class="item" href="https://blog.amica-travel.com/" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_blog">Blog</a>
-        <a class="item" href="<?=DIR?>club-ami-amica" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_club">Club Ami Amica</a>
-        <a class="item" href="<?=DIR?>chez-habitant-indochine" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_habitant">Chez l'habitant</a>
-        <a class="item" href="<?=DIR?>tourisme-solidaire" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_tourisme">Tourisme responsable</a>
-        <a class="item" href="<?=DIR?>aide" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_faq">Aide</a>
-        <a class="item" href="<?=DIR?>mentions-legales" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_mentions">Mentions légales</a>
-        <a class="item" href="<?=DIR?>recrutement" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_recrut">Recrutement</a>
-        <a class="item" href="<?=DIR?>conditions-generales-de-vente" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_cgv">Conditions générales de vente</a>
-        <a class="item" href="<?=DIR?>politique-de-confidentialite" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_confidentialite">Politique de confidentialité</a>
-                                    
-        <!--        <a class="item" href="/promotion-basse-saison">Promotion en cours</a>-->
-        <? }else{ ?>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'actualites') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_actualites">Actualités</span>
-        <span class="item"><a class="item" href="https://blog.amica-travel.com/" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_blog">Blog</a></span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'club-ami-amica') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_club">Club Ami Amica</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'chez-habitant-indochine') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_habitant">Chez l'habitant</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'tourisme-solidaire') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="decouvrir" data-analytics-label="link_tourisme">Tourisme responsable</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'aide') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_faq">Aide</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'mentions-legales') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_mentions">Mentions légales</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'recrutement') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_recrut">Recrutement</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'conditions-generales-de-vente') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_cgv">Conditions générales de vente</span>
-        <span class="item pugjd" data-title="<?= base64_encode(DIR.'politique-de-confidentialite') ?>" data-analytics="on" data-analytics-category="footer" data-analytics-action="bottom" data-analytics-label="link_confidentialite">Politique de confidentialité</span>
-        
-<!--        <span class="item pugjd" data-title="<?//= base64_encode(DIR.'promotion-basse-saison') ?>">Promotion en cours</span>-->
-        <? } ?>
-        <div class="clearfix"></div>
-       
+            </div>
+            <div class="col-sm-12">
+                <p class="tt-1 tt-fontsize-40 tt-latolatin-bold">Thông tin tài khoản</p>
+                <p>Chủ Tài Khoản: Nguyễn Thị Giang</p>
+                <p>Số TK: 103 000 284 991</p>
+                <p>NH TMCP Công Thương - CN Hoàn Kiếm</p>
+            </div>
+            <div class="col-sm-12 text-center" style="background: black; font-size: 13px; padding: 10px;">
+                <span class="copytext">© Quầy 119 - B2 - Tầng 2 - chợ Đồng Xuân - Hà Nội </span>
+                
+            </div>
+            
+        </div>    
     </div>
+   
 </div>
 </div>   
 </div>
@@ -275,35 +253,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="footer" class="active fix-hide-pages <?= $hide_button_footer ?>" data-role="footer" data-position="fixed" data-tap-toggle="false">
     <div class="links-footer">
-       <? if(SEG1 == ''){ ?>
-        <a class="btn-cont-devis devis" href="<?= DIR.'devis' ?>" data-ajax="false" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_devis">
+      
+        <a class="btn-cont-devis devis" href="tel:0909415375" data-ajax="false" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_devis">
 <!--           <img alt="" src="/assets/img/mobile/devis-icon.png">-->           
-            Demander un devis   
-       </a>
-       <? }else{ ?>
-       <button class="btn-cont-devis devis pugjd" data-title="<?= base64_encode(DIR.'devis') ?>" data-ajax="false" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_devis">
-<!--           <img alt="" src="/assets/img/mobile/devis-icon.png">-->
-           Demander un devis   
-       </button>
-       <? } ?>
-        <?// if(SEG1 == ''){ ?>
-<!--        <span class="b-der">border</span>-->
-        <a href="#search-page-voyage" data-transition="slideup" data-direction="" class="btn-cont-devis contact" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_search">    
+            Gọi 0909 415 375  
+       </a>    
+  
+        <a href="http://zalo.me/0909415375" data-transition="slideup" data-direction="" class="btn-cont-devis contact" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_search">    
 <!--           <img alt="" src="/assets/img/mobile/contact-icon.png">-->
-           Rechercher un circuit</a>
-        <?// }else{ ?>
-<!--        <button class="btn-cont-devis contact pugjd" data-title="<?//= base64_encode(DIR.'nous-contacter') ?>" data-ajax="false">
-           <img alt="" src="/assets/img/mobile/contact-icon.png">
-           Rechercher un circuit</button>-->
-        <?// } ?>
-<!--       <span class="close-links-footer"></span>-->
+          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+          <span>Zalo: 0909 415 375</span>
+        </a>
+ 
     </div>
 </div>
 
 
 </div> 
     
-<div id="infomation" data-role="page" data-theme="b" class="ui-content" data-transition="slidedown">
+<!--<div id="infomation" data-role="page" data-theme="b" class="ui-content" data-transition="slidedown">
     <div class="close-popup-info">
         <a class="btn-testi" href="<?=DIR ?>#page1" data-transition="slideup" data-analytics="on" data-analytics-category="header" data-analytics-action="infobox_section" data-analytics-label="icon_close">
 fdsfd
@@ -325,7 +293,7 @@ fdsfd
                     <p class="text-tt-2">du lundi au vendredi (09h-12h &amp; 14h-18h)</p>   
                     <div data-analytics="on" data-analytics-category="header" data-analytics-action="infobox_section" data-analytics-label="number_fr">
                     <p><a href="tel:+33619081572">(+33) 6 19 08 15 72</a></p>
-<!--                    <p><a href="tel:+33628227286">(+33) 6 28 22 72 86</a></p>-->
+                    <p><a href="tel:+33628227286">(+33) 6 28 22 72 86</a></p>
                     </div>
                 </div>
                 <div class="info-phone tt-r2">
@@ -340,13 +308,13 @@ fdsfd
             </li>
         </ul>
     </div>    
-</div>
+</div>-->
 <!-- end popup info -->    
     
 <? include "pages.php"; ?>
 <? 
   //  if(isset($this->context->arr_option_filter_mobile['namefilter']) && $this->context->arr_option_filter_mobile['namefilter'] != NULL){
-        include(dirname(dirname(__FILE__)).'/page2016/mobile/_page-search.php');
+  //      include(dirname(dirname(__FILE__)).'/page2016/mobile/_page-search.php');
    // }
 ?>
      

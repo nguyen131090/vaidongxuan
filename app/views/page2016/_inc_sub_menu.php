@@ -1,55 +1,76 @@
  <!-- SUB Menu hover-->
             <div id="group-sub-mn" class="group-submenu">
                
-                 <!--sub-mn-1-->
-               <div id="sub-mn-1" class="mn-panel mn-panel-1">
-                   <div class="clear-mn">
-                    <div class="amc-col col-left">
-                        
-                        <img alt="" class="img-responsive" data-src="<?= DIR?>assets/img/page2016/img-mn-panel-1.jpg">
-                        <hr class="space-fix" />
-                        <p class="tt tt-1">DES IMMANQUABLES AUX <br><span>PETITES MERVEILLES MÉCONNUES</span></p>
-                        <hr style="height: 3px;" />
-                        <p class="tt tt-2">Découvrez ici les plus beaux sites de l’ancienne Indochine et de la Birmanie</p>
-                        <hr style="height: 29px;" class="space-fix" />
-<!--                        <a class="btn-link-come-back" href="<?//=DIR?>destinations">VOIR TOUTES NOS DESTINATIONS</a>-->
-                    </div>
-                    <div class="amc-col col-right">
-                         
-                        <ul class="desti-mn desti-mn-vietnam">
-                            <li class="mn-country"><a href="<?=DIR?>vietnam" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_vietnam">Vietnam</a></li>
-                            <li class=""><a href="<?=DIR?>vietnam/itineraire" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_v_voyage">Idées de voyage</a></li>
-                            <li class=""><a href="<?=DIR?>vietnam/formules" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_v_formules">Formules</a></li>
-                            <li class=""><a href="<?=DIR?>vietnam/visiter" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_v_sites">Sites à visiter</a></li>
-                            <li class=""><a href="<?=DIR?>vietnam/informations-pratiques" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_v_infos">Infos pratiques</a></li>
-                            <li class=""><a href="<?=DIR?>vietnam/guide" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_v_guide">Guide culturel</a></li>
-                        </ul>
-                        <ul class="desti-mn desti-mn-cambodge">
-                            <li class="mn-country"><a href="<?=DIR?>cambodge" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_cambodge">Cambodge</a></li>
-                            <li class=""><a href="<?=DIR?>cambodge/itineraire" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_c_voyage">Idées de voyage</a></li>
-                            <li class=""><a href="<?=DIR?>cambodge/formules" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_c_formules">Formules</a></li>
-                            <li class=""><a href="<?=DIR?>cambodge/visiter" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_c_sites">Sites à visiter</a></li>
-                            <li class=""><a href="<?=DIR?>cambodge/informations-pratiques" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_c_infos">Infos pratiques</a></li>
-                            <li class=""><a href="<?=DIR?>cambodge/guide" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_c_guide">Guide culturel</a></li>
-                        </ul>
-                        <ul class="desti-mn desti-mn-laos">
-                            <li class="mn-country"><a href="<?=DIR?>laos" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_laos">Laos</a></li>
-                            <li class=""><a href="<?=DIR?>laos/itineraire" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_l_voyage">Idées de voyage</a></li>
-                            <li class=""><a href="<?=DIR?>laos/formules" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_l_formules">Formules</a></li>
-                            <li class=""><a href="<?=DIR?>laos/visiter" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_l_sites">Sites à visiter</a></li>
-                            <li class=""><a href="<?=DIR?>laos/informations-pratiques" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_l_infos">Infos pratiques</a></li>
-                            <li class=""><a href="<?=DIR?>laos/guide" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_l_guide">Guide culturel</a></li>
-                        </ul> 
-                        <ul class="desti-mn desti-mn-birmanie">
-                            <li class="mn-country"><a href="<?=DIR?>birmanie" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_birmanie">Birmanie</a></li>
-                            <li class=""><a href="<?=DIR?>birmanie/itineraire" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_b_voyage">Idées de voyage</a></li>
-                            <li class=""><a href="<?=DIR?>birmanie/visiter" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_b_sites">Sites à visiter</a></li>
-                            <li class=""><a href="<?=DIR?>birmanie/informations-pratiques" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_b_infos">Infos pratiques</a></li>
-                            <li class=""><a href="<?=DIR?>birmanie/guide" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="list_dest_b_guide">Guide culturel</a></li>
-                        </ul>    
-			
-                       </div>
-                    </div>   
+                
+                
+                <!-- sub-mn-1-->
+                <div id="sub-mn-1" class="mn-panel mn-panel-1">
+                    <div class="clear-mn">
+                        <div class="col col-right">
+
+
+                            <?php
+                                $cnt = 0;
+                               // var_dump($this->context->ideesMenu);exit;
+
+                                foreach ($this->context->ideesMenu as $v) {
+                                     $icon_img = NULL;
+                                    $cnt++;
+                                    foreach ($v->photos as $icon){
+                                       if($icon->type == 'icon'){
+                                           $icon_img = $icon->image;
+                                       }
+                                   }
+                                   if($cnt == 1){
+                                       echo '<ul class="mn-1">';
+                                   } 
+                                   
+                                   if($v->sub_title != ''){
+                                       $sub_title = explode('-', $v->sub_title);
+                                       $st_1 = '';
+                                       $st_2 = '';
+                                       if(isset($sub_title[0])){
+                                           $st_1 = $sub_title[0];
+                                       }
+                                       if(isset($sub_title[1])){
+                                           $st_2 = $sub_title[1];
+                                       }
+                                       $s_title = $st_1.'<br>'.$st_2;
+                                   }else{
+                                       $s_title = $v->sub_title;
+                                   }
+                                   
+                            ?>
+
+
+                                    <li>
+                                        <a href="<?=DIR.$v->slug?>">
+                                            <span class="icon" style="background-image: url(<?= $icon_img ?>)"></span>
+                                            <span class="tt title-tt"><?= $v->title?></span>
+                                            <span class="tt sub-tt"><?= $s_title ?></span>
+                                        
+                                        </a>
+                                    
+                                    </li>
+
+                            <?php 
+                                   if($cnt == 4){
+                                       echo '</ul><ul class="mn-2">';
+                                   } 
+                                   if($cnt == count($this->context->ideesMenu)){
+                                       echo '</ul>';
+                                   } 
+                                   } ?>
+
+                        </div>
+                    </div>    
                 </div>    
-                   
-          </div>          
+                <!--end-->
+                
+                 
+                
+               
+                
+            </div>    
+            <!--End sub menu-->
+       

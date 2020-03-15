@@ -14,7 +14,7 @@
                                     <span></span>
                                 </a>
                             </li>
-                            <li class="logo"><a data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/mobile/logo-amica.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
+                            <li class="logo"><a data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/dtn/dtn-logo.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
                             
                         </ul>
 
@@ -24,10 +24,8 @@
 	</div><!-- /header -->
 	<div role="main" class="ui-content">
 		<ul>
-			<li data-page="#menu-destinations" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_list_dest"><a href="<?=DIR?>#menu-destinations"  data-transition="slide">Nos destinations</a></li>
-                        <li data-page="#menu-secret" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_list_secrets"><a href="<?=DIR?>#menu-secret" data-transition="slide">Formules d'Amica</a></li>
-			<li data-page="#menu-voyage" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_list_voyage"><a href="<?=DIR?>#menu-voyage" data-transition="slide">Idées de voyage</a></li>
-			<li><a href="<?=DIR?>a-propos-de-nous" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_qui">Qui sommes-nous</a></li>
+			<li data-page="#menu-voyage" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_list_voyage"><a href="<?=DIR?>#menu-voyage" data-transition="slide">Các loại vải</a></li>
+			<li><a href="<?=DIR?>gioi-thieu" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_qui">Giới thiệu</a></li>
 		</ul>
 	</div><!-- /content -->
 
@@ -52,7 +50,7 @@
                                     <span></span>
                                 </a>
                             </li>
-                            <li class="logo"><a data-ajax="false"  class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/mobile/logo-amica.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
+                            <li class="logo"><a data-ajax="false"  class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/dtn/dtn-logo.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
                             
                         </ul>
 
@@ -97,7 +95,7 @@
                                     <span></span>
                                 </a>
                             </li>
-                            <li class="logo"><a  data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/mobile/logo-amica.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
+                            <li class="logo"><a  data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/dtn/dtn-logo.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
                             
                         </ul>
 
@@ -134,18 +132,18 @@
                                     <span></span>
                                 </a>
                             </li>
-                            <li class="logo"><a  data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/mobile/logo-amica.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
+                            <li class="logo"><a  data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/dtn/dtn-logo.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
                             
                         </ul>
 
                     </div>
                 </div><!-- /.container-fluid -->
             </nav>
-            <a class="back-menu" href="<?=DIR?>#page2" data-transition="slide" data-direction="reverse" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_back"><img data-src="<?=DIR?>assets/img/mobile/arrow-white-back-28-49.png"> Retour</a>
+            <a class="back-menu" href="<?=DIR?>#page2" data-transition="slide" data-direction="reverse" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_back"><img data-src="<?=DIR?>assets/img/mobile/arrow-white-back-28-49.png"> Quay lại</a>
 	</div><!-- /header -->
 	
 	<div role="main" class="ui-content">
-		<a href="/voyage" data-ajax="false"  class="main-link" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_voyage">IDÉES DE VOYAGE </a>
+<!--		<a href="/voyage" data-ajax="false"  class="main-link" data-analytics="on" data-analytics-category="header" data-analytics-action="menu_section" data-analytics-label="link_voyage">IDÉES DE VOYAGE </a>-->
 		<ul>
 			<?php
                 foreach ($this->context->ideesMenu as $v) {
@@ -173,7 +171,7 @@
                                     <span></span>
                                 </a>
                             </li>
-                            <li class="logo"><a  data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/mobile/logo-amica.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
+                            <li class="logo"><a  data-ajax="false" class="" href="<?=DIR?>"><img alt="Amica Travel" data-src="<?= DIR ?>assets/img/dtn/dtn-logo.png" data-analytics="on" data-analytics-category="header" data-analytics-action="header_section" data-analytics-label="logo_amica"></a></li>
                             
                         </ul>
 

@@ -1,7 +1,7 @@
 <?php 
 use yii\helpers\Markdown;
 use app\helpers\Text;
-$this->registerCssFile(DIR . 'assets/css/page2016/page-detail.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
+$this->registerCssFile(DIR . 'assets/css/page2016/page-detail.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
 <?php $this->registerCssFile(DIR . 'assets/js/mobile/swiper/swiper.min.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
 <?php $this->registerJsFile(DIR . 'assets/js/mobile/swiper/swiper.jquery.min.js', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
 
@@ -9,8 +9,14 @@ $this->registerCssFile(DIR . 'assets/css/page2016/page-detail.css', ['depends' =
 <?php $this->registerJsFile(DIR . 'assets/js/fancybox/jquery.fancybox.pack.js', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
 
 <?php $this->registerCssFile(DIR . 'assets/css/page2016/responsive.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
-
-<div class="contain mt-60">
+<div class="contain container-1">
+    <div class="amc-column row-1">
+        <? include('_inc_breadcrumb.php') ?>
+    </div>    
+     
+    
+</div>
+<div class="contain container-2 mt-60">
     <div class="amc-column">
         <div class="item-detail">
             <?
@@ -76,7 +82,7 @@ $this->registerCssFile(DIR . 'assets/css/page2016/page-detail.css', ['depends' =
     </div>
 </div>
 
-<div class="contain container-2 m-0 mt-40 pt-40 pb-40 mb-60" style="background: #dedede;">
+<div class="contain container-3 m-0 mt-40 pt-40 pb-40 mb-60" style="background: #dedede;">
     <div class="amc-column">
         <h2 class="tt tt-fontsize-24 tt-latolatin-bold m-0 mb-25 text-left">Cac mau khac</h2>
         
@@ -154,6 +160,16 @@ $this->registerCssFile(DIR . 'assets/css/page2016/page-detail.css', ['depends' =
 
 <?php
 $css=<<<CSS
+.container-1 {
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+    clear: left;
+    float: left;
+    height: auto;
+    width: 100%;    
+}   
+    
 body .text-sologan{
     position: unset;
 }        

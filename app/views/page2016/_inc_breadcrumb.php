@@ -16,6 +16,8 @@
          $fix_breadcrumb = 'fix-breadcrumb';
      }else if(SEG1 == 'francophonie'){
          $fix_breadcrumb = 'fix-breadcrumb';
+     }else if(Yii::$app->controller->action->id == 'page-list' || Yii::$app->controller->action->id == 'page-detail'){
+         $fix_breadcrumb = 'fix-breadcrumb';
      }else{
         $fix_breadcrumb = Null;
     }
@@ -150,7 +152,7 @@
 ?>
 <div class="breadcrumb <?= $fix_breadcrumb ?>">
     <div class="item">
-        <a href="/"><span <?= isset($arrAnaly['1']) ? $arrAnaly['1'] : '' ?>>Accueil</span></a> <span> &gt; </span>
+        <a href="/"><span <?= isset($arrAnaly['1']) ? $arrAnaly['1'] : '' ?>>Trang chủ</span></a> <span> &gt; </span>
         
     </div>
 <?
@@ -161,7 +163,7 @@ $json_bread[1] =<<<TXT
     "position": 1,
     "item": {
     "@id": "https://www.amica-travel.com/",
-    "name": "Accueil"
+    "name": "Trang chủ"
     }
 }
 TXT;
