@@ -951,3 +951,1949 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1583313998.184
     'REQUEST_TIME' => 1583313998
 ]
+2020-03-12 13:40:13 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:40:12 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => null
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50321'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020412.88
+    'REQUEST_TIME' => 1584020412
+]
+2020-03-12 13:40:21 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:40:21 [127.0.0.1][-][-][info][application] $_POST = [
+    'flag' => 'ok'
+]
+
+$_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'VslxtYRJCFDYhkF9sAHxeQ63MuqGZjJBij4qf7bpoZg_pgjksn8_E4zkcReFb4Q0f8VY3v4VeQb_cmgm2I3woA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://demo.vaidongxuan.local'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _hjIncludedInSample=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50355'
+    'REDIRECT_URL' => '/amica-fr/ajax-result-menu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/amica-fr/ajax-result-menu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020421.704
+    'REQUEST_TIME' => 1584020421
+]
+2020-03-12 13:40:25 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:40:25 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_hjIncludedInSample' => '1'
+    '_gat_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _gat_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50356'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020425.981
+    'REQUEST_TIME' => 1584020425
+]
+2020-03-12 13:41:43 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:41:43 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50364'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020503.113
+    'REQUEST_TIME' => 1584020503
+]
+2020-03-12 13:41:43 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:41:43 [127.0.0.1][-][-][info][application] $_POST = [
+    'flag' => 'ok'
+]
+
+$_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'GOTJaPxR2QWmIkhZ-XnkeTPyLw6ICGk9mp78ANERfvJxi7A5ymfuRvJAeDPMF5E0QoBFOvB7Inrv0r5Zv3Uvyg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://demo.vaidongxuan.local'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50365'
+    'REDIRECT_URL' => '/amica-fr/ajax-result-menu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/amica-fr/ajax-result-menu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020503.465
+    'REQUEST_TIME' => 1584020503
+]
+2020-03-12 13:43:05 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:43:05 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020585.448
+    'REQUEST_TIME' => 1584020585
+]
+2020-03-12 13:43:40 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:43:40 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020620.65
+    'REQUEST_TIME' => 1584020620
+]
+2020-03-12 13:43:49 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:43:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50411'
+    'REDIRECT_URL' => '/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020629.577
+    'REQUEST_TIME' => 1584020629
+]
+2020-03-12 13:49:00 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:49:00 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50441'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020940.508
+    'REQUEST_TIME' => 1584020940
+]
+2020-03-12 13:49:01 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:49:01 [127.0.0.1][-][-][info][application] $_POST = [
+    'flag' => 'ok'
+]
+
+$_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'V0TS3ntnJGWKQsITnfTKlrQACnZil94jpYTGI0ARuHI-K6uPTVETJt4g8nmomr_bxXJgQhrklWTQyIR6LnXpSg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://demo.vaidongxuan.local'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50449'
+    'REDIRECT_URL' => '/amica-fr/ajax-result-menu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/amica-fr/ajax-result-menu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020941.517
+    'REQUEST_TIME' => 1584020941
+]
+2020-03-12 13:49:06 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:49:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_gat_UA-1454717-8' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _gat_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50445'
+    'REDIRECT_URL' => '/gioi-thieu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gioi-thieu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020946.025
+    'REQUEST_TIME' => 1584020946
+]
+2020-03-12 13:49:08 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:49:08 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_gat_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _gat_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50463'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584020948.379
+    'REQUEST_TIME' => 1584020948
+]
+2020-03-12 13:54:28 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:54:28 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50479'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021268.615
+    'REQUEST_TIME' => 1584021268
+]
+2020-03-12 13:54:38 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:54:38 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021278.417
+    'REQUEST_TIME' => 1584021278
+]
+2020-03-12 13:54:40 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:54:40 [127.0.0.1][-][-][info][application] $_POST = [
+    'flag' => 'ok'
+]
+
+$_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'nssfFRphHTFrDnEFFynKj96EkNtmIKgNf8-AR9LqIiT3pGZELFcqcj9sQW8iR7_Cr_b67x5T40oKg8IevI5zHA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://demo.vaidongxuan.local'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50504'
+    'REDIRECT_URL' => '/amica-fr/ajax-result-menu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/amica-fr/ajax-result-menu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021280.458
+    'REQUEST_TIME' => 1584021280
+]
+2020-03-12 13:56:06 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:56:06 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50509'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021366.527
+    'REQUEST_TIME' => 1584021366
+]
+2020-03-12 13:56:07 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 13:56:07 [127.0.0.1][-][-][info][application] $_POST = [
+    'flag' => 'ok'
+]
+
+$_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'CR5-iM3ByAeRJEnDhMfxyyTqpMnu6P9P1s8W-0xpmYlgcQfZ-_f_RMVGeamxqYSGVZjO_ZabtAijg1SiIg3IsQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://demo.vaidongxuan.local'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50510'
+    'REDIRECT_URL' => '/amica-fr/ajax-result-menu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/amica-fr/ajax-result-menu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021367.752
+    'REQUEST_TIME' => 1584021367
+]
+2020-03-12 14:02:58 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 14:02:58 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50579'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021778.346
+    'REQUEST_TIME' => 1584021778
+]
+2020-03-12 14:05:12 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 14:05:12 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50603'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021912.322
+    'REQUEST_TIME' => 1584021912
+]
+2020-03-12 14:05:52 [127.0.0.1][-][-][error][Error] Error: Class 'yii\easyii\helpers\Data' not found in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\models\Module.php:78
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\noumo\easyii\AdminModule.php(33): yii\easyii\models\Module::findAllActive()
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\easyii\AdminModule->init()
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\base\Module->__construct('admin', Object(yii\web\Application), Array)
+#4 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(376): ReflectionClass->newInstanceArgs(Array)
+#5 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\easyii\\Admi...', Array, Array)
+#6 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\easyii\\Admi...', Array, Array)
+#7 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#8 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('admin')
+#9 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#10 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#11 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#12 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#13 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->__construct(Array)
+#14 {main}
+2020-03-12 14:05:52 [127.0.0.1][-][-][info][application] $_POST = [
+    'flag' => 'ok'
+]
+
+$_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'BKgc-iKaTvr8HQs8gh2rcNnkCTAf3YYYVU5HK1A4rKttx2WrFKx5uah_O1a3c949qJZjBGeuzV8gAgVyPlz9kw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://demo.vaidongxuan.local'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50621'
+    'REDIRECT_URL' => '/amica-fr/ajax-result-menu'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/amica-fr/ajax-result-menu'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584021952.316
+    'REQUEST_TIME' => 1584021952
+]
+2020-03-12 14:38:48 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'easyii/programmes' does not exist: D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\app\modules\programmes\messages/fr/admin.php
+2020-03-12 14:38:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50809'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584023927.352
+    'REQUEST_TIME' => 1584023927
+]
+2020-03-12 14:38:58 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "upload/image/banner-qui-sommes-nous.jpg". in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('upload/image/ba...', Array)
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->run()
+#2 {main}
+2020-03-12 14:38:57 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_gat_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/gioi-thieu'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _gat_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50818'
+    'REDIRECT_URL' => '/upload/image/banner-qui-sommes-nous.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/upload/image/banner-qui-sommes-nous.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584023937.925
+    'REQUEST_TIME' => 1584023937
+]
+2020-03-12 14:38:58 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "upload/image/banner-qui-sommes-nous.jpg". in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('upload/image/ba...', Array)
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page non trouvée. in D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\index.php(65): yii\base\Application->run()
+#2 {main}
+2020-03-12 14:38:58 [127.0.0.1][-][5uamdspdvsk34os35r26g86dc3][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_gat_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/gioi-thieu'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _gat_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50842'
+    'REDIRECT_URL' => '/upload/image/banner-qui-sommes-nous.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/upload/image/banner-qui-sommes-nous.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584023938.442
+    'REQUEST_TIME' => 1584023938
+]
+2020-03-12 14:38:59 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'easyii/programmes' does not exist: D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\app\modules\programmes\messages/fr/admin.php
+2020-03-12 14:38:59 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+    'PHPSESSID' => '5uamdspdvsk34os35r26g86dc3'
+    '_csrf' => '8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8\";}'
+    '_gid' => 'GA1.3.1143230126.1584020416'
+    '_hjIncludedInSample' => '1'
+    '_dc_gtm_UA-1454717-8' => '1'
+    '_gat_UA-1454717-8' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => 'http://demo.vaidongxuan.local/'
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://demo.vaidongxuan.local/gioi-thieu'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; PHPSESSID=5uamdspdvsk34os35r26g86dc3; _csrf=8d409f174a2197c945354c7f7447ed09dd2aa995f9ebb3692fd8fc3383167f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ioyQ667CTb0j5nuMqrj4xsKGuLBYndQ8%22%3B%7D; _ga=GA1.3.1796436939.1583587047; _gid=GA1.3.1143230126.1584020416; _hjIncludedInSample=1; _gid=GA1.2.1143230126.1584020416; _dc_gtm_UA-1454717-8=1; _gat_UA-1454717-8=1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50841'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584023939.393
+    'REQUEST_TIME' => 1584023939
+]
+2020-03-14 02:53:55 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'easyii/programmes' does not exist: D:\wamp\www\GIT_VaiDX\demo.vaidongxuan.local\app\modules\programmes\messages/fr/admin.php
+2020-03-14 02:53:54 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_gcl_au' => '1.1.861937686.1583587047'
+    '_fbp' => 'fb.1.1583587047337.664045160'
+    '_hjid' => 'a57b489b-5948-46e7-acda-e14fb7bc280e'
+    '_ga' => 'GA1.2.1796436939.1583587047'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'ref' => null
+    'projet' => [
+        'programes' => [
+            'select' => []
+            'view' => []
+        ]
+        'exclusives' => [
+            'select' => []
+            'view' => []
+        ]
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'demo.vaidongxuan.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5,eo;q=0.4'
+    'HTTP_COOKIE' => '_gcl_au=1.1.861937686.1583587047; _fbp=fb.1.1583587047337.664045160; _hjid=a57b489b-5948-46e7-acda-e14fb7bc280e; _ga=GA1.2.1796436939.1583587047; _ga=GA1.3.1796436939.1583587047'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\PROGRAM FILES (X86)\\INTEL\\ICLS CLIENT\\;C:\\PROGRAM FILES\\INTEL\\ICLS CLIENT\\;C:\\Windows\\SYSTEM32;C:\\Windows;C:\\Windows\\SYSTEM32\\WBEM;C:\\Windows\\SYSTEM32\\WINDOWSPOWERSHELL\\V1.0\\;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\DAL;C:\\PROGRAM FILES (X86)\\INTEL\\INTEL(R) MANAGEMENT ENGINE COMPONENTS\\IPT;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\;c:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) PHP/7.2.18 Server at demo.vaidongxuan.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) PHP/7.2.18'
+    'SERVER_NAME' => 'demo.vaidongxuan.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/GIT_VaiDX/demo.vaidongxuan.local/index.php'
+    'REMOTE_PORT' => '50201'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1584154434.471
+    'REQUEST_TIME' => 1584154434
+]
