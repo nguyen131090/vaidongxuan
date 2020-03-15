@@ -4,7 +4,13 @@ use app\helpers\Text;
 $this->registerCssFile(DIR . 'assets/css/page2016/home.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]) ?>
 
 <?php $this->registerCssFile(DIR . 'assets/css/page2016/responsive.css', ['depends' => 'app\assets\AppAsset', 'position' => $this::POS_END]); ?>
-
+<div class="contain container-1">
+    <div class="amc-column row-1">
+        <? include('_inc_breadcrumb.php') ?>
+    </div>    
+     
+    
+</div>
 <div class="contain container-2 m-0 mt-40">
     <div class="amc-column">
         <h1 class="tt tt-fontsize-24 tt-latolatin-bold m-0 mb-25"><?= $theEntry->model->seo != null ? $theEntry->model->seo->h1 : $theEntry->title ?></h1>
@@ -74,6 +80,12 @@ $this->registerCssFile(DIR . 'assets/css/page2016/home.css', ['depends' => 'app\
 
 <?php
 $css=<<<CSS
+.container-1 {
+    margin-top: -150px;
+    position: relative;
+    z-index: 0;
+}        
+        
 body .text-sologan{
     position: unset;
 }        

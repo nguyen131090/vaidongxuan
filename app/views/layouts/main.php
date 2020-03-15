@@ -113,7 +113,7 @@ AppAsset::register($this);
         }
         ?>
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@amicatravel">
+        <meta name="twitter:site" content="">
         <meta name="twitter:title" content="<?= $twitterTitle ?>">
         <meta name="twitter:description" content="<?= $twitterDescription ?>">
         <meta name="twitter:image" content="<?=str_replace('http://', 'https://', Yii::$app->urlManager->getHostInfo()). $twitterImg ?>">
@@ -122,7 +122,7 @@ AppAsset::register($this);
         <meta property="og:type" content="website" />
         <meta property="og:description" content="<?= $fbDescription ?>"/>
         <meta property="og:image" content="<?=str_replace('http://', 'https://',Yii::$app->urlManager->getHostInfo()). $fbImg ?>" />
-        <meta property="og:site_name" content="Amica Travel" />
+        <meta property="og:site_name" content="" />
         <meta property="og:locale:alternate" content="fr" />
         <link rel="dns-prefetch" href="//www.google-analytics.com">
         <link rel="dns-prefetch" href="//www.googleadservices.com">
@@ -147,11 +147,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
          
          <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TCX7426');</script>
+})(window,document,'script','dataLayer','GTM-TCX7426');</script>-->
 <!-- End Google Tag Manager -->
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -168,8 +168,8 @@ gtag('config', 'UA-1454717-8');
 
     <body>
        <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCX7426"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCX7426"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
 <!-- End Google Tag Manager (noscript) -->
         <?php $this->beginBody() ?>
         
@@ -204,14 +204,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <? endif;?>
         </div>
         
-        <div class="text-sologan d-sm-none d-xl-block">
-            <div class="column">
+        <div class="text-sologan index-page">
+            <div class="">
                 <div class="tt-sologan">
-                    <p>Chuyên bán buôn, bán lẻ các loại vải quần áo :<span> Quầy 119 - B2 - Tầng 2- Chợ Đồng Xuân - Hà Nội - SDT : 19001000 </span></p>
+                    <p>Chuyên bán buôn, bán lẻ các loại vải quần áo :<span> Quầy 119 - B2 - Tầng 2- Chợ Đồng Xuân - Hà Nội - SDT : 0909 415 375 </span></p>
                 </div>
             </div>
         </div>
-        <div class="fix-scroll-menu">   
+        <div class="fix-scroll-menu index-page">   
         
                 <div class="area-btn-list-menu d-xs-none  d-sm-none d-xl-block">
 
@@ -264,18 +264,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="dtn-info">
             <p>Quầy vải DƯ HUẤN</p>
             <p>119 - B2 - Tầng 2 - chợ Đồng xuân - Hà Nội</p>
-            <p>Liên Hệ : 0977 934 308</p>
+            <p>Liên Hệ : 0909 415 375</p>
         </div>
 
 </header>
     <?php }else{ ?>    
-        <div class="text-sologan d-sm-none d-xl-block">
-            <div class="column">
+        <div class="text-sologan">
+            <div class="">
                 <div class="tt-sologan">
-                    <p>Chuyên bán buôn, bán lẻ các loại vải quần áo :<span> Quầy 119 - B2 - Tầng 2- Chợ Đồng Xuân - Hà Nội - SDT : 19001000 </span></p>
+                    <p>Chuyên bán buôn, bán lẻ các loại vải quần áo :<span> Quầy 119 - B2 - Tầng 2- Chợ Đồng Xuân - Hà Nội - SDT : 0909 415 375 </span></p>
                 </div>
             </div>
         </div>
+        
+
+   <?php } ?>
+        
+     
+        <!-- Content -->
+        <main>
+        <?php if(Yii::$app->controller->action->id != 'index'){ ?>    
         <div class="fix-scroll-menu">   
         
                 <div class="area-btn-list-menu d-xs-none  d-sm-none d-xl-block">
@@ -323,15 +331,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- end menu responsive -->
 
-        </div>    
-
-   <?php } ?>
-        
-     
-        <!-- Content -->
-        <main>
-            
-            
+        </div>        
+        <? } ?>    
             
         <?=$content?>
 <!--            <div id="monitor">
@@ -343,80 +344,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </main>
         
         <!-- End content-->
-        <? switch (SEG1) {
-                case 'aide':
-                    $srcL = '/assets/img/page2016/img-left-page-faq.png';
-                    $srcR = '';
-                    break;
-                case 'vietnam':
-                    $srcL = '/assets/img/illus/bored-woman.png';
-                    $srcR = '/assets/img/illus/famer.png';
-                    break;
-                case 'laos':
-                    $srcL = '/assets/img/illus/laos-left-fix.png';
-                    $srcR = '/assets/img/illus/laos-right-fix.png';
-                    break;
-                case 'cambodge':
-                    $srcL = '/assets/img/illus/angko-cambodge.png'; 
-                    $srcR = '/assets/img/illus/banner-right-fix-cambodge.png';
-                    break;
-                case 'birmanie':
-                    $srcL = '/assets/img/illus/birmanie-left-fix.png';
-                    $srcR = '/assets/img/illus/birmanie-right-fix.png';  
-                    break;
-                case 'voyage':
-                    $srcL = '/assets/img/illus/gui.png';
-                    $srcR = '/assets/img/illus/famer-2.png';
-                    if(SEG2) {
-                        if(SEG2 == 'indochine-multi-pays'){
-                            $srcL = '/assets/img/illus/solider.png';
-                            $srcR = '/assets/img/illus/boat-right.png';
-                        } 
-                    } else $srcR = $srcL = '';
-                    break;
-                case 'formules':
-                    $srcL = '/assets/img/illus/miss-classic.png';
-                    $srcR = '/assets/img/illus/kid.png';
-                    if(!SEG2) $srcR = $srcL = '';
-                    break;
-                default:
-                    $srcR = '';
-                    $srcL = '';
-                    break;
-            }
-            if(isset($this->context->entry->category_id) && $this->context->entry->category_id == 7){
-                 $srcL = '/assets/img/illus/solider.png';
-                $srcR = '/assets/img/illus/boat-right.png';
-            }
-            if($this->context->aboutUs) {
-                $srcL = '/assets/img/illus/boat.png';
-                $srcR = '/assets/img/illus/famer-2.png';
-                if(preg_match('/^tourisme-solidaire\/associations\//', URI) || preg_match('/^recrutement\//', URI))
-                    $srcR = '';
-                if(Yii::$app->controller->action->id == 'fondation-single-about-us' || URI == 'tourisme-solidaire' || URI == 'confiance')
-                    $srcL =  $srcR = '';
-                if(URI == 'a-propos-de-nous'){
-                    $srcL = '/assets/img/illus/boat-right.png';
-                    $srcR = '';
-                }
-            }
-            if(SEG1 == 'vietnam' && SEG2 == ''){
-                $srcR = '';
-            }
-            if((strpos('mot-du-fondateur|nos-bureaux|tourisme-solidaire/associations|recrutement', URI ? URI : 'home') !== false) || Yii::$app->controller->action->id == 'idees-de-voyage-entre-ocean-single') 
-                $srcR = '';
-            if($srcR) :?>
-            <img alt="" class="img-lazy fix-img-middle-right" data-src="<?= $srcR?>">
-            <? endif; ?>
-        <? 
-        $classAreaMap = 'general';
-        if($this->context->destination && SEG1 != 'destinations') {
-            $classAreaMap = SEG1;
-        }?>
-        <div class="footer-bg <?=$this->context->destination ? $classAreaMap : '' ?> fix-responsive-footer-sm">
-            <? if($srcL) :?>
-                <img alt="" class="img-lazy fix-img-bottom-left" data-src="<?= $srcL?>">
-            <? endif; ?>
+        
+        <div class="contain footer-bg fix-responsive-footer-sm">
+            <div class="amc-column">
+                <div class="row mt-40 mb-40">
+                    <div class="col-sm-6">
+                        <p class="tt-1 tt-fontsize-24 tt-latolatin-bold">Thông tin liên hệ</p>
+                        <p>Dư Huấn</p>
+                        <p>MST : 0100143770</p>
+                        <p>Bán buôn - bán lẻ các loại vải</p>
+                        <p>Quầy 119 - B2 Tầng 2 Bắc Qua - chợ Đồng Xuân</p>
+                        <p class="tt-title">Địa chỉ Nhà</p>
+                        <p>Số 5 Ngõ 139 đường La Nội - Hà Đông - Hà Nội</p>
+                        <p>SĐT Cô Huấn : <a class="a-hover" href="tel:0909 415 375">0909 415 375</a></p>
+                       
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="tt-1 tt-fontsize-24 tt-latolatin-bold">Thông tin tài khoản</p>
+                        <p>Chủ Tài Khoản : Nguyễn Thị Giang</p>
+                        <p>Số TK : 103 000 284 991</p>
+                        <p>NH TMCP Công Thương - CN Hoàn Kiếm</p>
+                    </div>
+                    
+                </div>    
+            </div>
             
            
                     
@@ -431,26 +382,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img alt="" data-src="<?=DIR?>assets/img/page2016/back-to-top.png" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_top">
         </span> 
 
-        <? if(IS_TABLET){ ?>   
-            <? if(Yii::$app->controller->action->id != 'exclusivites-single' && Yii::$app->controller->action->id != 'idees-de-voyage-single'){ ?>
-                <? if(Yii::$app->controller->action->id == 'exclusivites-type' || Yii::$app->controller->action->id == 'idees-de-voyage-type'){ ?>
-                    <button class="btn-only-tablet-bottom-fixed tt-latolatin-bold tt-fontsize-16  btn-bottom-fixed-tablet btn-bottom-fixed-page-category-tablet" data-position='fixed' data-ajax="false">
-                        <span data-title="<?= base64_encode('/devis') ?>" class="btn-item btn-bottom-form-devis pugjd w-100" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_devis">Demander un devis personnalisé</span>
-                    </button>
-                <? }else{ ?>
-
-                    <button class="btn-only-tablet-bottom-fixed tt-latolatin-bold tt-fontsize-16 btn-bottom-fixed-tablet" data-position='fixed' data-ajax="false">
-                        <span data-title="<?= base64_encode('/devis') ?>" class="btn-item btn-bottom-form-devis pugjd" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_devis">Demander un devis personnalisé</span>
-                        <span class="btn-item btn-bottom-search btn-fixed-search" data-toggle="collapse" data-target="#tabletFilter" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-scroll="0" data-analytics="on" data-analytics-category="overlay" data-analytics-action="overlay" data-analytics-label="cta_search">Search</span>
-                    </button>
-                    <div id="tabletFilter" class="amc-filter-tablet">
-                        <div id="search-page-voyage">
-                        <? include(dirname(dirname(__FILE__)).'/page2016/_inc_tablet_filter.php'); ?>
-                        </div>    
-                    </div>
-                <? } ?>
-            <? } ?>
-        <? } ?>    
+        
             
         <?php $this->endBody() ?>  
         <? if($this->context->priceSeo && (1==2)) echo  $this->context->priceSeo;?>   
@@ -601,6 +533,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     ]        
         </script>
+        
+<div class="chat-online">
+                <!-- Load Facebook SDK for JavaScript -->
+                <div id="fb-root"></div>
+                <script>
+                  window.fbAsyncInit = function() {
+                    FB.init({
+                      xfbml            : true,
+                      version          : 'v4.0'
+                    });
+                  };
+
+                  (function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+
+                <!-- Your customer chat code -->
+                <div class="fb-customerchat"
+                    attribution=setup_tool
+                    page_id="108229580798260"
+                    theme_color="">
+                </div>
+                <!-- chat Subiz -->       
+<!--                <script type='text/javascript'>window._sbzq||function(e){e._sbzq=[];var t=e._sbzq;t.push(["_setAccount",37317]);var n=e.location.protocol=="https:"?"https:":"http:";var r=document.createElement("script");r.type="text/javascript";r.async=true;r.src=n+"//static.subiz.com/public/js/loader.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)}(window);</script>
+                <style>
+                    .sbzon, .sbzoff{
+                        //   bottom: 2.3vw !important;
+                        right: 0 !important;
+                        //height: 2vw !important;
+                    }
+                    #subiz_wrapper{
+                        right: 0 !important;
+                    }
+                </style>    -->
+                <!-- End chat Subiz  -->
+            </div>
                
     </body>
 <script type="text/javascript">
@@ -634,8 +606,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             var elementsToTrackLength = elementsToTrack.length;
             //console.log(elementsToTrack);
             for (var i = 0; i < elementsToTrackLength; i++) {
-                elementsToTrack[i].addEventListener('click', trackClickEvent, false);
-
+                elementsToTrack[i].addEventListener('click', trackClickEvent, false);    
             }
         });    
       

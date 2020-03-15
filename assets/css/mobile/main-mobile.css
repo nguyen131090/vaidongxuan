@@ -183,7 +183,7 @@ a:focus{
 .navbar-fixed-top{
     height: 5rem;
     min-height: 5rem;
-    background-color: #f5f5f5;
+    background-color: #f4ea07;
     border:0px;
     margin: 0;
     padding: 0;
@@ -268,7 +268,7 @@ a:focus{
 
 }
 .navbar-header .btn-header li.logo a img{
-    width: 8rem;
+    width: 4rem;
     max-width: 8.5rem;
 }
 .btn-header li.navigation{
@@ -416,7 +416,8 @@ a:focus{
     padding-bottom: 0;
 }
 .row-footer{
-    background-color: #ededed;
+    background-color: #B22222;
+    color: white;
     padding: 0;
     float: left;
     width: 100vw;
@@ -1004,7 +1005,7 @@ div[data-role="page"] .ui-header{
 #footer{
     width: 100vw;
     background: white;
-    border-radius: 0.7rem 0.7rem 0 0;
+/*    border-radius: 0.7rem 0.7rem 0 0;*/
     border: none;
    
     max-width: 0;
@@ -1020,8 +1021,8 @@ div[data-role="page"] .ui-header{
     max-height: 5rem;
     transition: 0.2s max-width, 0.2s max-height;
     z-index: 8;
-    border-top: 0.1rem solid #e65925;
-    border-right: 0.1rem solid #e65925;
+/*    border-top: 0.1rem solid #e65925;
+    border-right: 0.1rem solid #e65925;*/
 }
 #footer .links-footer{
     position: relative;
@@ -1038,11 +1039,11 @@ div[data-role="page"] .ui-header{
     align-items: center;
     justify-content: left;
     /* font: 1.6rem/1.5rem LatoLatin-Regular,sans-serif; */
-    color: #fff;
+   font-weight: bold;
     text-align: center;
    
     float: left;
-    background: #e65925;
+    background: #f4ea07;
     font-size: 1.6rem;
     font-family: LatoLatin-Bold;
     line-height: initial;
@@ -1059,8 +1060,8 @@ div[data-role="page"] .ui-header{
 }
 #footer .links-footer .btn-cont-devis.contact{
     width: 16.5% !important;
-    background: #ffffff url(/assets/img/page2016/icon-search-29-29.png) center center no-repeat;
-    
+    background: #ffffff url(/assets/img/dtn/zalo.png) center center no-repeat;
+    background-size: 100%;
     text-indent: -9999px;
     height: 5rem;
 }
@@ -1859,6 +1860,59 @@ body .container-video-ytb .tt strong{
     color: #e26640;
     margin-top: 3px;
     text-align: left;
+}
+
+
+.list-item .item{
+    display: table;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+}
+.list-item .item img {
+    max-width: 100%;
+    min-height: 200px;
+    background: #ccc;
+    /* width: 100%; */
+    width: 100%;
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    min-width: 100%;
+}
+.list-item .item .image{
+    position: relative;
+}
+.list-item .item .image .offer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background: red;
+    padding: 5px 10px;
+}
+.list-item .item .gia-item span{
+    color: red;
+}
+.list-item .item a:hover .offer{
+    color: initial;
+}
+.dtn-btn-link{
+    text-align: center;
+}
+.dtn-btn-link a{
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    font-family: 'LatoLatin-Bold', sans-serif !important;
+    padding: 15px 28px 13px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: normal !important;
+    cursor: pointer !important;
+    text-transform: inherit !important;
+    border: 1px solid black !important;
+    color: black;
+    box-shadow: 1px 1px 5px black;
 }
 
 @media only screen and (orientation:landscape){

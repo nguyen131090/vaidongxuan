@@ -888,8 +888,13 @@ p{
     opacity: 1 !important;
     cursor: context-menu !important;
 }
-
-.fix-scroll-menu{
+.fix-scroll-menu {
+    clear: left;
+    height: 75px;
+    position: relative;
+    z-index: 3;
+}
+.fix-scroll-menu.index-page{
     clear: left;
     height:  75px;
     position: absolute;
@@ -910,14 +915,19 @@ body .text-sologan {
 /*    float: left;*/
     clear: left;
     width: 100%;
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 3;
+    position: relative;
+}
+body .text-sologan.index-page{
     position: absolute;
 }
 .text-sologan .column{
     margin: 0 auto;
     padding: 0 10px;
-    width: 960px;
+   
 }
 .text-sologan.fix-margin-bottom{
 /*    margin-bottom: 72px;*/
@@ -2452,6 +2462,9 @@ body .text-sologan {
     display: inline-block;
     width: 100%;
     margin-bottom: -6px;
+    background: #B22222;
+    color: white;
+    text-align: left;
 }
 /*.footer-bg.vietnam{
     background-image: url(/assets/img/page2016/bg_footer_vietnam.jpg);
@@ -4436,7 +4449,7 @@ body{
 /*    height: 36px;*/
 }
 .nav-fixed-responsive .navbar-header{
-    background: #f7f7f7;
+    background: #f4ea07;
     height: 75px;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
@@ -4651,6 +4664,7 @@ main .container-1 .column .title, main .container-1 .amc-column .title, main .co
 .dtn-info{
     position: absolute;
     width: 940px;
+    max-width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -4699,6 +4713,8 @@ main .container-1 .column .title, main .container-1 .amc-column .title, main .co
     display: block;
     background: red;
     padding: 5px 10px;
+    color: white;
+    font-weight: bold;
 }
 .list-item .item .gia-item span{
     color: red;
@@ -4731,6 +4747,19 @@ main .container-1 .column .title, main .container-1 .amc-column .title, main .co
     cursor: pointer;
 }
 
+.mn-panel ul{
+    list-style: none;
+    margin: 0;    
+}
+.mn-panel ul li{
+    color: white;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.a-hover:hover{
+    color: gold;
+}
 
 @media (max-width: 960px){
     .fix-responsive-footer-sm .info-1 .row{
